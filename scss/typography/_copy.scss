@@ -1,0 +1,77 @@
+em,
+cite {
+	font-style: italic;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+p {
+	margin: 0 0 1em;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+q {
+	quotes: "“" "”" "‘" "’";
+}
+
+address {
+	font-style: italic;
+	margin: 0 0 1.75em;
+}
+
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+	font-family: Menlo, Consolas, monaco, monospace;
+	font-size: $font__size-xs;
+}
+
+pre {
+	background-color: $color--background-pre;
+	clear: both;
+	display: block;
+	overflow: auto;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+code {
+	@include font-size(15px);
+	padding: 3px 10px;
+	position: relative;
+	top: -1px;
+	border-radius: 3px;
+	background-color: $color--background-pre;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted $color--border-abbr;
+	cursor: help;
+}
+
+ins {
+	background: $color--background-ins;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+strike,
+del {
+	text-decoration: line-through;
+}

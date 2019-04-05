@@ -1,0 +1,340 @@
+
+@mixin hover {
+	@media (hover) {
+		@content;
+	}
+}
+
+//  @include pseudo;
+@mixin pseudo($display: block, $pos: absolute, $content: ''){
+    content: $content;
+    display: $display;
+    position: $pos;
+}
+
+
+@mixin iphone_x( $orientation: null ) {
+	@media only screen
+	and (device-width : 375px)
+	and (device-height : 812px)
+	and (-webkit-device-pixel-ratio : 3)
+	and (orientation : $orientation) {
+		@content;
+	}
+}
+
+
+
+
+
+
+
+// Support hover input functionality, only on devices that can support convenient hovering.
+// Note that it's not usually necessary to apply styles for both hover, and non-hovering unless you
+// require a completely different display fallback.
+//
+// @link https://richtabor.com/?p=176
+//
+// @argument {string} $toggle [supports]
+// 	Accepts `supports` or `none`.
+//
+// @example SCSS — Only use a hover-activated drop-down on devices that can conveniently hover.
+// .main-navigation {
+// 	@include hover {
+// 		.sub-menu {
+// 			display: none;
+// 			position: absolute;
+// 		}
+// 		li:hover .sub-menu {
+// 			display: block;
+// 		}
+// 	}
+// 	@include hover("none") {
+// 		.sub-menu {
+// 			display: block;
+// 		}
+// 	}
+// }
+//
+// @example CSS
+// @media (hover) {
+// 	.main-navigation .sub-menu {
+//		display: none;
+//		position: absolute;
+//	}
+//	.main-navigation li:hover .sub-menu {
+//		display: block;
+//	}
+// }
+@mixin hover( $toggle: supports ) {
+	@if $toggle == "supports" {
+		@media (hover) {
+			@content;
+		}
+	} @else if $toggle == "none" {
+		@media (hover: none) {
+			@content;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@mixin bottom-spacer {
+	margin-bottom: 2.35em;
+
+	@media only screen and (min-width: 900px) {
+		margin-bottom: 2.5em;
+	}
+}
+
+@mixin top-spacer {
+	margin-bottom: 2.35em;
+
+	@media only screen and (min-width: 900px) {
+		margin-top: 2.5em;
+	}
+}
+
+@mixin structure() {
+	max-width: $content_max-width;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 100%;
+
+	@media only screen and (min-width: 600px) {
+		width: $content_width;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+
+
+// input,
+// textarea {
+//     @include input-placeholder {
+//         color: $grey;
+//     }
+// }
+@mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}
+
+
+
+
+@function strip-unit($value) {
+	@return $value / ($value * 0 + 1);
+}
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+	$u1: unit($min-vw);
+	$u2: unit($max-vw);
+	$u3: unit($min-font-size);
+	$u4: unit($max-font-size);
+
+	@if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+		& {
+			font-size: $min-font-size;
+			@media screen and (min-width: $min-vw) {
+				font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+			}
+			@media screen and (min-width: $max-vw) {
+				font-size: $max-font-size;
+			}
+		}
+	}
+}
+
+@mixin fluid-line-height($min_width, $max_width, $sml_line-height, $mid_line-height, $lrg_line-height) {
+	line-height: $sml_line-height;
+
+	@media screen and (min-width: $min_width) {
+		line-height: $mid_line-height;
+	}
+
+	@media screen and (min-width: $max_width) {
+		line-height: $lrg_line-height;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+$phone-width: 514px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin phone {
+  @media (min-width: #{$phone-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$tablet-width + 1px}) {
+    @content;
+  }
+}
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}
+
+// Rem output with px fallback
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+@mixin letter-spacing($size) {
+  letter-spacing: $size;
+  letter-spacing: calculateRem($size);
+}
+
+
+@mixin font-smoothing {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix() {
+    & {
+		*zoom: 1;
+    }
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+// Opacity - Usage: @include opacity(0.8);
+@mixin opacity($opacity) {
+    opacity: $opacity;
+    $opacity-ie: $opacity * 100;
+    filter: alpha(opacity=$opacity-ie);
+}
+
+// Input Placeholder
+// Usage:
+// @include input-placeholder {
+//     font-size: 18px;
+// }
+@mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}
+
+/// Hides an element visually while still allowing the content to be accessible
+/// to assistive technology, e.g. screen readers. Passing `unhide` will reverse
+/// the affects of the hiding, which is handy for showing the element on focus,
+/// for example.
+///
+/// @link http://goo.gl/Vf1TGn
+///
+/// @argument {string} $toggle [hide]
+///   Accepts `hide` or `unhide`. `unhide` reverses the affects of `hide`.
+///
+/// @example scss
+///   .element {
+///     @include hide-visually;
+///
+///     &:active,
+///     &:focus {
+///       @include hide-visually(unhide);
+///     }
+///   }
+///
+/// @example css
+///   .element {
+///     border: 0;
+///     clip: rect(1px, 1px, 1px, 1px);
+///     clip-path: circle(1% at 1% 1%);
+///     height: 1px;
+///     overflow: hidden;
+///     padding: 0;
+///     position: absolute;
+///     width: 1px;
+///   }
+///
+///   .hide-visually:active,
+///   .hide-visually:focus {
+///     clip: auto;
+///     clip-path: none;
+///     height: auto;
+///     overflow: visible;
+///     position: static;
+///     width: auto;
+///   }
+@mixin hide($toggle: hide) {
+  @if $toggle == "hide" {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: circle(1% at 1% 1%);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  } @else if $toggle == "unhide" {
+    clip: auto;
+    clip-path: none;
+    height: auto;
+    overflow: visible;
+    position: static;
+    width: auto;
+  }
+}

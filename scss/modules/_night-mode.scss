@@ -1,0 +1,26 @@
+$night_mode_background_base: #1c1b1b;
+$night_mode_background: #1c1b1b !important;
+$night_mode_text: #939393 !important;
+$night_mode_heading: #d3d3d3 !important;
+
+.night-mode {
+	@import "night-mode-content";
+}
+
+@media (prefers-color-scheme: dark) {
+	@import "night-mode-content";
+
+	.c-settings__item--night-mode {
+		display: none !important;
+	}
+}
+
+// Loading animation
+@keyframes colorchange {
+	0% {
+		background: lighten( #1c1b1b, 7% ) !important;
+	}
+	100% {
+		background: $night_mode_background;
+	}
+}

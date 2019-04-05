@@ -1,0 +1,96 @@
+
+@media print {
+
+	/* Hide elements */
+
+	form,
+	button,
+	input,
+	select,
+	textarea,
+	.navigation-top,
+	.social-navigation,
+	.content-bottom-widgets,
+	.header-image,
+	.page-links,
+	#secondary,
+	.edit-link,
+	.post-navigation,
+	.pagination.navigation,
+	.comments-pagination,
+	.comment-respond,
+	.comment-edit-link,
+	.comment-reply-link,
+	.comment-metadata .edit-link,
+	.pingback .edit-link,
+	.site-info,
+	.comments-area--wrapper {
+		display: none !important;
+	}
+
+	/* Font sizes */
+
+	body {
+		font-size: 12pt;
+	}
+
+	h1 {
+		font-size: 24pt;
+	}
+
+	h2 {
+		font-size: 22pt;
+	}
+
+	h3 {
+		font-size: 17pt;
+	}
+
+	h4 {
+		font-size: 12pt;
+	}
+
+	h5 {
+		font-size: 11pt;
+	}
+
+	h6 {
+		font-size: 12pt;
+	}
+
+	.entry-title {
+		font-size: 25pt !important;
+		line-height: 40pt !important;
+	}
+
+	.post .entry-header {
+		padding: 0 !important;
+	}
+
+	/* Layout */
+
+	.site-content {
+		padding-left: 5% !important;
+		padding-right: 5% !important;
+		max-width: none;
+	}
+
+	/* Site Branding */
+
+	.site-header {
+		background: transparent;
+		padding-left: 5% !important;
+		margin-top: 50px;
+		padding-right: 5% !important;
+		padding: 0;
+		position: relative;
+
+		&--right {
+			display: none;
+		}
+	}
+
+	.site-title {
+		font-size: 25pt;
+	}
+}

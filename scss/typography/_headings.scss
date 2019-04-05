@@ -1,0 +1,113 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	color: $color__text-heading;
+	font-family: $font__heading;
+	font-weight: $font__weight-heading;
+	line-height: $font__line-height-heading;
+	margin: 0;
+
+	.entry-content & {
+		margin-bottom: 0 !important;
+		padding-top: 10px;
+		position: relative;
+
+		&:target:before {
+			border-left: 5px solid $black;
+			content: "";
+			height: 50%;
+			height: calc(100% - 5px);
+			left: 0;
+			position: absolute;
+			top: 5px;
+		}
+
+		+ p {
+			margin-top: $content__spacer / 2;
+		}
+
+		+ ul,
+		+ ol {
+			margin-top: round($content__spacer / 2);
+		}
+
+		+ .wp-block-image,
+		+ .wp-block-gallery {
+			margin-top: ($content__spacer / 2) + 10;
+		}
+
+		+ div[class*="blockgallery"] {
+			margin-top: ($content__spacer / 2) + 10;
+		}
+	}
+}
+
+h1,
+.h1 {
+	@include fluid-type(514px, 1200px, 32px, 55px);
+
+	.font-size--large & {
+		@include fluid-type(514px, 1200px, 33px, 57px);
+	}
+
+	.font-size--larger & {
+		@include fluid-type(514px, 1200px, 34px, 58px);
+	}
+
+	.font-size--largest & {
+		@include fluid-type(514px, 1200px, 35px, 59px);
+	}
+}
+
+h2,
+.h2 {
+	@include fluid-type(514px, 820px, 28px, 34px);
+
+	.font-size--large & {
+		@include fluid-type(514px, 820px, 28px, 35px);
+	}
+
+	.font-size--larger & {
+		@include fluid-type(514px, 820px, 28px, 36px);
+	}
+
+	.font-size--largest & {
+		@include fluid-type(514px, 820px, 28px, 37px);
+	}
+}
+
+h3,
+.h3 {
+	@include fluid-type(514px, 820px, 24px, 28px);
+}
+
+h4,
+.h4 {
+	@include fluid-type(514px, 820px, 20px, 25px);
+}
+
+h5,
+.h5 {
+	@include font-size(19px);
+
+	@media only screen and (min-width: 600px) {
+		@include font-size(20px);
+	}
+
+	.font-size--larger & {
+		@include font-size(19px);
+	}
+}
+
+h6,
+.h6 {
+	@include font-size(17px);
+
+	@media only screen and (min-width: 600px) {
+		@include font-size(18px);
+	}
+}

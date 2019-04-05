@@ -1,0 +1,137 @@
+$share-this-vertical-offset: -0.118em !default;
+$share-this-background: #242424 !default;
+$share-this-foreground: #fff !default;
+$share-this-highlight-link: rgba($white, 0.25) !default;
+$share-this-border-radius: 0.25em !default;
+$share-this-arrow-size: 0.4em !default;
+
+$share-this-sharer-width: 2em !default;
+$share-this-sharer-height: 2em !default;
+$share-this-sharer-padding: 0.45em !default;
+$share-this-border-distance: 4em !default;
+$share-this-small-devices-max: 575px !default;
+
+@mixin share-this-transform($transformation...) {
+	transform: $transformation;
+}
+
+@mixin share-this-on-bottom() {
+
+	&::before {
+		border-width: 0 $share-this-arrow-size $share-this-arrow-size;
+		bottom: auto;
+		margin-top: 0;
+		top: 100%;
+	}
+
+	> ul {
+		top: 100%;
+		transform: translateX(-50%);
+		margin: $share-this-arrow-size 0 0;
+	}
+}
+
+.share-this-popover {
+	@include font-size(19px);
+	animation: share-this 180ms forwards linear;
+	max-width: $share-this-border-distance * 2;
+	pointer-events: none;
+
+	&::before {
+		border-color: $share-this-background transparent;
+		border-style: solid;
+		border-width: $share-this-arrow-size $share-this-arrow-size 0;
+		bottom: 100%;
+		content: "";
+		height: 0;
+		left: 50%;
+		margin: $share-this-vertical-offset + $share-this-arrow-size (-$share-this-arrow-size);
+		position: absolute;
+		width: 0;
+	}
+
+	> ul {
+		@include share-this-transform(translate(-50%, -100%));
+		background: linear-gradient(to bottom, rgba(49, 49, 47, 0.99), $share-this-background);
+		border-radius: $share-this-border-radius;
+		color: $share-this-foreground;
+		left: 50%;
+		display: flex;
+		list-style: none;
+		margin: $share-this-vertical-offset - $share-this-arrow-size 0 0;
+		padding: 0;
+		pointer-events: auto;
+		position: absolute;
+		white-space: nowrap;
+		padding-left: 3px;
+		padding-right: 10px;
+
+		> li {
+			list-style: none;
+			display: inline-block;
+			height: $share-this-sharer-height;
+			line-height: $share-this-sharer-height;
+			text-align: center;
+			margin: 0;
+			padding: 0;
+			width: $share-this-sharer-width;
+
+			&:not(:last-child) {
+				margin-right: -10px;
+			}
+
+			&:before {
+				display: none;
+			}
+
+			> a {
+				box-sizing: border-box;
+				color: inherit;
+				display: inline-block;
+				height: 100%;
+				padding: $share-this-sharer-padding;
+				width: 100%;
+			}
+		}
+	}
+
+	svg {
+		vertical-align: top;
+	}
+}
+
+[data-share-via="speakers"] a {
+	border-left: 1px solid #444;
+	margin-left: 10px;
+
+	svg {
+		fill: $white;
+	}
+}
+
+@keyframes share-this {
+	0% {
+		opacity: 0;
+		transform: matrix(0.97, 0, 0, 1, 0, 12);
+	}
+
+	20% {
+		opacity: 0.7;
+		transform: matrix(0.99, 0, 0, 1, 0, 2);
+	}
+
+	40% {
+		opacity: 1;
+		transform: matrix(1, 0, 0, 1, 0, -1);
+	}
+
+	70% {
+		opacity: 1;
+		transform: matrix(1, 0, 0, 1, 0, 0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: matrix(1, 0, 0, 1, 0, 0);
+	}
+}

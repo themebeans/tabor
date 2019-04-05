@@ -1,0 +1,266 @@
+:root {
+	--letter-spacing: 1;
+	--caps-letter-spacing: .2em;
+	--bold-font-weight: 800;
+}
+
+// Typography.
+.body-font {
+	font-family: $font__body;
+}
+
+.header-font {
+	font-family: $font__heading;
+}
+
+.small {
+	@include font-size(16px);
+
+	@media (min-width: 600px) {
+		@include font-size(17px);
+	}
+}
+
+.extra-small {
+	@include font-size(13px);
+
+	@media (min-width: 600px) {
+		@include font-size(15px);
+	}
+}
+
+.extra-large.extra-important.h1 {
+	color: $black;
+	line-height: 1.1;
+	@include fluid-type(600px, 1200px, 90px, 150px);
+
+	span {
+		display: block;
+		margin-left: 5.5vw;
+	}
+}
+
+.extra-large.extra-important.h2 {
+	@include fluid-type(600px, 1200px, 30px, 40px);
+
+	@media only screen and (max-width: 499px) {
+		@include font-size(24px);
+	}
+}
+
+.smooth {
+	@include font-smoothing;
+}
+
+.regular {
+	font-weight: 400;
+}
+
+.medium {
+	font-weight: 500;
+}
+
+.thin {
+	font-weight: 300;
+}
+
+.medium-bold {
+	font-weight: 600;
+}
+
+.bold {
+	font-weight: 800 !important;
+}
+
+.normal {
+	font-style: initial !important;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.caps {
+	text-transform: uppercase;
+	letter-spacing: var(--caps-letter-spacing);
+}
+
+.left-align {
+	text-align: left;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.right-align  {
+	text-align: right;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.break-word {
+	word-wrap: break-word;
+}
+
+// Lists.
+
+.list-reset {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+// Colors.
+.gray {
+	color: $gray;
+}
+
+.dark-gray {
+	color: $dark-gray;
+}
+
+.white {
+	color: $white;
+}
+
+.no-shadow {
+	box-shadow: none !important;
+}
+
+// Position.
+.hide,
+.hidden  {
+	@include hide;
+}
+
+.bottom-spacer {
+	@include bottom-spacer;
+}
+
+.top-spacer {
+	@include top-spacer;
+}
+
+.margin-left-auto {
+	margin-left: auto;
+}
+
+.margin-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	@include structure;
+
+	&.has-sidebar {
+		max-width: 1000px;
+	}
+}
+
+.max-width {
+	max-width: 100%;
+}
+
+
+.display-block {
+	display: block;
+}
+
+.display-inline-block {
+	display: inline-block;
+}
+
+.display-inline {
+	display: inline;
+}
+
+.display-none {
+	display: none;
+}
+
+.overflow-hidden { overflow: hidden }
+
+.flex { display: flex; }
+
+.left  { float: left }
+.right { float: right }
+
+.relative { position: relative }
+.absolute { position: absolute }
+.fixed    { position: fixed }
+
+.top-0    { top: 0 }
+.right-0  { right: 0 }
+.bottom-0 { bottom: 0 }
+.left-0   { left: 0 }
+
+
+.container--sml {
+	max-width: 380px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
+@custom-media --breakpoint-lg (min-width: 64em);
+
+.flex {
+	@media only screen and (min-width: 600px) {
+		display: flex;
+	}
+}
+
+@media (--breakpoint-sm) {
+  .sm-flex { display: flex }
+}
+
+@media (--breakpoint-md) {
+  .md-flex { display: flex }
+}
+
+@media (--breakpoint-lg) {
+  .lg-flex { display: flex }
+}
+
+.flex-column  { flex-direction: column }
+.flex-wrap    { flex-wrap: wrap }
+
+.items-start    { align-items: flex-start }
+.items-end      { align-items: flex-end }
+.items-center   { align-items: center }
+.items-baseline { align-items: baseline }
+.items-stretch  { align-items: stretch }
+
+.self-start    { align-self: flex-start }
+.self-end      { align-self: flex-end }
+.self-center   { align-self: center }
+.self-baseline { align-self: baseline }
+.self-stretch  { align-self: stretch }
+
+.justify-start   { justify-content: flex-start }
+.justify-end     { justify-content: flex-end }
+.justify-center  { justify-content: center }
+.justify-between { justify-content: space-between }
+.justify-around  { justify-content: space-around }
+
+.content-start   { align-content: flex-start }
+.content-end     { align-content: flex-end }
+.content-center  { align-content: center }
+.content-between { align-content: space-between }
+.content-around  { align-content: space-around }
+.content-stretch { align-content: stretch }
+
+

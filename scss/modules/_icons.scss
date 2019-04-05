@@ -1,0 +1,92 @@
+#sprite {
+	@include hide;
+}
+
+.icon-chain {
+	transform: scale(0.6) !important;
+}
+
+.icon-rss {
+	transform: scale(0.6) !important;
+}
+
+.icon-dribbble {
+	transform: scale(1.32) !important;
+}
+
+.icon-wordpress {
+	position: relative;
+	top: 0.05em;
+}
+
+.icon-slack {
+	position: relative;
+	top: 0.029em;
+}
+
+.svg-fallback {
+	display: none;
+
+	.no-svg & {
+		display: inline-block;
+	}
+}
+
+/* Dropdown toggle fallbacks */
+
+.no-svg .dropdown-toggle {
+	padding: 0.5em 0 0;
+	right: 0;
+	text-align: center;
+	width: 2em;
+
+	.icon {
+		display: none;
+	}
+
+	.svg-fallback.icon-down {
+		@include font-size(15px);
+		font-weight: bold;
+		line-height: 1;
+		transform: rotate(180deg);
+		color: $gray;
+		position: relative;
+		top: -3px;
+		right: -10px;
+	}
+}
+
+.no-svg .dropdown-toggle.toggled-on .svg-fallback.icon-down {
+	top: 2px;
+	transform: rotate(0);
+}
+
+.no-svg .dropdown-toggle .svg-fallback.icon-down:before {
+	content: "\005E";
+}
+
+/* Social Menu fallbacks */
+
+// .no-svg .social-navigation {
+
+// 	.screen-reader-text {
+// 		top: 4px;
+// 		clip: auto;
+// 		clip-path: initial;
+// 		height: auto;
+// 		position: relative !important;
+// 		width: auto;
+// 		transition: color 100ms cubic-bezier(0.645, 0.045, 0.355, 1);
+// 	}
+
+// 	li a:hover {
+
+// 		.screen-reader-text {
+// 		 	color: $black;
+// 		}
+// 	}
+
+// 	.icon {
+// 		display: none;
+// 	}
+// }

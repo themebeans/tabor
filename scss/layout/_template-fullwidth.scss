@@ -1,0 +1,15 @@
+.page-template-template-fullwidth-php {
+	.entry-media,
+	.entry-header,
+	.entry-footer,
+	.entry-content > *,
+	.entry-summary > * {
+		max-width: none !important;
+
+		@media screen and (min-width: 744px) {
+			padding-left: 30px;
+			padding-right: 30px;
+			width: 98vw;
+		}
+	}
+}

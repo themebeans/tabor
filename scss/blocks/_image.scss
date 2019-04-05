@@ -1,0 +1,51 @@
+.entry-content {
+	.wp-block-image {
+		img {
+			display: block;
+
+			@media screen and (max-width: $content__align--mobile-media-query--max) {
+				width: 100%;
+			}
+		}
+
+		.alignleft {
+			margin-right: $content__padding;
+
+			@media screen and (min-width: $content__align--mobile-media-query--min) {
+				margin-right: 40px;
+			}
+		}
+
+		.alignright {
+			margin-left: $content__padding;
+
+			@media screen and (min-width: $content__align--mobile-media-query--min) {
+				margin-left: 40px;
+			}
+		}
+
+		.alignleft,
+		.alignright {
+			max-width: 100%;
+
+			@media screen and (min-width: $content__align--mobile-media-query--min) {
+				margin-bottom: 1.75em;
+				margin-top: 0.5em;
+			}
+
+			// Override theme styles from core.
+			@media screen and (max-width: $content__align--mobile-media-query--max) {
+				display: block;
+				float: none;
+				margin-left: 0;
+				margin-right: 0;
+			}
+		}
+
+		.alignfull img {
+			margin-left: auto;
+			margin-right: auto;
+			width: 100vw;
+		}
+	}
+}

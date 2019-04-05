@@ -1,0 +1,63 @@
+// Avoid empty images to appear as broken.
+img:not([src]):not([srcset]) {
+	visibility: hidden;
+}
+
+// Fixes Firefox anomaly during images load time
+@-moz-document url-prefix() {
+	img:-moz-loading {
+		visibility: hidden;
+	}
+}
+
+.lazyload,
+.entry-content img {
+	opacity: 0;
+	transition: opacity 300ms cubic-bezier(.694, 0, .335, 1);
+
+	&.loaded,
+	&.loading {
+		opacity: 1;
+	}
+}
+
+.intrinsic {
+	margin: 0;
+	height: 0;
+	position: relative;
+	width: 100%;
+
+	img {
+		bottom: 0;
+		left: 0;
+		right: 0;
+		top: 0;
+		width: 100%;
+		position: absolute;
+		z-index: -1;
+	}
+}
+
+.intrinsic:not(.lazyload--finished) {
+
+	&::after {
+		animation: colorchange 700ms infinite alternate;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		content: ' ';
+		z-index: -1;
+	}
+}
+
+// Loading animation
+@keyframes colorchange {
+	0% {
+		background: $white;
+	}
+	100% {
+		background: $background;
+	}
+}

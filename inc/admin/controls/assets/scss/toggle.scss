@@ -1,0 +1,164 @@
+// Variables.
+@import "variables";
+
+.customize-control-themebeans-toggle {
+	.customize-control-description {
+		padding-right: 60px;
+	}
+
+	.components-form-toggle * {
+		box-sizing: border-box;
+	}
+
+	.components-base-control__field {
+		display: flex;
+		align-items: center;
+	}
+
+	.components-toggle-control
+	.components-base-control__field
+	.components-toggle-control__label {
+		display: block;
+		margin-bottom: 0;
+	}
+
+	.components-form-toggle,
+	.components-base-control__field {
+		margin-left: auto;
+	}
+
+	.components-form-toggle__track {
+		background-color: transparent;
+		border: 2px solid #6c7781;
+		border-radius: 9px;
+		content: "";
+		display: inline-block;
+		height: 18px;
+		transition: background 0.2s ease;
+		vertical-align: top;
+		width: 36px;
+	}
+
+	.components-form-toggle.is-checked .components-form-toggle__track {
+		background-color: #11a0d2;
+		border: 9px solid transparent;
+	}
+
+	.components-form-toggle__input:focus + .components-form-toggle__track {
+		box-shadow: 0 0 0 2px #fff, 0 0 0 3px #6c7781;
+		outline: 2px solid transparent;
+		outline-offset: 2px;
+	}
+
+	.components-form-toggle__thumb {
+		background-color: #6c7781;
+		border: 5px solid #6c7781;
+		border-radius: 50%;
+		display: block;
+		height: 10px;
+		left: 4px;
+		position: absolute;
+		top: 4px;
+		transition: transform 0.1s ease;
+		width: 10px;
+	}
+
+	.components-form-toggle.is-checked .components-form-toggle__thumb {
+		background-color: #fff;
+		border-width: 0;
+		transform: translateX(18px);
+	}
+
+	.components-form-toggle__off,
+	.components-form-toggle__on {
+		position: absolute;
+		top: 6px;
+	}
+
+	.components-form-toggle__off {
+		color: #6c7781;
+		fill: currentColor;
+		right: 6px;
+	}
+
+	.components-form-toggle__on {
+		filter: invert(100%) contrast(500%);
+		border: 1px solid #000;
+		filter: invert(100%) contrast(500%);
+		outline: 1px solid transparent;
+		outline-offset: -1px;
+		left: 8px;
+	}
+}
+
+.components-form-toggle {
+	position: relative;
+
+	&:hover .components-form-toggle__track {
+		border: 2px solid #555d66;
+	}
+
+	&:hover .components-form-toggle__thumb {
+		background-color: #555d66;
+		border: 5px solid #6c7781;
+	}
+
+	input[type="checkbox"] {
+		appearance: none;
+		background: #fff;
+		border-radius: 2px;
+		border: 1px solid #b4b9be;
+		box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+		clear: none;
+		color: #555;
+		cursor: pointer;
+		display: inline-block;
+		height: 100%;
+		left: 0;
+		line-height: 0;
+		margin: 0;
+		min-width: 16px;
+		opacity: 0;
+		outline: 0;
+		padding: 0;
+		position: absolute;
+		text-align: center;
+		top: 0;
+		transition: 0.05s border-color ease-in-out;
+		vertical-align: middle;
+		width: 100%;
+		z-index: 1;
+
+		&::before {
+			color: #fff;
+			margin: -4px 0 0 -5px;
+		}
+
+		&:focus {
+			border-color: #6c7781;
+			box-shadow: 0 0 0 1px #6c7781;
+		}
+
+		&:checked {
+			background: #008EC2;
+			border-color: #008EC2;
+
+			&:focus {
+				box-shadow: 0 0 0 2px #555d66;
+			}
+
+			&::before {
+				color: #1e8cbe;
+				content: "\f147";
+				display: inline-block;
+				float: left;
+				font-smoothing: antialiased;
+				font: 400 21px/1 dashicons;
+				margin: -3px 0 0 -4px;
+				speak: none;
+				vertical-align: middle;
+				width: 16px;
+			}
+		}
+	}
+}

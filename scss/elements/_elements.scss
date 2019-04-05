@@ -1,0 +1,67 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	// Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+	box-sizing: inherit;
+}
+
+body {
+	background: $color--background-body; // Fallback for when there is no custom background color defined.
+
+	&.custom-background.nav-open {
+		// Hide the background image when the mobile navigation is open, because we don't want to blur the whole body.
+		background-image: none;
+	}
+}
+
+::-moz-selection {
+	background-color: #e8e8e8;
+}
+
+::selection {
+	background-color: #e8e8e8;
+}
+
+hr {
+	background-color: $black;
+	opacity: 0.2;
+	border: 0;
+	height: 1px;
+}
+
+img {
+	height: auto; // Make sure images are scaled correctly.
+	max-width: 100%; // Adhere to container width.
+	vertical-align: middle;
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+/*--------------------------------------------------------------
+#  Buttons
+--------------------------------------------------------------*/
+@import "buttons";
+
+/*--------------------------------------------------------------
+# Fields
+--------------------------------------------------------------*/
+@import "fields";
+
+.wp-activate-container {
+	@include structure;
+	text-align: center;
+
+	h2 {
+		margin-bottom: .3em;
+	}
+}

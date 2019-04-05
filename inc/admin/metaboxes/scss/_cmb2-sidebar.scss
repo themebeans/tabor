@@ -1,0 +1,268 @@
+.edit-post-sidebar {
+
+	.edit-post-meta-boxes-area {
+
+		// Remove excess borders.
+		.postbox:last-of-type > .inside {
+			border-bottom: none;
+		}
+
+		.postbox:last-of-type h2.hndle {
+			border-bottom: none !important;
+		}
+
+		.postbox:not(.closed) h2.hndle {
+	   		border-bottom: none !important;
+		}
+
+		#poststuff .inside {
+			margin: 3px 0 0 0;
+		}
+
+		// Style metabox title.
+		#poststuff .postbox h2.hndle {
+			color: #191e23;
+			cursor: pointer;
+			font-size: 13px;
+			padding-bottom: 14px;
+			padding-top: 14px;
+			transition: .1s background ease-in-out;
+
+			&:hover {
+				background: #f8f9f9;
+			}
+		}
+
+		// Down arrow.
+		.postbox .handlediv {
+			height: .65em;
+			width: .65em;
+			border-bottom: 2px solid #191e23;
+	   		border-left: 2px solid #191e23;
+	   		transform: rotate(-225deg);
+	   		z-index: 1;
+	   		right: 18px;
+	   		top: 19px;
+	   		position: absolute;
+		}
+
+		.postbox.closed .handlediv {
+	   		transform: rotate(-45deg);
+	   		top: 18px;
+		}
+
+		.cmb2-media-status .embed-status {
+			float: none;
+		}
+
+		.cmb2-media-status .cmb2-remove-file-button {
+			height: 22px;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 22px;
+			background: #0885BA;
+
+			&:focus {
+				box-shadow: none;
+				outline: none;
+			}
+
+			&::after,
+			&::before {
+				background-color: #fff;
+				content: "";
+				display: block;
+				height: 2px;
+				left: 4px;
+				position: absolute;
+				width: 15px;
+			}
+
+			&::before {
+				top: 11px;
+				left: 3px;
+				transform: rotate(45deg) translate(0, -50%);
+			}
+
+			&::after {
+				top: 11px;
+				transform: rotate(-45deg) translate(0, -50%);
+			}
+		}
+
+		.cmb2-media-status .embed-status {
+			outline-color: #e5e5e5;
+			box-shadow: none;
+		}
+
+		.cmb-spinner {
+			float: none;
+			margin: 12px auto -3px;
+		}
+
+		.toggle-indicator {
+			display: none;
+		}
+
+		// Metabox contents.
+		#side-sortables {
+
+			// Remove excess inner padding.
+			.cmb2-wrap > .cmb-field-list>.cmb-row {
+				padding: 0;
+			}
+
+			.cmb2-metabox-description {
+				color: #555d66;
+				padding-bottom: 0;
+			}
+
+			.cmb-th {
+				padding-bottom: 0;
+
+			}
+
+			.cmb-td {
+				width: auto !important;
+
+			}
+
+			.cmb-row {
+				border: none;
+				margin: 0 0 1.1em;
+
+				&:after {
+					display: none;
+				}
+
+				&:last-of-type {
+					margin-bottom: 2px;
+				}
+			}
+
+			// Style meta labels.
+			.cmb-th label {
+				font-size: 13px;
+				font-weight: 400;
+				margin-right: 10px;
+				margin-bottom: 0;
+				padding-bottom: 5px;
+				flex-shrink: 0;
+				max-width: 75%;
+				vertical-align: middle;
+				color: #555d66;
+			}
+
+			.cmb2-wrap input:focus, .cmb2-wrap textarea:focus {
+				background: #fff;
+			}
+
+			input[type=checkbox] {
+				margin: 0 12px 0 0;
+			}
+
+			.cmb-type-checkbox {
+				display: flex;
+				justify-content: space-between;
+				width: 100%;
+
+				// Label.
+				.cmb-th {
+					order: 2;
+
+					label {
+						padding-bottom: 0;
+					}
+				}
+
+				// Input.
+				.cmb-td {
+					order: 1;
+
+				}
+			}
+
+			.wp-picker-input-wrap {
+				label {
+					display: inline-block;
+				}
+			}
+
+			.wp-picker-holder {
+				.iris-border {
+					border-radius: 3px!important;
+					width: 250px !important;
+				}
+
+				.iris-picker .iris-square {
+					margin-right: 6%;
+				}
+			}
+
+			.wp-color-picker {
+				padding: 3px 5px;
+			}
+		}
+	}
+}
+
+
+// .components-panel .postbox:not(.closed) h2.hndle {
+// 	border-bottom: none !important;
+// }
+
+// .components-panel #side-sortables .cmb2-wrap>.cmb-field-list>.cmb-row,
+// .components-panel .inner-sidebar .cmb2-wrap>.cmb-field-list>.cmb-row {
+// 	padding: 0;
+// }
+
+// .components-panel .cmb-row {
+// 	padding-top: 1em !important;
+// }
+
+// .components-panel .cmb-row:first-of-type {
+// 	padding-top: 0 !important;
+// }
+
+// .components-panel .cmb-type-group .cmb-repeatable-group:not(:last-of-type),
+// .components-panel .cmb-type-group .cmb-row:not(:last-of-type),
+// .components-panel .cmb2-postbox .cmb-repeatable-group:not(:last-of-type),
+// .components-panel .cmb2-postbox .cmb-row:not(:last-of-type) {
+// 	border: none;
+// }
+//  .components-panel .edit-post-meta-boxes-area.is-side #poststuff h2.hndle:hover {
+// 	background-color: #f8f9f9;
+// 	cursor: pointer;
+// }
+
+// .gutenberg-editor-page #side-sortables .cmb2-wrap .cmb-row {
+//   margin-bottom: 0.1em;
+// }
+
+// .gutenberg-editor-page #side-sortables .cmb2-wrap .cmb-th {
+//   padding-bottom: 0.6em;
+// }
+
+// .gutenberg-editor-page #side-sortables .cmb2-wrap .cmb-th label {
+//   color: #555d66;
+//   font-size: 13px;
+//   font-weight: 400;
+//   margin-bottom: 0;
+//   padding-bottom: 0;
+// }
+
+// .gutenberg-editor-page #side-sortables .cmb2-wrap .cmb-td .cmb2-metabox-description {
+//   color: #555d66;
+//   padding-bottom: 0.35em;
+// }
+
+// .gutenberg-editor-page .cmb2-postbox h2.hndle span {
+//   color: #191e23;
+//   font-size: 13px;
+// }
+
+// .gutenberg-editor-page #link_metabox,
+// .gutenberg-editor-page #video_metabox {
+// 	display: block !important;
+// }

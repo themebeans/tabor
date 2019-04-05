@@ -1,0 +1,34 @@
+.entry-content {
+	.wp-block-archives,
+	.wp-block-categories {
+
+		&.alignleft {
+			@media screen and (min-width: $content__media-query) {
+				margin-bottom: 1em;
+				padding-left: 0;
+			}
+		}
+
+		&.alignright {
+
+			@media screen and (min-width: $content__media-query) {
+				margin-bottom: 1em;
+				padding-right: 0;
+			}
+
+			@media screen and (max-width: $content__width) {
+				margin-left: 0;
+			}
+		}
+
+		&.aligncenter {
+			list-style: none;
+			padding-left: 0;
+			text-align: center;
+		}
+
+		&.alignfull {
+			padding-left: 20px;
+		}
+	}
+}

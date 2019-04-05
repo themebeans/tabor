@@ -1,0 +1,196 @@
+.widget {
+	ul,
+	li {
+		margin: 0 0 0 8px;
+		padding: 0;
+	}
+}
+
+/* Cats */
+.widget_recent_comments ul li {
+	margin-bottom: 10px;
+}
+
+.widget_rss ul li {
+	margin-bottom: 25px;
+}
+
+.rss-date {
+	display: block;
+	text-transform: uppercase;
+}
+
+.post-date {
+	color: #666;
+	display: block;
+}
+
+/* Calendar */
+#wp-calendar {
+	background: #fff;
+	width: 100%;
+
+	tfoot {
+		display: none;
+	}
+}
+
+#wp-calendar caption {
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#wp-calendar thead {
+	font-size: 10px;
+}
+
+#wp-calendar thead th {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+#wp-calendar thead th,
+#wp-calendar tbody td {
+	background: #fff;
+	border: none;
+	padding: 4px 0;
+	text-align: center;
+}
+
+#wp-calendar thead th {
+	background-color: #e9e9e9;
+}
+
+#wp-calendar tbody .pad {
+	background: none;
+}
+
+#wp-calendar tfoot #next {
+	font-size: 12px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+#wp-calendar tfoot #prev {
+	font-size: 12px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+.widget_nav_menu .sub-menu {
+	margin-left: 20px;
+}
+
+/* Tags */
+.tagcloud {
+	margin-top: 1.5em;
+}
+
+.tagcloud > a {
+	background: rgba(0, 0, 0, 0.05);
+	border-radius: 2px;
+	box-shadow: 0 0 0;
+	color: $black;
+	display: inline-block;
+	line-height: 22px;
+	margin: 0 -2px 5px 0;
+	padding: 4px 10px;
+}
+
+.tagcloud > a:hover {
+	background: rgba(0, 0, 0, 0.1);
+	color: $black;
+}
+
+.widget_text + .widget.optin-monster-api {
+	margin-top: -2em;
+}
+
+/* MC4WP */
+.widget_ninja_forms_widget,
+.widget_mc4wp_form_widget {
+	text-align: center;
+
+	p {
+		margin-bottom: 0;
+
+		&:first-of-type {
+			margin-bottom: 1.5em;
+		}
+	}
+
+	input {
+		appearance: none;
+		background: none;
+		background: transparent;
+		border: none;
+		border-bottom: 4px solid $black;
+		border-radius: 0;
+		color: $black;
+		font-family: $font__heading;
+		font-size: 18px;
+		font-weight: 600;
+		height: 50px;
+		margin-bottom: 25px;
+		padding-bottom: 0;
+		padding-left: 0;
+
+		&:focus {
+			box-shadow: none;
+			border-color: $gray;
+		}
+
+		@include input-placeholder {
+			color: rgba(0, 0, 0, .8);
+		}
+	}
+
+	.ninja-forms-field {
+		border-top: 0 !important;
+		border-left: 0 !important;
+		border-right: 0 !important;
+		border-width: 4px !important;
+	}
+
+	.nf-error-field-errors {
+		background: transparent;
+	}
+
+	input[type=submit],
+	input[type=button] {
+		border: 0;
+		background: $black;
+		margin-bottom: 0;
+		border-radius: 4px;
+		color: #fff;
+		height: auto;
+		padding: .5em 5em;
+		width: 100%;
+		text-align: center;
+		transition: 200ms background cubic-bezier(0.3, -0.55, 0.1, 1.1);
+
+		&:hover {
+			background: $gray;
+		}
+	}
+
+	.mc4wp-alert {
+		@include font-size(13px);
+		font-family: $font__heading;
+		font-style: inherit;
+		color: $gray;
+		position: absolute;
+		margin: 2px auto;
+		width: 100%;
+		left: 0;
+		text-align: center;
+
+		@media only screen and (min-width: 700px) {
+			@include font-size(15px);
+			margin: 10px auto;
+		}
+	}
+}
+

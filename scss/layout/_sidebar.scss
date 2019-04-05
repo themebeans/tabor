@@ -1,0 +1,92 @@
+.post-wrapper {
+	width: 100%;
+}
+
+.has-sidebar:not(.home) {
+
+	.hentry {
+		max-width: 1200px;
+
+		@media only screen and (min-width: 900px) {
+			display: flex;
+			flex-direction: row;
+		}
+
+		.widget-area {
+			padding-left: $content__padding;
+
+			@media only screen and (max-width: 899px) {
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 3em;
+				max-width: $content__width;
+				padding-right: $content__padding;
+			}
+
+			@media only screen and (min-width: 900px) {
+				flex: 0 0 20em;
+				padding-left: 6%;
+				padding-right: $content__padding;
+				padding-top: .55em;
+			}
+
+			@media only screen and (min-width: 1150px) {
+				flex: 0 0 24em;
+			}
+		}
+	}
+}
+
+.has-sidebar {
+
+	.entry-content .alignfull {
+		padding-left: $content__padding;
+		padding-right: $content__padding;
+	}
+}
+
+.widget-area--sidebar {
+
+	@media only screen and (max-width: 599px) {
+		padding-top: 3em;
+	}
+
+	@media only screen and (max-width: 899px) {
+		border-top: 1px solid #dfdfdf;
+		padding-top: 3.5em;
+	}
+
+	body.single-post & {
+		@media only screen and (max-width: 899px) {
+			padding-top: 3em;
+		}
+	}
+
+	.h4 {
+		margin-bottom: .25em;
+	}
+
+	.widget {
+		margin-bottom: 2.5em;
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+
+	.widget_text p:last-of-type {
+		margin-bottom: 0;
+	}
+
+	.search-form label {
+		display: none;
+	}
+
+	.search-form .search-field {
+		margin-bottom: 5px;
+	}
+
+	.widget > ul {
+		margin-bottom: 5px;
+	}
+}

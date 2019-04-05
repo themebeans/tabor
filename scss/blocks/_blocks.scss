@@ -1,0 +1,150 @@
+// Editor customizations.
+@import "color-palette";
+@import "font-sizes";
+
+// Import blocks.
+@import "archives-categories";
+@import "audio-video";
+@import "button";
+@import "captions";
+@import "code";
+@import "columns";
+@import "cover";
+@import "embed";
+@import "file";
+@import "gallery";
+@import "image";
+@import "latest-comments";
+@import "latest-posts";
+@import "list";
+@import "misc";
+@import "more";
+@import "paragraph";
+@import "preformatted";
+@import "pullquote";
+@import "quote";
+@import "separator";
+@import "table";
+@import "verse";
+
+// Third party blocks.
+@import "coblocks";
+@import "blockgallery";
+
+.entry-media,
+.entry-header,
+.entry-footer {
+	max-width: $content__width;
+	padding-left: $content__padding;
+	padding-right: $content__padding;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.entry-media {
+	max-width: $content__width--wide;
+}
+
+.entry-content > *,
+.entry-summary > * {
+	margin: $content__spacer--mobile auto;
+	max-width: $content__width;
+	padding-left: $content__padding;
+	padding-right: $content__padding;
+
+	@media screen and (min-width: $content__media-query) {
+		margin-bottom: $content__spacer;
+		margin-top: $content__spacer;
+	}
+
+	&:not(p):not(ul):not(ol) {
+		margin: $content__spacer--mobile + 12px auto;
+
+		@media screen and (min-width: $content__media-query) {
+			margin-bottom: $content__spacer + 12px;
+			margin-top: $content__spacer + 12px;
+		}
+	}
+
+	&:first-child {
+		margin-top: 0 !important;
+	}
+
+	&:last-child {
+		margin-bottom: 0 !important;
+	}
+
+	> *:first-child {
+		margin-top: 0;
+	}
+
+	> *:last-child {
+		margin-bottom: 0;
+	}
+
+	&.alignwide {
+		max-width: $content__width--wide;
+
+		@media screen and (min-width: $content__media-query) {
+			margin-bottom: $content__spacer + 20px;
+			margin-top: $content__spacer + 20px;
+		}
+	}
+
+	&.alignfull {
+		margin: $content__spacer + 10px 0;
+		max-width: 100% !important;
+		padding-left: 0;
+		padding-right: 0;
+
+		@media screen and (min-width: $content__media-query) {
+			margin-bottom: $content__spacer + 30px;
+			margin-top: $content__spacer + 30px;
+		}
+	}
+
+	&.alignleft {
+		margin-right: $content__padding;
+		max-width: 100%;
+
+		@media screen and (min-width: $content__align--mobile-media-query--min) {
+			float: left;
+			margin-right: 40px;
+			margin-top: 0;
+			max-width: $content__align--width !important;
+		}
+
+		@media screen and (min-width: $content__media-query) {
+			margin-left: calc(50% - #{$content__align--leftright-margin});
+		}
+	}
+
+	&.alignright {
+		margin-left: $content__padding;
+
+		@media screen and (min-width: $content__align--mobile-media-query--min) {
+			float: right;
+			margin-left: 40px;
+			margin-top: 0;
+			max-width: $content__align--width !important;
+		}
+
+		@media screen and (min-width: $content__media-query) {
+			margin-right: calc(50% - #{$content__align--leftright-margin});
+		}
+	}
+
+	.alignleft,
+	.alignright {
+		> figcaption {
+			@media screen and (max-width: $content__align--mobile-media-query--max) {
+				display: block !important;
+			}
+		}
+	}
+
+	.wpcf7-form {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}

@@ -1,0 +1,35 @@
+.nf-form-content {
+	margin-top: 2em;
+
+	.nf-field-label {
+		margin-bottom: 0 !important;
+
+		label {
+			font-weight: 500;
+		}
+	}
+
+	.ninja-forms-field {
+		border-width: 2px !important;
+	}
+
+	.nf-error-msg {
+		@include font-size(15px);
+		font-family: $font__heading;
+	}
+}
+
+.nf-error-field-errors {
+	@include font-size(14px);
+	background: $background;
+	border-radius: 4px;
+	border: none;
+	color: $black !important;
+	font-family: $font__heading;
+	font-style: inherit;
+	text-align: center;
+	padding-top: .4em;
+	padding-bottom: .4em;
+	margin-left: auto;
+	margin-right: auto;
+}

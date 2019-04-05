@@ -1,0 +1,9 @@
+.clear,
+.clearfix,
+.textwidget,
+.site-footer,
+.entry-content,
+.primary-menu,
+article[class^="post-"] {
+	@include clearfix;
+}

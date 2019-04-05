@@ -1,0 +1,22 @@
+.entry-content {
+	.wp-block-file {
+		a {
+			box-shadow: none;
+		}
+
+		a:not(.wp-block-file__button) {
+			text-decoration: underline;
+		}
+
+		.wp-block-file__button {
+			background: $black;
+			font-size: $font__size-xs;
+			font-weight: 500;
+			font-family: $font__heading;
+			left: 10px;
+			padding: 0.6em 1.2em 0.55em;
+			position: relative;
+			top: -2px;
+		}
+	}
+}

@@ -1,0 +1,401 @@
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+@import "links";
+
+/*--------------------------------------------------------------
+## Social Navigation
+--------------------------------------------------------------*/
+@import "social";
+
+/*--------------------------------------------------------------
+## Dropdown
+--------------------------------------------------------------*/
+@import "dropdown";
+
+/*--------------------------------------------------------------
+## Overflow Navigation
+--------------------------------------------------------------*/
+@import "nav-overflow";
+
+/* Menu toggle */
+
+.menu-toggle {
+	backface-visibility: hidden;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 0;
+	box-shadow: none;
+	cursor: pointer;
+	display: none;
+	height: 36px;
+	padding: 1em;
+	top: -1px;
+	position: relative;
+	text-indent: 100%;
+	text-shadow: none;
+	white-space: nowrap;
+	width: 36px;
+	z-index: 99997;
+	order: 1;
+	transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+	&:hover,
+	&:focus {
+		background-color: transparent;
+		box-shadow: none;
+	}
+
+	&:focus {
+		outline: thin solid;
+	}
+
+	&:after,
+	&:before, {
+		position: absolute;
+		content: "";
+		width: 1.5625rem;
+		height: .125rem;
+		left: 5px;
+		background-color: $black;
+		display: block;
+		transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+	}
+
+	&::before {
+		top: calc( 50% - 5px );
+		transform: rotate(0) translate(0, -50%);
+	}
+
+	&::after {
+		top: calc( 50% + 5px );
+		transform: rotate(0) translate(0, -50%);
+	}
+
+	.toggled-on & {
+		transform: rotate(180deg);
+	}
+
+	.toggled-on &::after,
+	.toggled-on &::before {
+		top: 50%;
+		transform: rotate(45deg) translate(0, -50%);
+		left: 4px;
+	}
+
+	.toggled-on &::after {
+		transform: rotate(-45deg) translate(0, -50%);
+		left: 5px;
+	}
+}
+
+/* Display the menu toggle when JavaScript is available. */
+
+.js .menu-toggle {
+	display: inline-block;
+
+	@media only screen and (min-width: 600px) {
+		display: none;
+	}
+}
+
+/* Mobile Menu */
+
+@media only screen and (max-width: 599px) {
+
+	.main-navigation {
+		margin-right: -5px;
+	}
+
+	.main-navigation ul {
+		padding: 0;
+		list-style: none;
+		margin: 0;
+		transform: translate3d(0, 0, 0);
+	}
+
+	.main-navigation.nav-enabled ul:not(.sub-menu) {
+		transition: opacity 200ms cubic-bezier(.694, 0, .335, 1) 100ms, visibility 200ms 200ms, transform 0 500ms;
+
+		.changing & {
+			transition: 0;
+		}
+	}
+
+	.main-navigation ul:not(.sub-menu) {
+		-webkit-overflow-scrolling: true;
+		height: 100%;
+		left: 0;
+		margin: auto;
+		padding: 40px 0 140px 5%;
+		position: fixed;
+		right: 0;
+		visibility: hidden;
+		opacity: 0;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		top: 50px;
+		transform: translateY(100%);
+		width: 100%;
+		z-index: 999;
+
+		.admin-bar & {
+			top: 82px;
+		}
+
+		li {
+			text-align: left !important;
+			transform: translate3d(0, 0, 0);
+		}
+
+		ul {
+			background: transparent;
+			-webkit-overflow-scrolling: false;
+		}
+
+		a {
+			@include font-size(24px);
+			font-weight: 800;
+			color: $black;
+			display: block;
+			padding: .3em 0;
+			transform: translate3d(0, 0, 0);
+
+			@media only screen and (max-width: 599px) {
+				color: $black !important;
+			}
+		}
+
+		.sub-menu {
+			display: block;
+			visibility: visible;
+			opacity: 1;
+			margin: 0;
+			padding: 0;
+			position: relative;
+		}
+
+		.nav-open & {
+			opacity: 1;
+			visibility: visible;
+			background-color: rgba(255, 255, 255, .9);
+			transition: opacity 100ms cubic-bezier(.694, 0, .335, 1) 100ms, visibility 100ms 100ms;
+
+			@supports (-webkit-backdrop-filter: none) {
+				background-color: rgba(255, 255, 255, 0);
+			}
+
+			ul {
+				background: transparent;
+			}
+
+			@media only screen and (max-width: 599px) {
+				transform: translateY(0);
+			}
+		}
+	}
+}
+
+.nav-open {
+
+	@media only screen and (max-width: 599px) {
+		overflow: hidden;
+	}
+
+	@media only screen and (max-width: 599px) {
+		.site-footer,
+		.site-content {
+			animation: blur 200ms forwards cubic-bezier(.694, 0, .335, 1);
+		}
+
+		.site-header::after {
+			display: block;
+		}
+	}
+
+	@media only screen and (max-width: 599px) {
+		.search-toggle {
+			transition: opacity 200ms cubic-bezier(.694, 0, .335, 1);
+			opacity: 0;
+		}
+	}
+}
+
+.unblur {
+	@media only screen and (max-width: 599px) {
+		animation: unblur 200ms forwards cubic-bezier(.694, 0, .335, 1);
+		filter: blur(20px);
+	}
+}
+
+@keyframes blur {
+	0% {
+		filter: blur(0)
+	}
+
+	5% {
+		filter: blur(1px)
+	}
+
+	10% {
+		filter: blur(2px)
+	}
+
+	15% {
+		filter: blur(3px)
+	}
+
+	20% {
+		filter: blur(4px)
+	}
+
+	25% {
+		filter: blur(5px)
+	}
+
+	30% {
+		filter: blur(6px)
+	}
+
+	35% {
+		filter: blur(7px)
+	}
+
+	40% {
+		filter: blur(8px)
+	}
+
+	45% {
+		filter: blur(9px)
+	}
+
+	50% {
+		filter: blur(10px)
+	}
+
+	55% {
+		filter: blur(11px)
+	}
+
+	60% {
+		filter: blur(12px)
+	}
+
+	65% {
+		filter: blur(13px)
+	}
+
+	70% {
+		filter: blur(14px)
+	}
+
+	75% {
+		filter: blur(15px)
+	}
+
+	80% {
+		filter: blur(16px)
+	}
+
+	85% {
+		filter: blur(18px)
+	}
+
+	90% {
+		filter: blur(18px)
+	}
+
+	95% {
+		filter: blur(19px)
+	}
+
+	to {
+		filter: blur(20px)
+	}
+}
+
+@keyframes unblur {
+	0% {
+		filter: blur(20px)
+	}
+
+	5% {
+		filter: blur(19px)
+	}
+
+	10% {
+		filter: blur(18px)
+	}
+
+	15% {
+		filter: blur(17px)
+	}
+
+	20% {
+		filter: blur(16px)
+	}
+
+	25% {
+		filter: blur(15px)
+	}
+
+	30% {
+		filter: blur(14px)
+	}
+
+	35% {
+		filter: blur(13px)
+	}
+
+	40% {
+		filter: blur(12px)
+	}
+
+	45% {
+		filter: blur(11px)
+	}
+
+	50% {
+		filter: blur(10px)
+	}
+
+	55% {
+		filter: blur(9px)
+	}
+
+	60% {
+		filter: blur(8px)
+	}
+
+	65% {
+		filter: blur(7px)
+	}
+
+	70% {
+		filter: blur(6px)
+	}
+
+	75% {
+		filter: blur(5px)
+	}
+
+	80% {
+		filter: blur(4px)
+	}
+
+	85% {
+		filter: blur(3px)
+	}
+
+	90% {
+		filter: blur(2px)
+	}
+
+	95% {
+		filter: blur(1px)
+	}
+
+	to {
+		filter: blur(0)
+	}
+}

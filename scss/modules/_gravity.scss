@@ -1,0 +1,30 @@
+.gform_wrapper {
+	max-width: $content__width !important;
+
+	ul,
+	.gfield {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.gfield_checkbox {
+		margin-top: 0;
+	}
+
+	.gfield_select {
+		margin-bottom: 15px;
+	}
+
+	.ginput_container_checkbox {
+		margin-bottom: 25px !important;
+	}
+
+	ul li.field_description_below div.ginput_container_checkbox, ul li.field_description_below div.ginput_container_radio {
+		margin-top: 0 !important;
+	}
+
+	input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+		padding: .36em .95em .3em !important;
+	}
+}

@@ -1,0 +1,32 @@
+.pagination {
+	margin-top: 80px;
+	text-align: center;
+	@include clearfix();
+
+	& a,
+	& span {
+		color: $black;
+		@include font-size(12px);
+		text-transform: uppercase;
+		transform: translate3d(0, 0, 0);
+		letter-spacing: .15em;
+		text-decoration: none;
+		display: inline-block;
+		font-weight: normal;
+		vertical-align: middle;
+		transition: opacity 200ms cubic-bezier(0.33,0,0.2,1);
+	}
+
+	& .icon {
+		height: 50px;
+		width: 50px;
+	}
+
+	a:hover {
+		opacity: .4;
+	}
+
+	.page-numbers:not(.next):not(.prev) {
+		display: none;
+	}
+}

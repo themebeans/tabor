@@ -1,0 +1,98 @@
+#secondary {
+	min-height: 155px;
+
+	#tucson-optin {
+
+		&.tucson-outer-wrap {
+			max-width: 100% !important;
+		}
+
+		.tucson-element-row.tucson-element-row-global.tucson-body {
+			background: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		.tucson-element-title-content {
+			color: $black !important;
+			font-weight: 800;
+			font-family: $font__heading !important;
+			@extend .h2;
+		}
+
+		#tucson-content {
+			margin-bottom: 15px;
+		}
+
+		.tucson-element-tagline-content {
+			@extend body;
+			background: none !important;
+			margin-bottom: 25px !important;
+		}
+
+		input {
+			appearance: none;
+			background: none;
+			background: transparent;
+			border: none;
+			border-bottom: 4px solid $black;
+			color: $black !important;
+			font-family: $font__heading !important;
+			font-weight: 600;
+			border-radius: 0;
+			font-size: 18px;
+			padding-bottom: 0;
+			box-shadow: none !important;
+			padding-left: 0;
+			height: 50px;
+			margin-bottom: 25px;
+
+			&:focus {
+				box-shadow: none;
+				border-color: $gray;
+			}
+
+			@include input-placeholder {
+				color: rgba(0, 0, 0, .8);
+			}
+		}
+
+		.tucson-field-submit {
+			border: 0 !important;
+			background: $black !important;
+			margin-bottom: 0;
+			border-radius: 4px;
+			box-shadow: none !important;
+			color: #fff !important;
+			transition: 200ms background cubic-bezier(0.3, -0.55, 0.1, 1.1);
+
+			&:hover {
+				background: $gray !important;
+			}
+
+			.changing & {
+				transition: 0;
+			}
+		}
+
+		p.tucson-error {
+			font-family: $font__heading !important;
+			font-style: inherit!important;
+			color: $gray !important;
+			position: absolute;
+			margin: 50px auto !important;
+			width: 100%;
+			text-align: center;
+
+			@media only screen and (min-width: 700px) {
+				margin: 15px auto !important;
+			}
+		}
+	}
+}
+
+
+/*--------------------------------------------------------------
+# New OptinMonster Support
+--------------------------------------------------------------*/
+@import "optinmonster-new";

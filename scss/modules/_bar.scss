@@ -1,0 +1,260 @@
+.bar {
+	line-height: 1.9;
+	min-height: 60px;
+
+	@media only screen and (max-width: 349px) {
+		display: none;
+	}
+
+	@include iphone_x( 'portrait' ) {
+		padding-bottom: env(safe-area-inset-bottom);
+	}
+
+	@include iphone_x( 'landscape' ) {
+		display: none;
+	}
+
+	&.is-hidden {
+		transform: translateY(100%);
+	}
+
+	.container {
+		@media only screen and (max-width: 699px) {
+			display: block;
+		}
+	}
+
+	.flex.justify-start {
+		padding-right: 15px;
+
+		@media only screen and (max-width: 699px) {
+			justify-content: center;
+			padding-right: 0;
+		}
+	}
+
+	.flex.justify-end {
+		display: none;
+
+		@media only screen and (min-width: 700px) {
+			display: inline;
+		}
+
+		@include hover {
+			&:hover {
+				.thumbnail {
+					transform: scale(1.05);
+					box-shadow: 0 0 10px rgba(0,0,0,.05);
+				}
+			}
+		}
+	}
+
+	.thumbnail {
+		display: inline-block;
+		position: relative;
+		right: 15px;
+		top: .03em;
+		left: 0;
+		margin-right: 10px;
+		transition: transform 300ms cubic-bezier(0.694, 0.0482, 0.335, 1), box-shadow 300ms cubic-bezier(0.694, 0.0482, 0.335, 1);
+
+		@media only screen and (min-width: 700px) {
+			position: absolute;
+			right: initial;
+			top: 7px;
+			left: -60px;
+		}
+
+		&,
+		img {
+			border-radius: 4px;
+			height: calc(60px - 14px);
+			width: calc(60px - 14px);
+		}
+
+		& + .site-minibar__right-content {
+			margin-left: -5px;
+			display: inline-block;
+			width: calc(100% - 70px);
+
+			@media only screen and (min-width: 700px) {
+				width: 100%;
+			}
+		}
+	}
+
+	.site-minibar__right-content {
+		display: block;
+		min-height: 60px;
+		vertical-align: middle;
+
+		@media only screen and (max-width: 699px) {
+			display: inline-block;
+		}
+
+		a {
+			bottom: 0;
+			left: 0;
+			outline: none;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+
+		.up-next {
+			@include font-size(13px);
+			display: inline-block;
+			position: relative;
+			top: 3px;
+
+			@media only screen and (min-width: 700px) {
+				top: 0;
+			}
+		}
+
+		.title {
+			@include font-size(15px);
+			overflow: hidden;
+			position: relative;
+			text-overflow: ellipsis;
+			top: -4px;
+			white-space: nowrap;
+
+			@media only screen and (min-width: 700px) {
+				@include font-size(17px);
+				top: -6px;
+				width: 200px;
+			}
+
+			@media only screen and (min-width: 820px) {
+				width: 300px;
+			}
+
+			@media only screen and (min-width: 900px) {
+				width: 400px;
+			}
+		}
+	}
+
+	.share-icon {
+		@include font-size(15px);
+		color: $twitter;
+		background: rgba(26, 139, 240, 0.1);
+		border-radius: 2px;
+		padding: .3em 2.25em .3em .75em;
+		transition: color 150ms cubic-bezier(0.694, 0.0482, 0.335, 1), background 150ms cubic-bezier(0.694, 0.0482, 0.335, 1);
+		top: 12px;
+		position: relative;
+
+		@media (min-width: 700px) {
+			border-radius: 4px;
+			top: 0;
+		}
+
+		.changing & {
+			transition: 0;
+		}
+
+		svg {
+			fill: $twitter;
+
+			.changing & {
+				transition: 0;
+			}
+		}
+
+		@include hover {
+			svg {
+				transition: fill 150ms cubic-bezier(0.694, 0.0482, 0.335, 1);
+			}
+
+			&:hover {
+				color: $twitter;
+			}
+
+			&:hover svg {
+				fill: $twitter;
+			}
+		}
+
+		&--facebook {
+			color: $facebook;
+			padding-right: 2.4em;
+
+			svg {
+				fill: $facebook;
+			}
+
+			@include hover {
+
+				&:hover {
+					color: $facebook;
+				}
+
+				&:hover svg {
+					fill: $facebook;
+				}
+			}
+		}
+
+		&--linkedin {
+			color: $linkedin;
+			padding-right: 2.4em;
+
+			svg {
+				fill: $linkedin;
+			}
+
+			@include hover {
+
+				&:hover {
+					color: $linkedin;
+				}
+
+				&:hover svg {
+					fill: $linkedin;
+				}
+			}
+		}
+	}
+
+	.share-icon + .share-icon {
+		margin-left: 5px;
+	}
+
+	.share-icon + .share-icon {
+		animation-delay: 100ms;
+	}
+
+	.share-icon + .share-icon + .share-icon {
+		animation-delay: 200ms;
+	}
+
+	.icon-twitter {
+		right: -3px;
+		top: 3px;
+		width: 40px;
+		height: 32px;
+		position: absolute;
+		transform: translate3d(0, 0, 0);
+	}
+
+	.icon-facebook-share {
+		right: 5px;
+		top: 8px;
+		position: absolute;
+		transform: translate3d(0, 0, 0);
+		width: 24px;
+		height: 24px;
+	}
+
+	.icon-linkedin {
+		right: 2px;
+		top: 1px;
+		position: absolute;
+		transform: translate3d(0, 0, 0);
+		width: 34px;
+		height: 34px;
+	}
+}

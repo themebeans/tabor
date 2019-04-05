@@ -1,0 +1,47 @@
+#infinite-handle {
+	padding: 5px 0;
+	text-align: center;
+
+	span {
+		@include font-size(17px);
+		appearance: none;
+		background: $black;
+		border: none;
+		box-shadow: none;
+		color: $white;
+		cursor: pointer;
+		display: inline-block;
+		border-radius: 4px;
+		font-family: $font__heading;
+		font-weight: 500;
+		padding: .47em 1.3em .47em;
+		position: relative;
+		text-decoration: none;
+		transform: translate3d(0, 0, 0);
+		transition: background 200ms cubic-bezier(0.645, 0.045, 0.355, 1), border 200ms cubic-bezier(0.645, 0.045, 0.355, 1);
+
+		&:hover {
+			background: $gray;
+			color: $white;
+			outline: none;
+		}
+
+		&:focus {
+			outline: 1px dotted $color--outline-button;
+			outline-offset: -4px;
+		}
+	}
+
+	button {
+		text-transform: capitalize;
+		box-shadow: none;
+	}
+}
+
+.infinite-loader {
+	min-height: 55px;
+
+	.spinner {
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,62 @@
+.entry-content {
+	.wp-block-cover {
+		@include blockMobileDisplay();
+		width: auto;
+
+		.wp-block-cover-text {
+			font-family: $font__heading;
+			font-size: $font__size-lg;
+			font-weight: $font__weight-heading;
+			max-width: 600px;
+			width: calc(100vw - (2 * 30px));
+		}
+
+		&.alignwide {
+			@include blockWideDisplay();
+
+			.wp-block-cover-text {
+				max-width: calc(5 * (100vw / 12));
+				padding: 30px;
+			}
+		}
+
+		&.alignfull {
+			.wp-block-cover-text {
+				max-width: calc(5.5 * (100vw / 12));
+				padding: 50px;
+			}
+		}
+
+		&.alignleft,
+		&.alignright,
+		&.aligncenter {
+			.wp-block-cover-text {
+				left: 50%;
+				padding: 20px;
+				position: absolute;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				width: 100%;
+				z-index: 1;
+			}
+		}
+
+		&.alignleft,
+		&.alignright {
+			width: calc(100% - (2 * #{$content__padding}));
+
+			@media screen and (min-width: $content__align--mobile-media-query--min) {
+				margin-top: 0.5em;
+				width: 100%;
+			}
+		}
+
+		&.has-left-content {
+			justify-content: flex-start;
+		}
+
+		&.has-right-content {
+			justify-content: flex-end;
+		}
+	}
+}

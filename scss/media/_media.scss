@@ -1,0 +1,43 @@
+.size-full,
+.size-large {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/* Chrome fix for emoji image replacements */
+.entry-content {
+
+	img.emoji,
+	.img.wp-smiley {
+		opacity: 1;
+		transition: none;
+	}
+}
+
+/*--------------------------------------------------------------
+## Alignments
+--------------------------------------------------------------*/
+@import "alignments";
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+@import "captions";
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+@import "galleries";
+
+/*--------------------------------------------------------------
+## Lazy Loading
+--------------------------------------------------------------*/
+@import "lazyload";

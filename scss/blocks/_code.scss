@@ -1,0 +1,18 @@
+.entry-content {
+	.wp-block-code {
+		@include blockMobileDisplay();
+		padding: 0.8em 1.1em;
+
+		&,
+		code {
+			background: none;
+		}
+
+		code {
+			font-size: 14px;
+			line-height: 1.8;
+			padding: 0;
+			top: 0;
+		}
+	}
+}

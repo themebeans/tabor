@@ -1,0 +1,20 @@
+.bean-pricing-table {
+
+	@media only screen and (min-width: 600px) {
+		margin-left: -20px;
+		width: calc( 100% + 40px );
+	}
+
+	@media only screen and (min-width: 768px) {
+		display: flex;
+	}
+
+	&.three-column-table {
+
+		.pricing-column {
+			float: none;
+			width: 100% !important;
+		}
+
+	}
+}

@@ -1,0 +1,144 @@
+.customize-partial-edit-shortcuts-shown {
+
+	.site-branding-text {
+
+		.customize-partial-edit-shortcut-button {
+			margin-left: -2px;
+			margin-top: -2px;
+		}
+	}
+
+	.custom-logo-link {
+		@media only screen and (min-width: 600px) {
+			margin-left: -30px;
+			align-items: center;
+			display: flex;
+			justify-content: center;
+
+			.customize-partial-edit-shortcut,
+			.customize-partial-edit-shortcut-button {
+				position: relative;
+				float: none;
+				left: initial;
+			}
+
+			.customize-partial-edit-shortcut-button {
+				left: -5px;
+			}
+
+			.customize-partial-edit-shortcut {
+				height: auto;
+				width: auto;
+			}
+		}
+
+		+ .site-title:not(.no-site-logo) {
+			.customize-partial-edit-shortcut {
+				display: none;
+			}
+		}
+	}
+
+	.customize-partial-edit-shortcut-blogname,
+	.customize-partial-edit-shortcut-custom_logo,
+	.customize-partial-edit-shortcut-blogdescription {
+		@media only screen and (max-width: 599px) {
+			display: none;
+		}
+	}
+
+	#site-navigation {
+
+		.customize-partial-edit-shortcut-button {
+			@media only screen and (min-width: 600px) and (max-width: 700px) {
+				margin-top: -2px;
+			}
+
+			@media only screen and (max-width: 599px) {
+				display: none;
+			}
+		}
+	}
+
+	.widget-area__wrapper {
+
+		.customize-partial-edit-shortcut--footer-colors {
+			top: 8px;
+			left: 10px;
+
+			.customize-partial-edit-shortcut-button {
+				left: 0;
+
+				&::before {
+					box-shadow: none;
+					color: $white;
+					content: "\f540";
+					font: 400 15px/72px dashicons;
+					height: 20px;
+					line-height: 20px;
+					display: block;
+					position: absolute;
+					right: 0.18em;
+					text-shadow: 0 -1px 1px rgba(0, 122, 182, 0.8), 1px 0 1px #007ab6, 0 1px 1px #007ab6, -1px 0 1px #007ab6;
+					top: 0.24em;
+					width: 20px;
+				}
+			}
+		}
+
+		.widget {
+
+			.customize-partial-edit-shortcut-button {
+				left: -35px;
+				top: 4px;
+			}
+		}
+
+		.footer-navigation {
+
+			.customize-partial-edit-shortcut-button {
+				display: none;
+			}
+		}
+	}
+
+	.themebeans-customizer-add-widget-line {
+		background: none;
+		border: none;
+		box-shadow: none;
+		padding: 8px 0;
+		width: 100%;
+		opacity: 0;
+		visibility: hidden;
+		margin-top: 20px;
+		transition: opacity 150ms cubic-bezier(0.38, 0.32, 0.36, 0.98), visibility 0 cubic-bezier(0.38, 0.32, 0.36, 0.98) 150ms;
+
+		&::after {
+			background: #008ec2;
+			content: "";
+			display: block;
+			height: 3px;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 440px;
+		}
+	}
+
+	#secondary:hover .themebeans-customizer-add-widget-line {
+		opacity: 1;
+		visibility: visible;
+		transition: opacity 150ms cubic-bezier(0.38, 0.32, 0.36, 0.98), visibility 0 cubic-bezier(0.38, 0.32, 0.36, 0.98) 0;
+	}
+
+	#engagement-bar {
+
+		.customize-partial-edit-shortcut-button {
+			margin-top: 12px;
+			margin-left: -6px;
+
+			@media only screen and (max-width: 699px) {
+				display: none;
+			}
+		}
+	}
+}

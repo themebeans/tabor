@@ -1,0 +1,10 @@
+.entry-content {
+	.wp-block-table {
+		@include blockMobileDisplay();
+		padding: 20px 25px;
+
+		@media screen and (max-width: $content__width) {
+			width: calc(100% - #{$content__padding * 2});
+		}
+	}
+}

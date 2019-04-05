@@ -1,0 +1,10 @@
+.entry-content {
+	.wp-block-verse {
+		@include blockMobileDisplay();
+		font-size: $font__size-xs;
+		line-height: 1.8;
+		padding-top: 0.7em;
+		padding-bottom: 0.65em;
+		padding-left: 1em;
+	}
+}

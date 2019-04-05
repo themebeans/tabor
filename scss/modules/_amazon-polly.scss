@@ -1,0 +1,45 @@
+#amazon-polly-by-tab {
+	@include hide();
+}
+
+#amazon-polly-audio-tab {
+	padding: 0;
+}
+
+#amazon-polly-audio-table {
+	@include blockMobileDisplay();
+	border: none !important;
+	margin-top: 15px !important;
+	width: calc( 100% - 40px ) !important;
+
+	body:not(.single) & {
+		display: none;
+	}
+
+	audio {
+		margin-bottom: -10px;
+	}
+}
+
+.amazon-polly-label {
+	margin-bottom: 0 !important;
+
+	body:not(.single) & {
+		display: none;
+	}
+
+	.icon {
+		fill: $gray;
+		height: 28px;
+		left: -4px;
+		opacity: .8;
+		position: relative;
+		width: 28px;
+	}
+
+	&-text {
+		margin-bottom: 0;
+		top: 1px;
+		font-size: 17px;
+	}
+}

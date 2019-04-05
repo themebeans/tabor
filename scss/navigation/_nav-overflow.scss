@@ -1,0 +1,45 @@
+.nav--overflow:not(.sub-menu) {
+	height: 33px;
+	line-height: initial;
+
+	&::after {
+		background: linear-gradient(90deg, hsla(0, 0%, 100%, 0) 0, $white 95%, $white);
+		content: "";
+		display: block;
+		height: 100%;
+		pointer-events: none;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 50px;
+
+		@media (min-width: 600px) {
+			width: 100px;
+		}
+	}
+
+	li {
+		display: inline-block;
+		padding: 0;
+		position: relative;
+		text-align: left;
+
+		a {
+			display: inline-block;
+		}
+	}
+
+	> div {
+		height: 44px;
+		overflow-x: auto;
+		overflow-y: hidden;
+		padding-bottom: 50px;
+		-webkit-overflow-scrolling: touch;
+		white-space: nowrap;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+	}
+
+	ul {
+		white-space: nowrap;
+	}
+}

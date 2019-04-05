@@ -1,0 +1,95 @@
+#secondary {
+	min-height: 155px;
+
+	.optin-monster-api {
+
+		.Campaign,
+		.Campaign__content,
+		.Campaign__alphaLayer {
+			background: none !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		.Campaign__alphaLayer {
+			margin-top: 40px !important;
+		}
+
+		.tucson-element-title-content {
+			color: $black !important;
+			font-weight: 800;
+			font-family: $font__heading !important;
+			@extend .h2;
+		}
+
+		#tucson-content {
+			margin-bottom: 15px;
+		}
+
+		.tucson-element-tagline-content {
+			@extend body;
+			background: none !important;
+			margin-bottom: 25px !important;
+		}
+
+		input {
+			appearance: none;
+			background: none !important;
+			background: transparent !important;
+			border: none !important;
+			border-bottom: 4px solid $black !important;
+			color: $black !important;
+			font-family: $font__heading !important;
+			font-weight: 600 !important;
+			border-radius: 0;
+			font-size: 18px !important;
+			padding-bottom: 0;
+			box-shadow: none !important;
+			padding-left: 0 !important;
+			height: 50px !important;
+			margin-bottom: 25px !important;
+
+			&:focus {
+				box-shadow: none !important;
+				border-color: $gray !important;
+			}
+
+			@include input-placeholder {
+				color: rgba(0, 0, 0, 0.8);
+			}
+		}
+
+		.tucson-field-submit {
+			border: 0 !important;
+			background: $black !important;
+			margin-bottom: 0;
+			height: 50px !important;
+			border-radius: 4px;
+			box-shadow: none !important;
+			color: #fff !important;
+			transition: 200ms background cubic-bezier(0.3, -0.55, 0.1, 1.1);
+
+			&:hover {
+				background: $gray !important;
+			}
+
+			.changing & {
+				transition: 0;
+			}
+		}
+
+		p.tucson-error {
+			font-family: $font__heading !important;
+			font-style: inherit!important;
+			color: $gray !important;
+			position: absolute;
+			margin: 50px auto !important;
+			width: 100%;
+			text-align: center;
+
+			@media only screen and (min-width: 700px) {
+				margin: 15px auto !important;
+			}
+		}
+	}
+}

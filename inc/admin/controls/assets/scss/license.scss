@@ -1,0 +1,126 @@
+// Variables.
+@import "variables";
+@import "tooltips";
+
+.customize-control-themebeans-license {
+	position: relative;
+
+	.license-form {
+		margin-top: 13px;
+		*zoom: 1;
+
+		&:after,
+		&:before {
+			content: "";
+			display: table;
+		}
+
+		&:after {
+			clear: both;
+		}
+	}
+
+	.spinner {
+		position: absolute;
+		right: 22px;
+
+		&.visible {
+			visibility: visible;
+		}
+	}
+
+	input[type="text"] {
+		border-radius: 3px;
+		float: left;
+		margin-bottom: 7px;
+		padding-bottom: 4px;
+		padding-top: 4px;
+		transition: 50ms border-color ease-in-out, 50ms box-shadow ease-in-out;
+		width: calc(100% - 88px);
+
+		&.is-valid {
+
+			&:focus {
+				border-color: #46b450;
+				box-shadow: 0 0 2px #46b450;
+			}
+		}
+
+		&.is-not-valid {
+			animation: shake 0.5s linear;
+
+			&:focus {
+				border-color: #dc3232;
+				box-shadow: 0 0 2px rgba(220, 50, 50, 0.36);
+			}
+		}
+	}
+
+	.button {
+		float: right;
+		padding-left: 0;
+		padding-right: 0;
+		width: 84px;
+
+		&:disabled {
+			color: #f7f7f7 !important;
+			text-shadow: none !important;
+		}
+	}
+
+	#themebeans-activate-license.is-valid,
+	#themebeans-deactivate-license.is-not-valid {
+		display: none;
+	}
+
+	#theme-license-info {
+		margin-top: 15px;
+
+		li span {
+			text-transform: capitalize;
+		}
+
+		&.is-not-valid {
+			display: none;
+		}
+	}
+
+	#theme-license-error {
+		margin-top: 5px;
+		color: $red;
+
+		a {
+			color: $red;
+		}
+
+		&.is-valid {
+			display: none;
+		}
+	}
+}
+
+@keyframes shake {
+
+	8%,
+	41% {
+		transform: translateX(-4px);
+	}
+
+	25%,
+	58% {
+		transform: translateX(4px);
+	}
+
+	75% {
+		transform: translateX(-2px);
+	}
+
+	92% {
+		transform: translateX(2px);
+	}
+
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+}

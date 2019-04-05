@@ -1,0 +1,75 @@
+/*--------------------------------------------------------------
+# CMB2 Styles
+--------------------------------------------------------------*/
+.cmb2-metabox .cmb2-metabox-description {
+	font-style: 13px;
+	color: #666;
+}
+
+#cmb2-metabox-portfolio_type {
+
+	.cmb-type-checkbox {
+		display: flex;
+		justify-content: space-between;
+
+		.cmb-th {
+			align-items: flex-start;
+		}
+
+		.cmb-td {
+			align-items: flex-end;
+		}
+	}
+}
+
+.cmb2-id--bean-portfolio-type-video .cmb-th label::before,
+.cmb2-id--bean-portfolio-type-gallery .cmb-th label::before {
+	color: #DDD;
+	content: '\f161';
+	display: inline-block;
+	font: 400 20px/1 dashicons;
+	margin-right: 7px;
+	position: relative;
+	speak: none;
+	transition: all .1s ease-in-out;
+	vertical-align: middle;
+}
+
+.cmb2-id--bean-portfolio-type-video .cmb-th label::before {
+	content: '\f126';
+}
+
+/*--------------------------------------------------------------
+# Editor styles for the main metabox area (Gutenberg)
+--------------------------------------------------------------*/
+.edit-post-layout__metaboxes {
+	&:not(:empty) {
+		padding: 0;
+	}
+
+	&:not(:empty) .edit-post-meta-boxes-area {
+		margin: auto 0;
+	}
+
+	// Main clickable headers.
+	.edit-post-meta-boxes-area #poststuff h2.hndle {
+		color: #191e23;
+	}
+
+	// Meta labels.
+	.form-table.meta_box th label {
+		color: #555d66;
+		font-size: 13px;
+		font-weight: 400;
+	}
+
+	.form-table.meta_box .description {
+		color: #555d66;
+		font-size: 13px;
+	}
+}
+
+/*--------------------------------------------------------------
+# Editor sidebar styles for CMB2 (Gutenberg)
+--------------------------------------------------------------*/
+@import "cmb2-sidebar";

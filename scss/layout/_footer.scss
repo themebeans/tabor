@@ -1,0 +1,113 @@
+.site-footer {
+	overflow: hidden;
+	padding: 4em 0;
+	margin: 0;
+	position: relative;
+
+	@media only screen and (min-width: 700px) {
+		padding: 9em 0;
+	}
+
+	.widget {
+		margin-bottom: 2em;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 440px;
+
+		&.optin-monster-api {
+			min-height: 155px;
+		}
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+
+		h2,
+		.h2 {
+			margin-bottom: 15px;
+		}
+
+		p:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+
+	.footer-navigation {
+		padding: 1.3em 0 0;
+	}
+
+	.footer-menu {
+		text-align: center;
+
+		li {
+			margin-bottom: 5px;
+
+			@media only screen and (min-width: 400px) {
+				display: inline-block;
+				margin: 0 5px;
+			}
+
+			a {
+				@include font-size(18px);
+			}
+		}
+	}
+}
+
+.widget-area {
+
+	&__inner {
+		@include structure;
+	}
+
+	&__wrapper {
+		padding: 35px 30px 35px;
+		background: $background;
+		position: relative;
+
+		@media only screen and (min-width: 600px) {
+			margin-left: -4vw;
+			width: calc(100% + 8vw);
+		}
+
+		@media only screen and (min-width: 700px) {
+			padding: 6.5vw 7vw;
+		}
+
+		@media only screen and (min-width: 850px) {
+			margin-left: -7vw;
+			width: calc(100% + 14vw);
+		}
+
+		@media only screen and (min-width: 1400px) {
+			padding: 90px 100px;
+		}
+	}
+
+}
+
+.site-info {
+	@include font-size(18px);
+	padding-bottom: 1em;
+
+	@media only screen and (min-width: 700px) {
+		padding-bottom: 0;
+	}
+
+	.widget-area + & {
+		padding-top: 6em;
+
+		@media only screen and (min-width: 700px) {
+			padding-top: 9em;
+		}
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+
+	.site-theme {
+		display: block;
+		margin-top: 0.75em;
+	}
+}

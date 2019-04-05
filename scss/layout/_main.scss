@@ -1,0 +1,48 @@
+.site-content {
+	overflow: hidden;
+	z-index: 2;
+
+	& {
+		padding-top: 2em;
+
+		@media only screen and (max-width: 899px) and (min-width: 600px) {
+			padding-top: 4.4em;
+		}
+	}
+
+	.has-sidebar & {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	.blog &,
+	.search &,
+	.single &,
+	.archive & {
+
+		@media only screen and (min-width: 600px) {
+			padding-top: 2.77em;
+		}
+
+		@media only screen and (max-width: 899px) and (min-width: 600px) {
+			padding-top: 8.19em;
+		}
+	}
+}
+
+.site {
+	margin-bottom: 0;
+
+	body:not(.blog):not(.search):not(.single):not(.archive) & {
+		margin-top: 0;
+	}
+
+	.blog &,
+	.search &,
+	.single &,
+	.archive & {
+		@media only screen and (min-width: 600px) {
+			padding-top: 2em;
+		}
+	}
+}

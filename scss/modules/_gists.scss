@@ -1,0 +1,66 @@
+.entry-content h2 + .oembed-gist,
+.entry-content h3 + .oembed-gist,
+.entry-content h3 + .oembed-gist,
+.entry-content h4 + .oembed-gist {
+	margin-top: 1.75em;
+
+	@media (min-width: 600px) {
+		margin-top: 2.1em;
+	}
+}
+
+.oembed-gist {
+	margin: 1.95em 0 1.9em;
+
+	@media (min-width: 600px) {
+		margin: 2.35em 0 2.35em;
+	}
+
+	.gist {
+		a {
+			box-shadow: none !important;
+		}
+
+		img {
+			opacity: 1;
+			position: relative;
+			top: 1px;
+		}
+
+		.blob-num {
+			display: none;
+		}
+
+		.gist-file {
+			border-bottom: 1px solid #ddd;
+			margin-bottom: 0;
+		}
+
+		.gist-file + .gist-file {
+			margin-top: 20px;
+		}
+
+		// .gist-meta {
+		// 	background: #fafafa;
+		// 	color: #fafafa;
+		// 	position: relative;
+
+		// 	a {
+		// 		opacity: 0;
+		// 	}
+
+		// 	a:first-of-type {
+		// 		@include font-size(14px);
+		// 		position: absolute;
+		// 		color: $gray;
+		// 		left: 0;
+		// 		box-shadow: none;
+		// 		text-transform: capitalize;
+		// 		right: 0;
+		// 		opacity: 1;
+		// 		line-height: 1;
+		// 		text-align: center;
+		// 	}
+		// }
+	}
+}

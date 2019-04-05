@@ -1,0 +1,73 @@
+// .alignleft,
+// .wp-block-image .alignleft {
+// 	display: block;
+// 	margin: 0.3em auto 0.8em;
+
+// 	@media only screen and (min-width: 300px) {
+// 		display: inline;
+// 		float: left;
+// 		margin-left: initial;
+// 		margin-right: 1.45em;
+// 	}
+
+// 	@media only screen and (min-width: 600px) {
+// 		max-width: 100%;
+// 		margin-right: 2.5em;
+// 		margin-top: 0.55em;
+// 	}
+// }
+
+// .alignright,
+// .wp-block-image .alignright {
+// 	display: block;
+// 	margin: 0.3em auto 0.8em;
+
+// 	@media only screen and (min-width: 300px) {
+// 		display: inline;
+// 		float: right;
+// 		margin-right: initial;
+// 		margin-left: 1.45em;
+// 	}
+
+// 	@media only screen and (min-width: 600px) {
+// 		max-width: 100%;
+// 		margin-left: 2.3em;
+// 		margin-top: 0.55em;
+// 	}
+// }
+
+// .aligncenter:not([class*="wp-block"]):not([class*="is-resized"]) {
+// 	@include top-spacer;
+// 	@include bottom-spacer;
+// 	clear: both;
+// 	padding-top: 10px;
+// 	margin: 0 auto;
+
+// 	@media only screen and (min-width: 600px) {
+// 		margin-left: -4vw;
+// 		width: calc(100% + 8vw) !important;
+// 		max-width: calc(100% + 8vw) !important;
+// 	}
+
+// 	@media only screen and (min-width: 870px) {
+// 		margin-left: -7vw;
+// 		width: calc(100% + 14vw) !important;
+// 		max-width: calc(100% + 14vw) !important;
+// 	}
+
+// 	@media only screen and (max-width: 950px) and (min-width: 800px) {
+
+// 		&[data-was-processed="true"] {
+// 			transition: 300ms cubic-bezier(0.694, 0, 0.335, 1), margin 300ms cubic-bezier(0.694, 0, 0.335, 1);
+// 		}
+// 	}
+// }
+
+// .alignnone {
+// 	width: 100%;
+// 	margin: 7.25% 0;
+
+// 	@media only screen and (min-width: 600px) {
+// 		margin: 40px 0;
+// 	}
+// }

@@ -1,0 +1,146 @@
+.entry-content {
+	.wp-block-pullquote {
+		@include blockMobileDisplay();
+		border-color: $black;
+		padding-bottom: 2.5em;
+		padding-top: 2.5em;
+		border-width: 3px;
+
+		&.alignwide {
+			@include blockWideDisplay();
+		}
+
+		&.alignfull {
+			padding-left: 20px;
+			padding-right: 20px;
+
+			p,
+			cite {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				max-width: $content__width--wide;
+			}
+		}
+
+		blockquote {
+			margin: 0;
+			max-width: none;
+			padding: 0 !important;
+			border: none !important;
+			text-align: center;
+			word-break: break-word;
+
+			p {
+				margin-bottom: 0;
+
+				@media only screen and (min-width: 600px) {
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+			}
+
+			&:not([class*="text-color"]) {
+				color: $color__text-main;
+
+				cite {
+					color: $gray;
+				}
+			}
+		}
+
+		p {
+			font-family: $font__heading;
+			font-size: $font__size-mdlrg;
+			font-weight: 500;
+			hyphens: auto;
+			line-height: 1.4;
+			margin-bottom: 0;
+			margin-top: 0;
+			word-break: break-word;
+
+			em {
+				font-style: normal;
+			}
+		}
+
+		cite {
+			display: inline-block;
+			font-size: $font__size-sm;
+			font-family: $font__figcaption;
+			margin-bottom: -10px;
+			margin-top: .75em;
+			text-transform: none;
+		}
+
+		&.alignleft,
+		&.alignright {
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 20px;
+			padding-bottom: 25px;
+
+			@media screen and (min-width: $content__align--mobile-media-query--min) {
+				margin-top: 0.65em;
+				margin-bottom: 1.75em;
+			}
+
+			blockquote {
+				margin-left: 0;
+				max-width: 100%;
+				padding: 0;
+				text-align: left;
+			}
+
+			p {
+				padding-left: 0;
+				padding-right: 0;
+			}
+
+			cite {
+				display: block;
+				margin-bottom: -7px;
+			}
+		}
+
+		&.is-style-solid-color {
+			padding: 20px 35px;
+
+			&.alignleft,
+			&.alignright {
+				@media screen and (min-width: $content__align--mobile-media-query--min) {
+					margin-bottom: 0.65em;
+					margin-top: 0.65em;
+				}
+			}
+
+			p {
+				margin-bottom: 0.3em;
+				margin-top: 0.3em;
+				padding-left: 0;
+				padding-right: 0;
+			}
+
+			blockquote {
+				margin: 0 auto;
+				text-align: left;
+			}
+
+			cite {
+				display: block;
+				margin-bottom: 0.5em;
+				opacity: 0.8;
+			}
+
+			&:not([class*="background-color"]) {
+				background-color: $black;
+			}
+
+			blockquote:not([class*="text-color"]),
+			blockquote:not([class*="text-color"]) cite,
+			blockquote:not([class*="text-color"]) a {
+				color: $white;
+			}
+		}
+	}
+}

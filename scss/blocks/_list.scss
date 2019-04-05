@@ -1,0 +1,29 @@
+.entry-content {
+	ul,
+	ol {
+
+		li {
+			margin: 0 0 5px 20px;
+		}
+
+		ol {
+			margin-top: 7px;
+			margin-bottom: 7px;
+			padding-left: 0;
+
+			li {
+				list-style: decimal;
+			}
+		}
+
+		ul {
+			margin-top: 7px;
+			margin-bottom: 7px;
+			padding-left: 0;
+
+			li {
+				list-style: circle;
+			}
+		}
+	}
+}

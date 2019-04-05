@@ -1,0 +1,203 @@
+.submit,
+.button {
+	@include font-size(16px);
+	appearance: none;
+	background: $black;
+	border: none;
+	box-shadow: none !important;
+	color: $white;
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 4px;
+	font-family: $font__heading;
+	font-weight: 500;
+	padding: .53em 1.3em .53em;
+	position: relative;
+	text-decoration: none;
+	transform: translate3d(0, 0, 0);
+	transition: background 200ms cubic-bezier(0.645, 0.045, 0.355, 1), border 200ms cubic-bezier(0.645, 0.045, 0.355, 1);
+
+	&:hover {
+		background: $gray;
+		color: $white;
+		outline: none;
+	}
+
+	&:focus {
+		outline: 1px dotted $color--outline-button;
+		outline-offset: -4px;
+	}
+
+	.changing & {
+		transition: 0;
+	}
+
+	&--sml {
+		@include font-size(15px);
+		padding: .24em 1.3em .2em;
+	}
+
+	&--lrg {
+		@include font-size(18px);
+		padding-top: .44em;
+	}
+
+	&--ghost {
+		background: transparent !important;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		color: $black;
+
+		&:hover {
+			border-color: rgba(0, 0, 0, 0.3);
+			color: $black;
+		}
+	}
+
+	&--gray {
+		background: $background;
+		color: $gray;
+
+		&:hover {
+			color: $gray;
+		}
+	}
+
+	&--round {
+		border-radius: 50px;
+	}
+
+	&--trans {
+		@include font-size(17px);
+		background: transparent !important;
+		border: 0;
+		color: $black;
+
+		&:hover {
+			background: $background;
+			color: $black;
+			border: 0;
+			box-shadow: none
+		}
+	}
+
+	&--attention {
+		animation: buttonAttention 800ms infinite alternate;
+	}
+
+	&--attention--fb {
+		animation: buttonAttentionFB 800ms infinite alternate;
+	}
+
+	&--attention--linkedin {
+		animation: buttonAttentionLinkedIn 800ms infinite alternate;
+	}
+
+	&--chromeless {
+		border: 0;
+		box-shadow: 0;
+		display: inline-block;
+		background: none !important;
+		line-height: 1 !important;
+	}
+
+	&--fullwidth {
+		width: 100%;
+	}
+
+	&--mobile-fullwidth {
+		@media only screen and (max-width: 599px) {
+			width: 100%;
+		}
+	}
+
+	.font-size--large & {
+		@include font-size(17px);
+	}
+
+	.font-size--larger & {
+		@include font-size(18px);
+	}
+
+	.font-size--largest & {
+		@include font-size(19px);
+	}
+}
+
+input[type=submit],
+input[type=button] {
+	@include font-size(16px);
+	appearance: none;
+	background: #1c1c1c;
+	border: none;
+	box-shadow: 0 0 0;
+	color: $white;
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 4px;
+	font-family: $font__heading;
+	font-weight: 500;
+	padding: .53em 1.3em .53em;
+	position: relative;
+	text-decoration: none;
+	transform: translate3d(0, 0, 0);
+	transition: background 200ms cubic-bezier(0.645, 0.045, 0.355, 1), border 200ms cubic-bezier(0.645, 0.045, 0.355, 1);
+
+	&:hover {
+		background: $gray;
+		color: $white;
+		outline: none;
+	}
+
+	&:focus {
+		outline: 1px dotted $color--outline-button;
+		outline-offset: -4px;
+	}
+
+	.changing & {
+		transition: 0;
+	}
+}
+
+.animation--pulse:active {
+	animation: pulse 100ms;
+	animation-fill-mode: none;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	15% {
+		transform: scale(.85);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes buttonAttention {
+	0% {
+		background: rgba($twitter, 0.02)
+	}
+	100% {
+		background: rgba($twitter, 0.08);
+	}
+}
+
+@keyframes buttonAttentionFB {
+	0% {
+		background: rgba($facebook, 0.02);
+	}
+	100% {
+		background: rgba($facebook, 0.08);
+	}
+}
+
+@keyframes buttonAttentionLinkedIn {
+	0% {
+		background: rgba($linkedin, 0.02);
+	}
+	100% {
+		background: rgba($linkedin, 0.08);
+	}
+}

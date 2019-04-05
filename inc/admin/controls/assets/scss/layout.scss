@@ -1,0 +1,125 @@
+// Variables.
+@import "variables";
+
+.layout {
+	display: none !important;
+}
+
+.customize-control-themebeans-layout {
+	margin-top: 0;
+	margin-bottom: 0;
+	position: relative;
+}
+
+.layout-switcher__wrapper {
+	overflow-y: hidden;
+	max-height: 0;
+	transition-property: all;
+	transition-duration: 0.6s;
+	transition-timing-function: cubic-bezier(.645,.045,.355,1);
+	transition-timing-function: ease-in-out;
+}
+
+.layout-switcher__wrapper.open {
+	max-height: 1000px;
+}
+
+.button.layout-switcher {
+	position: absolute;
+	right: 0;
+	top: -38px;
+}
+
+.layout-switcher:focus,
+.layout-switcher:active {
+	outline: none;
+	border-color: #ccc !important;
+	box-shadow: 0 0 0 #000 !important;
+}
+
+.customize-control-themebeans-layout .customize-control-description {
+	display: none;
+}
+
+.customize-control-themebeans-layout label {
+	background: #fff;
+	cursor: pointer;
+	display: block;
+	margin: 0 0 5px;
+	border: 1px solid transparent;
+	transition: border-color 0.2s, background-color 0.2s, padding 1s;
+}
+
+@media screen and (min-width: 1800px) {
+
+	.customize-control-themebeans-layout label {
+		padding: 0 10%;
+	}
+}
+
+@media screen and (min-width: 2500px) {
+
+	.customize-control-themebeans-layout label {
+		padding: 0 15%;
+	}
+}
+
+.customize-control-themebeans-layout label:first-of-type {
+	margin-top: 0;
+}
+
+.customize-control-themebeans-layout label:hover {
+	border-color: #555;
+}
+
+.customize-control-themebeans-layout label:last-of-type {
+	margin-bottom: 30px;
+}
+
+.intrinsic {
+	line-height: 0;
+	margin-bottom: 0;
+	overflow: hidden;
+	position: relative;
+
+	&::after {
+		content: "";
+		display: block;
+		padding-top: 37.367%;
+	}
+}
+
+
+.layout-screenshot {
+	background-color: rgba(255, 255, 255, 0.7);
+	background-position: center center;
+	background-repeat: no-repeat;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-size: contain;
+	transition: background-color 0.2s;
+}
+
+.layout:checked + label .layout-screenshot {
+	background-color: #fff;
+}
+
+.layout:checked + label,
+.customize-control-themebeans-layout label:focus {
+	border-color: #0085ba;
+}
+
+.layout:checked + label:hover .layout-screenshot img {
+	opacity: 1;
+}
+
+.layout:checked + label .more-details .preview {
+	opacity: 0;
+}
+
+.layout:checked + label .more-details .active {
+	opacity: 1;
+}

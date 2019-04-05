@@ -1,0 +1,1700 @@
+# Copyright (C) 2018 Tabor
+# This file is distributed under the same license as the Tabor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tabor\n"
+"Report-Msgid-Bugs-To: https://themebeans.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-09-25 21:51+0200\n"
+"Language-Team: ThemeBeans\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 2.1.1\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:16
+msgid "404"
+msgstr "404"
+
+#: 404.php:17
+msgid "This isn’t what you’re looking for."
+msgstr "Das ist nicht das, wonach du suchst."
+
+#: archive.php:51, index.php:45, search.php:53
+msgid "Previous page"
+msgstr "Vorherige Seite"
+
+#: archive.php:52, index.php:46, search.php:54
+msgid "Next page"
+msgstr "Nächsten Seite"
+
+#: archive.php:53, index.php:47, search.php:55
+msgid "Page"
+msgstr "Seite"
+
+#: comments.php:51
+msgid "Previous"
+msgstr "Zurück"
+
+#: comments.php:52, inc/admin/merlin-config.php:42
+msgid "Next"
+msgstr "Nächste"
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "Kommentare sind deaktiviert."
+
+#: components/page/content-page.php:63, components/post/content-link.php:50,
+#: components/post/content.php:46
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: components/post/bar.php:65
+msgid "Tweet"
+msgstr "Tweet"
+
+#: components/post/bar.php:74, inc/customizer/customizer.php:591
+msgid "Facebook"
+msgstr "Facebook"
+
+#: components/post/bar.php:83, inc/customizer/customizer.php:645
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: components/post/bar.php:104
+msgid "Up Next:"
+msgstr "Nächster Beitrag:"
+
+#: components/post/content-none.php:21, search.php:30
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: components/post/content-none.php:31
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Du bist bereit deinen ersten Beitrag zu veröffentlichen?  <a href=\"%1$s"
+"\">Starte hier</a>."
+
+#: components/post/content-none.php:35
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Es scheint, dass wir nicht finden können, was du suchst. Vielleicht kann die "
+"Suche helfen."
+
+#: footer.php:34, functions.php:96
+msgid "Footer Menu"
+msgstr "Footer Menü"
+
+#: functions.php:95, functions.php:217, header.php:68
+msgid "Primary Menu"
+msgstr "Hauptnavigation"
+
+#: functions.php:97, functions.php:231, header.php:45
+msgid "Social Menu"
+msgstr "Social-Menü"
+
+#: functions.php:179
+msgctxt "Theme starter content"
+msgid "Logo"
+msgstr "Logo"
+
+#: functions.php:187
+msgctxt "Theme starter content"
+msgid "Tabor, A WordPress theme by ThemeBeans"
+msgstr "Tabor, ein WordPress-Theme von ThemeBeans"
+
+#: functions.php:201
+msgctxt "Theme starter content"
+msgid "Home"
+msgstr "Start"
+
+#: functions.php:205
+msgctxt "Theme starter content"
+msgid "Hi, I’m Rich Tabor"
+msgstr "Hi, ich bin Rich Tabor"
+
+#: functions.php:209
+msgctxt "Theme starter content"
+msgid "Why, hello there"
+msgstr "Hey Hallo"
+
+#: functions.php:220
+msgctxt "Theme starter content"
+msgid "Articles"
+msgstr "Beiträge"
+
+#: functions.php:223
+msgctxt "Theme starter content"
+msgid "About"
+msgstr "Über"
+
+#: functions.php:226
+msgctxt "Theme starter content"
+msgid "Contact"
+msgstr "Kontakt"
+
+#: functions.php:261
+msgid "Footer"
+msgstr "Footer"
+
+#: functions.php:263
+msgid "Appears in the site footer."
+msgstr "Wird im Footer der Seite angezeigt."
+
+#: functions.php:274
+msgid "Front Page"
+msgstr "Startseite"
+
+#: functions.php:276
+msgid "Appears on the front page only."
+msgstr "Erscheint nur auf der Startseite."
+
+#: functions.php:287
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:289
+msgid "Appears on the single pages and posts, if widgets are placed here."
+msgstr ""
+"Erscheint auf den einzelnen Seiten und Beiträge, wenn Widgets hier platziert "
+"werden."
+
+#: functions.php:347
+msgid "Expand child menu"
+msgstr "Untermenü öffnen"
+
+#: functions.php:348
+msgid "Collapse child menu"
+msgstr "Untermenü schließen"
+
+#: functions.php:412
+msgctxt "Heebo font: on or off"
+msgid "on"
+msgstr "am"
+
+#: functions.php:419
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr "am"
+
+#: functions.php:618
+msgid "Please enter the password below to access"
+msgstr "Bitte Passwort eingeben"
+
+#: functions.php:634
+msgid "Password"
+msgstr "Passwort"
+
+#: functions.php:635
+msgid "Submit"
+msgstr "Senden"
+
+#: header.php:27
+msgid "Skip to content"
+msgstr "Zum Inhalt springen"
+
+#: header.php:72
+msgid "Menu"
+msgstr "Menü"
+
+#: inc/admin/back-compat.php:35, inc/admin/back-compat.php:44,
+#: inc/admin/back-compat.php:56
+msgid ""
+"Tabor requires at least WordPress version 4.7. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+"Tabor erfordert mindestens die WordPress Version 4.7. Du verwendest Version "
+"%s. Bitte aktualisiere und versuche es erneut."
+
+#: inc/admin/controls/class-themebeans-layout-control.php:56,
+#: inc/admin/controls/class-themebeans-layout-control.php:97
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/admin/controls/class-themebeans-layout-control.php:57
+msgid "Close"
+msgstr "Schließen"
+
+#: inc/admin/controls/class-themebeans-license-control.php:131,
+#: inc/admin/merlin-config.php:49,
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2826
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: inc/admin/controls/class-themebeans-license-control.php:132
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: inc/admin/controls/class-themebeans-license-control.php:139
+msgid "Status:"
+msgstr "Status:"
+
+#: inc/admin/guide/class-themebeans-guide.php:126,
+#: inc/admin/merlin-config.php:61,
+#: inc/admin/updater/class-themebeans-license.php:170
+msgid "Need help?"
+msgstr "Brauchst du Hilfe?"
+
+#: inc/admin/guide/class-themebeans-guide.php:132
+msgid "WordPress Theme"
+msgstr "WordPress Theme"
+
+#: inc/admin/guide/class-themebeans-guide.php:135
+msgid "Back"
+msgstr "Zurück"
+
+#: inc/admin/guide/class-themebeans-guide.php:142
+msgid "Search our Help Center..."
+msgstr "Durchsuche unser Hilfe-Center..."
+
+#: inc/admin/guide/class-themebeans-guide.php:143
+msgid "Search"
+msgstr "Suche"
+
+#: inc/admin/merlin-config.php:34
+msgid "Theme Setup"
+msgstr "Theme Einstellungen"
+
+#: inc/admin/merlin-config.php:37
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr "%1$s%2$s Themes &lsaquo; Theme Einstellungen: %3$s%4$s"
+
+#: inc/admin/merlin-config.php:38,
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:393,
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:912,
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2633,
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3682
+msgid "Return to the Dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: inc/admin/merlin-config.php:39
+msgid "Disable Wizard"
+msgstr "Assistent deaktivieren"
+
+#: inc/admin/merlin-config.php:41
+msgid "Skip"
+msgstr "Überspringen"
+
+#: inc/admin/merlin-config.php:43
+msgid "Start"
+msgstr "Start"
+
+#: inc/admin/merlin-config.php:44
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: inc/admin/merlin-config.php:45, inc/admin/merlin-config.php:46,
+#: inc/admin/merlin-config.php:47,
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2817
+msgid "Install"
+msgstr "Installieren"
+
+#: inc/admin/merlin-config.php:48
+msgid "Import"
+msgstr "Importieren"
+
+#: inc/admin/merlin-config.php:50
+msgid "Later"
+msgstr "Später"
+
+#: inc/admin/merlin-config.php:53
+msgid "Activate %s"
+msgstr "Activiere %s"
+
+#: inc/admin/merlin-config.php:55
+msgid "%s is Activated"
+msgstr "%s ist aktiviert"
+
+#: inc/admin/merlin-config.php:57
+msgid "Enter your license key to enable remote updates and theme support."
+msgstr ""
+"Gebe deinen Lizenzschlüssel ein, um automatische Updates und Support zu "
+"erhalten."
+
+#: inc/admin/merlin-config.php:58
+msgid "License key"
+msgstr "Lizenzschlüssel"
+
+#: inc/admin/merlin-config.php:60
+msgid ""
+"%s is already registered and activated. Please proceed to the next step."
+msgstr ""
+"%s ist bereits registriert und aktiviert. Bitte fahre mit dem nächsten "
+"Schritt fort."
+
+#: inc/admin/merlin-config.php:62,
+#: inc/admin/updater/class-themebeans-license.php:982
+msgid "Your theme is activated! Remote updates and theme support are enabled."
+msgstr ""
+"Dein Thema ist aktiviert! Automatische Updates und Theme Support sind "
+"aktiviert."
+
+#: inc/admin/merlin-config.php:65
+msgid "Welcome to %s"
+msgstr "Willkommen bei %s"
+
+#: inc/admin/merlin-config.php:66
+msgid "Hi. Welcome back"
+msgstr "Hallo, willkommen zurück"
+
+#: inc/admin/merlin-config.php:67
+msgid ""
+"This wizard will set up your theme, install plugins, and import content. It "
+"is optional & should take only a few minutes."
+msgstr ""
+"Dieser Assistent wird dein Theme einrichten, Plugins installieren und "
+"Inhalte importieren. Es ist optional und sollte nur ein paar Minuten dauern."
+
+#: inc/admin/merlin-config.php:68
+msgid ""
+"You may have already run this theme setup wizard. If you would like to "
+"proceed anyway, click on the \"Start\" button below."
+msgstr ""
+"Möglicherweise hast du den Theme-Setup-Assistenten bereits ausgeführt. Wenn "
+"du trotzdem fortfahren möchten, klicke unten auf die Schaltfläche \"Start\"."
+
+#: inc/admin/merlin-config.php:70
+msgid "Install Child Theme"
+msgstr "Installiere Child-Theme"
+
+#: inc/admin/merlin-config.php:71
+msgid "You're good to go!"
+msgstr "Du bist bereit! Los geht’s!"
+
+#: inc/admin/merlin-config.php:72
+msgid ""
+"Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+"Lass uns ein Child-Theme erstellen und aktivieren, damit du problemlos Theme-"
+"Änderungen vornehmen kannst."
+
+#: inc/admin/merlin-config.php:73
+msgid ""
+"Your child theme has already been installed and is now activated, if it "
+"wasn't already."
+msgstr ""
+"Dein Child-Theme wurde bereits installiert und ist nun aktiviert, falls dies "
+"nicht bereits geschah."
+
+#: inc/admin/merlin-config.php:74
+msgid "Learn about child themes"
+msgstr "Lerne mehr über Child-Themes"
+
+#: inc/admin/merlin-config.php:75
+msgid ""
+"Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+"Prima. Dein Child-Theme wurde bereits installiert und ist jetzt aktiviert."
+
+#: inc/admin/merlin-config.php:76
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr "Prima. Dein Child-Theme wurde erstellt und ist jetzt aktiviert."
+
+#: inc/admin/merlin-config.php:78,
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Plugins installieren"
+
+#: inc/admin/merlin-config.php:79
+msgid "You're up to speed!"
+msgstr "Du bist auf dem Laufenden!"
+
+#: inc/admin/merlin-config.php:80
+msgid ""
+"Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+"Lasse uns einige wichtige WordPress-Plugins installieren, um deine Website "
+"auf den neuesten Stand zu bringen."
+
+#: inc/admin/merlin-config.php:81
+msgid ""
+"The required WordPress plugins are all installed and up to date. Press \"Next"
+"\" to continue the setup wizard."
+msgstr ""
+"Die erforderlichen WordPress-Plugins sind alle installiert und auf dem "
+"neuesten Stand. Drücke \"Weiter\", um das Setup fortzusetzen."
+
+#: inc/admin/merlin-config.php:82, inc/admin/merlin-config.php:86
+msgid "Advanced"
+msgstr "Fortgeschritten"
+
+#: inc/admin/merlin-config.php:84
+msgid "Import Content"
+msgstr "Inhalte importieren"
+
+#: inc/admin/merlin-config.php:85
+msgid ""
+"Let's import content to your website, to help you get familiar with the "
+"theme."
+msgstr ""
+"Lass uns Inhalte auf deine Website hinzufügen, damit du dich mit dem Theme "
+"vertraut machen kannst."
+
+#: inc/admin/merlin-config.php:88
+msgid "All done. Have fun!"
+msgstr "Alles erledigt. Viel Spaß!"
+
+#: inc/admin/merlin-config.php:91
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr "Dein Theme wurde eingerichtet. Genieße dein neues Theme von %s."
+
+#: inc/admin/merlin-config.php:92
+msgid "Extras"
+msgstr "Extras"
+
+#: inc/admin/merlin-config.php:93
+msgid "View your website"
+msgstr "Sieh dir deine Webseite an"
+
+#: inc/admin/merlin-config.php:94
+msgid "Explore WordPress"
+msgstr "Entdecke WordPress"
+
+#: inc/admin/merlin-config.php:95
+msgid "Get Theme Support"
+msgstr "Themen-Support erhalten"
+
+#: inc/admin/merlin-config.php:96
+msgid "Start Customizing"
+msgstr "Anpassungen starten"
+
+#: inc/admin/merlin-config.php:107
+msgid "Demo Content"
+msgstr "Demoinhalte"
+
+#: inc/admin/recommended-plugins.php:22
+msgid "Login Designer"
+msgstr "Login Designer"
+
+#: inc/admin/recommended-plugins.php:36
+msgid "CoBlocks"
+msgstr "CoBlocks"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Erforderliche Plugins installieren"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr "Installiere Plugin: %s"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr "Aktualisiere Plugin: %s"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Es ist ein Fehler mit der Plugin-API aufgetreten."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:341
+msgid ""
+"/*translators:1:pluginnames.*/This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+"/*translators:1:pluginnames.*/Dieses Thema erfordert das folgende Plugin: "
+"%1$s."
+msgstr[1] "Dieses Theme erfordert die folgenden Plugins: %1$s."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:347
+msgid ""
+"/*translators:1:pluginnames.*/This theme recommends the following plugin: "
+"%1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+"/*translators:1:pluginnames.*/Dieses Thema empfiehlt das folgende Plugin: "
+"%1$s."
+msgstr[1] "Este tema recomenda os seguintes plug-ins: %1$s."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:353
+msgid ""
+"/*translators:1:pluginnames.*/The following plugin needs to be updated to "
+"its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"/*translators:1:pluginnames.*/Das folgende Plugin muss auf die neueste "
+"Version aktualisiert werden, um eine maximale Kompatibilität mit diesem "
+"Thema zu gewährleisten: %1$s."
+msgstr[1] ""
+"Das folgenden Plugins müssen auf die neueste Version aktualisiert werden, um "
+"maximale Kompatibilität mit diesem Theme sicher zu stellen: %1$s."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:359
+msgid "/*translators:1:pluginnames.*/There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "/*translators:1:pluginnames.*Es gibt ein Update für: %1$s."
+msgstr[1] "Es sind Updates verfügbar für folgende Plugins: %1$s."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:365
+msgid ""
+"/*translators:1:pluginnames.*/The following required plugin is currently "
+"inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+"/*translators:1:pluginnames.*/Das folgende benötigte Plugin ist derzeit "
+"inaktiv: %1$s."
+msgstr[1] "Die folgenden erforderlichen Plugins sind derzeit inaktiv: %1$s."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:371
+msgid ""
+"/*translators:1:pluginnames.*/The following recommended plugin is currently "
+"inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+"/*translators:1:pluginnames.*/Das folgende empfohlene Plugin ist derzeit "
+"inaktiv: %1$s."
+msgstr[1] "Die folgenden empfohlenen Plugins sind derzeit inaktiv: %1$s."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Plugin Installation beginnen"
+msgstr[1] "Plugin Installation beginnen"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Plugin Update beginnen"
+msgstr[1] "Plugin Update beginnen"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Plugin Aktivierung beginnen"
+msgstr[1] "Plugins Aktivierung beginnen"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Zurück zur Erforderliche Plugins Installer"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:394,
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3259
+msgid "Plugin activated successfully."
+msgstr "Plugin erfolgreich aktiviert."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:395,
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3052
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Das folgende Plugin wurde erfolgreich aktiviert:"
+msgstr[1] "Die folgenden Plugins wurden erfolgreich aktiviert:"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Keine Maßnahmen ergriffen. Plugin %1$s war bereits aktiv."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:399
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin wurde nicht aktiviert. Eine neuere Version des %s ist für dieses "
+"Theme erforderlich. Bitte aktualisiere das Plugin."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle Plugins installiert und erfolgreich aktiviert. %1$s"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Hinweis ausblenden"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Es existieren ein oder mehrere benötigte oder empfohlene Plugins, die "
+"installiert, aktualisiert oder aktiviert werden müssen."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Bitte kontaktiere den Administrator dieser Website für Hilfe."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Dieses Plugin muss aktualisiert werden, um mit deinem Theme kompatibel zu "
+"sein."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Aktualisierung erforderlich"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:1020
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Das Remote-Plugin-Paket enthält keinen Ordner mit dem gewünschten Kürzel und "
+"eine Umbenennung hat nicht funktioniert."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:1020,
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:1028
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Bitte kontaktiere den Plugin-Anbieter und bitte ihn, seine Plugins nach den "
+"WordPress-Richtlinien zu programmieren."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:1028
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Das Remote-Plugin-Paket besteht aus mehreren Dateien, aber die Dateien sind "
+"nicht in einem Ordner gepackt."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:1216,
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3048
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "und"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2082
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2373
+msgid "Required"
+msgstr "Erforderlich"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2376
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2392
+msgid "WordPress Repository"
+msgstr "WordPress Verzeichnis"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2395
+msgid "External Source"
+msgstr "Externe Quelle"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2398
+msgid "Pre-Packaged"
+msgstr "Vorgepackt"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2415
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2419
+msgid "Installed But Not Activated"
+msgstr "Installiert aber nicht aktiviert"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2421
+msgid "Active"
+msgstr "Aktiv"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2427
+msgid "Required Update not Available"
+msgstr "Erforderliche Aktualisierung nicht verfügbar"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2430
+msgid "Requires Update"
+msgstr "Update erforderlich"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2433
+msgid "Update recommended"
+msgstr "Update empfohlen"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2442
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2488
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alle <span class=\"count\">(%s)</span>"
+msgstr[1] "Alle <span class=\"count\">(%s)</span>"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2492
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Zum Installieren <span class=\"count\">(%s)</span>"
+msgstr[1] "Zum Installieren <span class=\"count\">(%s)</span>"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2496
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Aktualisierung verfügbar <span class=\"count\">(%s)</span>"
+msgstr[1] "Aktualisierung verfügbar <span class=\"count\">(%s)</span>"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2500
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Zum Aktivieren <span class=\"count\">(%s)</span>"
+msgstr[1] "Zum Aktivieren <span class=\"count\">(%s)</span>"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2582
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "Unbekannt"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2590
+msgid "Installed version:"
+msgstr "Installierte Version:"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2598
+msgid "Minimum required version:"
+msgstr "Minimal erforderliche Version:"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2610
+msgid "Available version:"
+msgstr "Verfügbare Version:"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2633
+msgid "No plugins to install, update or activate."
+msgstr "Keine Plugins zum installieren, aktualisieren oder aktivieren."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2647
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2648
+msgid "Source"
+msgstr "Quelle"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2649
+msgid "Type"
+msgstr "Type"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2653
+msgid "Version"
+msgstr "Version"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2654
+msgid "Status"
+msgstr "Status"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2703
+msgid "Install %2$s"
+msgstr "Installiere %2$s"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2708
+msgid "Update %2$s"
+msgstr "Aktualisiere %2$s"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2714
+msgid "Activate %2$s"
+msgstr "Aktivieren %2$s"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2784
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade-Nachricht vom Plugin-Autor:"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2823
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2857
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Es wurden keine Plugins zur Installation ausgewählt. Keine Aktion "
+"durchgeführt."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2859
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Es wurden keine Plugins zur Aktualisierung ausgewählt. Keine Aktion "
+"durchgeführt."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2900
+msgid "No plugins are available to be installed at this time."
+msgstr "Zur Zeit sind keine Plugins für die Installation verfügbar."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:2902
+msgid "No plugins are available to be updated at this time."
+msgstr "Zur Zeit sind keine Plugins verfügbar, die aktualisiert werden können."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3008
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Es wurden keine Plugins zur Aktivierung ausgewählt. Keine Aktion "
+"durchgeführt."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3034
+msgid "No plugins are available to be activated at this time."
+msgstr "Zur Zeit sind keine Plugins verfügbar, die aktiviert werden können."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3258
+msgid "Plugin activation failed."
+msgstr "Plugin-Aktivierung fehlgeschlagen."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3600
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Aktualisiere Plugin %1$s (%2$d/%3$d)"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3603
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Bei der Installation ist ein Fehler aufgetreten %1$s: <strong>%2$s</strong>."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3605
+msgid "The installation of %1$s failed."
+msgstr "Die Installation von %1$s ist fehlgeschlagen."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3609
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Der Installations- und Aktivierungsvorgang beginnt nun. Dieser Vorgang kann "
+"auf manchen Hosts etwas länger dauern, daher habe bitte etwas Geduld."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3611
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s erfolgreich installiert und aktiviert."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3611,
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3619
+msgid "Show Details"
+msgstr "Details anzeigen"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3611,
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3619
+msgid "Hide Details"
+msgstr "Details ausblenden"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3612
+msgid "All installations and activations have been completed."
+msgstr "Alle Installationen und Aktivierungen sind abgeschlossen."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3614
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin installieren und aktivieren %1$s (%2$d/%3$d)"
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3617
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Der Installationsvorgang beginnt nun. Dieser Vorgang kann auf manchen Hosts "
+"etwas länger dauern, daher habe bitte etwas Geduld."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3619
+msgid "%1$s installed successfully."
+msgstr "%1$s wurde erfolgreich installiert."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3620
+msgid "All installations have been completed."
+msgstr "Alle Installationen wurden abgeschlossen."
+
+#: inc/admin/tgmpa/class-tgm-plugin-activation.php:3622
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installiere Plugin %1$s (%2$d/%3$d)"
+
+#: inc/admin/updater/class-themebeans-license.php:153
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: inc/admin/updater/class-themebeans-license.php:166
+msgid ""
+"Enter a license key to enable remote updates and access theme support for %s."
+msgstr ""
+"Gebe deinen Lizenzschlüssel ein, um automatische Updates und Support für %s "
+"zu erhalten."
+
+#: inc/admin/updater/class-themebeans-license.php:176
+msgid ""
+"Awesome! Your site is connected to ThemeBeans and ready for remote updates, "
+"and support if you need it."
+msgstr ""
+"Fantastisch! Deine Website ist mit ThemeBeans verbunden und bereit für "
+"Remote-Updates und Support, falls du diese benötigst."
+
+#: inc/admin/updater/class-themebeans-license.php:181
+msgid ""
+"Your license for %1$s expired on %2$s and is no longer connected to "
+"ThemeBeans. Please renew your license to activate remote updates and support."
+msgstr ""
+"Die Lizenz für %1$s ist am %2$s abgelaufen und nicht mehr mit ThemeBeans "
+"verbunden. Bitte erneuere deine Lizenz um die automatisierten Updates und "
+"Support zu verlängern."
+
+#: inc/admin/updater/class-themebeans-license.php:186
+msgid "Renew License"
+msgstr "Lizenz verlängern"
+
+#: inc/admin/updater/class-themebeans-license.php:196
+msgid "%s License"
+msgstr "%s Lizenz"
+
+#: inc/admin/updater/class-themebeans-license.php:219
+msgid "Once Weekly"
+msgstr "Einmal wöchentlich"
+
+#: inc/admin/updater/class-themebeans-license.php:427
+msgid ""
+"%1$sActivate your license key%2$s for %3$s to enable remote updates and "
+"theme support. %4$s"
+msgstr ""
+"%1$sAktiviere deinen Lizenzschlüssel %2$s für %3$s um die automatische "
+"Updates und den Thema Support freizuschalten. %4$s"
+
+#: inc/admin/updater/class-themebeans-license.php:467
+msgid ""
+"Your license for %1$s expired on %2$s. %3$sRenew your license or club "
+"membership%4$s to activate remote updates and support."
+msgstr ""
+"Deine Lizenz für %1$s ist am %2$s abgelaufen. %3$sErneuern die Lizenz oder "
+"die Club Mitgliedschaft%4$s, um weiter automatisierte Updates und Support zu "
+"erhalten."
+
+#: inc/admin/updater/class-themebeans-license.php:543,
+#: inc/admin/updater/class-themebeans-license.php:543
+msgid "Theme License"
+msgstr "Theme Lizenz"
+
+#: inc/admin/updater/class-themebeans-license.php:700,
+#: inc/admin/updater/class-themebeans-license.php:739,
+#: inc/admin/updater/class-themebeans-license.php:939,
+#: inc/admin/updater/class-themebeans-license.php:977
+msgid "An error occurred, please try again."
+msgstr "Ein Fehler ist aufgetreten. Bitte versuche es noch einmal."
+
+#: inc/admin/updater/class-themebeans-license.php:710
+msgid "Your license expired on %1$s. %2$sClick here to renew &rarr;%3$s"
+msgstr ""
+"Deine Lizenz ist für %1$s abgelaufen. %2$sKlicke hier, um &rarr;%3$s zu "
+"erneuern"
+
+#: inc/admin/updater/class-themebeans-license.php:718,
+#: inc/admin/updater/class-themebeans-license.php:955
+msgid "Your license key has been disabled."
+msgstr "Der Lizenzschlüssel wurde deaktiviert."
+
+#: inc/admin/updater/class-themebeans-license.php:722
+msgid "Invalid license."
+msgstr "Ungültige Lizenz."
+
+#: inc/admin/updater/class-themebeans-license.php:727,
+#: inc/admin/updater/class-themebeans-license.php:964
+msgid "Your license is not active for this URL."
+msgstr "Die Lizenz ist für diese URL nicht aktiviert."
+
+#: inc/admin/updater/class-themebeans-license.php:731,
+#: inc/admin/updater/class-themebeans-license.php:969
+msgid "This appears to be an invalid license key."
+msgstr "Dies scheint ein ungültiger Lizenzschlüssel zu sein."
+
+#: inc/admin/updater/class-themebeans-license.php:735,
+#: inc/admin/updater/class-themebeans-license.php:973
+msgid "Your license key has reached its activation limit."
+msgstr "Der Lizenzschlüssel hat das Limit an Aktivierungen erreicht."
+
+#: inc/admin/updater/class-themebeans-license.php:949
+msgid "Your license key expired on %s."
+msgstr "Der Lizenzschlüssel ist am %s abgelaufen."
+
+#: inc/admin/updater/class-themebeans-license.php:959
+msgid ""
+"This appears to be an invalid license key. Please try again or contact "
+"support."
+msgstr ""
+"Dies scheint ein ungültiger Lizenzschlüssel zu sein. Bitte versuche es "
+"erneut oder kontaktiere den Support."
+
+#: inc/admin/updater/class-themebeans-updater.php:142
+msgid ""
+"Updating this theme will lose any customizations you have made. \"Cancel\" "
+"to stop, \"OK\" to update."
+msgstr ""
+"Änderungen, die direkt Theme durchgeführt wurden, gehen mit der "
+"Aktualisierung verloren. „Abbrechen“ um zu beenden, „OK“ um zu aktualisieren."
+
+#: inc/admin/updater/class-themebeans-updater.php:149
+msgid ""
+"<p>%1$s <a href=\"%2$s\" title=\"%2$s\" target=\"blank\">v%3$s</a> has been "
+"released, although a valid license is required to enable updates.</p>"
+msgstr ""
+"<p>%1$s <a href=\"%2$s\" title=\"%2$s\" target=\"blank\">v%3$s</a> wurde "
+"freigegeben, für die Aktualisierung ist eine gültige Lizenz erforderlich.</p>"
+
+#: inc/admin/updater/class-themebeans-updater.php:158
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" title=\"%4$s\" "
+"target=\"blank\">Check out what's new</a> or <a href=\"%5$s\" %6$s>update "
+"now</a>"
+msgstr ""
+"<strong>%1$s %2$s</strong> steht zur Verfügung. <a href=\"%3$s\" title=\"%4$s"
+"\" target=\"blank\">Erfahre was neu ist</a> oder <a href=\"%5$s"
+"\"%6$s>aktualisiere jetzt</a>"
+
+#: inc/amazon-polly.php:28
+msgid "Listen to this article:"
+msgstr "Höre dir diesen Beitrag an:"
+
+#: inc/auto-load-next-post.php:38
+msgid "Read my next article"
+msgstr "Lies meinen nächsten Beitrag"
+
+#: inc/customizer/customizer.php:57
+msgid "Theme Options"
+msgstr "Theme Einstellungen"
+
+#: inc/customizer/customizer.php:64
+msgid "Typography"
+msgstr "Typografie"
+
+#: inc/customizer/customizer.php:82
+msgid "Heading Font"
+msgstr "Kopfzeile Schriftart"
+
+#: inc/customizer/customizer.php:99
+msgid "Body Font"
+msgstr "Body Schriftart"
+
+#: inc/customizer/customizer.php:119
+msgid "Typekit Kit ID"
+msgstr "Typekit Kit ID hier eingeben"
+
+#: inc/customizer/customizer.php:120
+msgid ""
+"Located within your kit embed code. Font changes can be added to the CSS "
+"module or child theme."
+msgstr ""
+"Befindet sich in deinem Kit-Einbettungscode. Schriftartenänderungen können "
+"dem CSS-Modul oder dem Child-Theme hinzugefügt werden."
+
+#: inc/customizer/customizer.php:135
+msgid "Font Family #1"
+msgstr "Schriftfamilie #1"
+
+#: inc/customizer/customizer.php:150
+msgid "Font Family #2"
+msgstr "Schriftfamilie #2"
+
+#: inc/customizer/customizer.php:171
+msgid "Max Width"
+msgstr "Maximale Breite"
+
+#: inc/customizer/customizer.php:197
+msgid "Mobile Max Width"
+msgstr "Maximale Breite für Mobil"
+
+#: inc/customizer/customizer.php:222
+msgid "Border Radius"
+msgstr "Rahmen Radius"
+
+#: inc/customizer/customizer.php:241
+msgid "Hover Animation"
+msgstr "Hover-Animation"
+
+#: inc/customizer/customizer.php:260
+msgid "Invert for Night Mode"
+msgstr "Invertieren im Nachtmodus"
+
+#: inc/customizer/customizer.php:276
+msgid "Header"
+msgstr "Headbereich"
+
+#: inc/customizer/customizer.php:294
+msgid "Header Search"
+msgstr "Header-Suche"
+
+#: inc/customizer/customizer.php:295
+msgid "A site-wide searching element next to the header navigation."
+msgstr "Ein seitenübergreifendes Suchelement neben der Header-Navigation."
+
+#: inc/customizer/customizer.php:316
+msgid "Accessibility Settings"
+msgstr "Einstellungen zur Barrierefreiheit"
+
+#: inc/customizer/customizer.php:317
+msgid "Night Mode and text size modifiers for your readers."
+msgstr "Nachtmodus und Textgrößen-Anpassung für deine Leser."
+
+#: inc/customizer/customizer.php:336
+msgid "Cog Icon"
+msgstr "Zahnrad-Symbol"
+
+#: inc/customizer/customizer.php:337
+msgid "Mix Panel Icon"
+msgstr "Mischpult-Symbol"
+
+#: inc/customizer/customizer.php:338
+msgid "Mix Panel Filled"
+msgstr "Mischpult-Symbol ausgefüllt"
+
+#: inc/customizer/customizer.php:352
+msgid "Post"
+msgstr "Beitrag"
+
+#: inc/customizer/customizer.php:370
+msgid "Selective Sharing"
+msgstr "Selektives Teilen"
+
+#: inc/customizer/customizer.php:371
+msgid "Empower readers to easily share text to Facebook and Twitter."
+msgstr "Ermöglicht es deinen Lesern, Text auf Facebook und Twitter zu teilen."
+
+#: inc/customizer/customizer.php:389
+msgid "Author"
+msgstr "Autor"
+
+#: inc/customizer/customizer.php:390
+msgid "Add the post author metadata below the post title."
+msgstr ""
+"Füge die Metadaten des Beitragsautors unter dem Titel des Beitrags hinzu."
+
+#: inc/customizer/customizer.php:408
+msgid "Categories"
+msgstr "Kategorien"
+
+#: inc/customizer/customizer.php:409
+msgid "Enable or disable categories that display in the post footer."
+msgstr ""
+"Aktiviere oder deaktiviere Kategorien, die im Footer-Bereich des Beitrags "
+"angezeigt werden."
+
+#: inc/customizer/customizer.php:427
+msgid "Tags"
+msgstr "Tags (Schlagworte)"
+
+#: inc/customizer/customizer.php:428
+msgid "Enable or disable tags that display in the post footer."
+msgstr ""
+"Aktiviere oder deaktiviere Tags (Schlagworte), die im Footer-Bereich des "
+"Beitrags angezeigt werden."
+
+#: inc/customizer/customizer.php:446
+msgid "Comments Trigger"
+msgstr "Kommentar Schalter"
+
+#: inc/customizer/customizer.php:447
+msgid "Enable the comments button and show/hide comments functionality."
+msgstr ""
+"Aktiviere die Schaltfläche Kommentare und blenden die Kommentarfunktion ein/"
+"aus."
+
+#: inc/customizer/customizer.php:468, inc/customizer/customizer.php:511
+msgid "More Link"
+msgstr "weiterlesen"
+
+#: inc/customizer/customizer.php:469
+msgid "Enable the more tag button, if a More block is added to post."
+msgstr ""
+"Aktiviere die Schaltfläche „weiterlesen“, wenn ein Mehr-Block zum Beitrag "
+"hinzugefügt wird."
+
+#: inc/customizer/customizer.php:487
+msgid "Date"
+msgstr "Datum"
+
+#: inc/customizer/customizer.php:488
+msgid "Choose to display either the updated or published date on all posts."
+msgstr ""
+"Wählen ob das Aktualisierungs- oder das Veröffentlichungsdatum für alle "
+"Beiträge angezeigt werden soll."
+
+#: inc/customizer/customizer.php:491
+msgid "None"
+msgstr "Nichts anzeigen"
+
+#: inc/customizer/customizer.php:492, inc/template-tags.php:463
+msgid "Updated"
+msgstr "Aktualisiert"
+
+#: inc/customizer/customizer.php:493, inc/template-tags.php:463
+msgid "Published"
+msgstr "Veröffentlicht"
+
+#: inc/customizer/customizer.php:512
+msgid "Change the existing empty more tag into a button with custom text."
+msgstr ""
+"Ändere den vorhandene leere Weiterlesen-Tag in eine Schaltfläche mit "
+"benutzerdefiniertem Text."
+
+#: inc/customizer/customizer.php:535
+msgid "Social"
+msgstr "Soziale Medien"
+
+#: inc/customizer/customizer.php:553
+msgid "Engagement Bar"
+msgstr "Aktivitätenleiste"
+
+#: inc/customizer/customizer.php:554
+msgid "Enable or disable the engagement bar that appears on singular posts."
+msgstr ""
+"Aktiviere oder deaktiviere die Aktivitätenleiste, die auf einzelnen "
+"Beiträgen angezeigt wird."
+
+#: inc/customizer/customizer.php:573
+msgid "Shadow Style"
+msgstr "Schatten-Stil"
+
+#: inc/customizer/customizer.php:574
+msgid "Stroke Style"
+msgstr "Strich-Stil"
+
+#: inc/customizer/customizer.php:592
+msgid "Display a Facebook sharing button on the singular post mini-bar."
+msgstr "Zeigen eine Facebook-Teilen-Schaltfläche auf der Aktivitätenleiste an."
+
+#: inc/customizer/customizer.php:610
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer/customizer.php:611
+msgid "Display a Twitter button and append your username."
+msgstr ""
+"Zeige eine Twitter-Schaltfläche an und fügen deinen Benutzernamen hinzu."
+
+#: inc/customizer/customizer.php:628
+msgid "@username:"
+msgstr "@Benutzername:"
+
+#: inc/customizer/customizer.php:646
+msgid "Display a LinkedIn sharing button on the singular post mini-bar."
+msgstr "Zeigen eine LinkedIn-Teilen-Schaltfläche auf der Aktivitätenleiste an."
+
+#: inc/customizer/customizer.php:661
+msgid "Colophon"
+msgstr "Kolophon"
+
+#: inc/customizer/customizer.php:679
+msgid "Theme Info"
+msgstr "Themeninfo"
+
+#: inc/customizer/customizer.php:680
+msgid "Let others know about the beautiful WordPress theme you are using."
+msgstr "Zeigen anderen welches schöne WordPress Theme du nutzt."
+
+#: inc/customizer/customizer.php:698
+msgid "Copyright Year"
+msgstr "Copyright-Jahr"
+
+#: inc/customizer/customizer.php:699
+msgid "Display a copyright badge and the current year in the site footer."
+msgstr ""
+"Zeigt im Foster-Bereich der Website ein Copyright-Kennzeichen und das "
+"aktuelle Jahr an."
+
+#: inc/customizer/customizer.php:716
+msgid "Custom Copyright"
+msgstr "Benutzerdefinierter Copyright Text"
+
+#: inc/customizer/customizer.php:717
+msgid ""
+"Add custom text to display beside the copyright date in the site footer."
+msgstr ""
+"Füge einen benutzerdefinierten Text hinzu, der neben dem Copyright-Datum im "
+"Foster-Bereich der Website angezeigt wird."
+
+#: inc/customizer/customizer.php:736
+msgid "Heading Color"
+msgstr "Überschriftsfarbe"
+
+#: inc/customizer/customizer.php:753
+msgid "Alt Heading Color"
+msgstr "Alternative Überschriftsfarbe"
+
+#: inc/customizer/customizer.php:770
+msgid "Text Color"
+msgstr "Textfarbe"
+
+#: inc/customizer/customizer.php:787
+msgid "Header Icon Color"
+msgstr "Icon Farbe im Headbereich"
+
+#: inc/customizer/customizer.php:804
+msgid "Navigation Color"
+msgstr "Navigations Textfarbe"
+
+#: inc/customizer/customizer.php:821
+msgid "Mobile Navigation Color"
+msgstr "Mobil Navigations Textfarbe"
+
+#: inc/customizer/customizer.php:838
+msgid "Footer Background Color"
+msgstr "Footer Hintergrundfarbe"
+
+#: inc/customizer/customizer.php:855
+msgid "Footer Text Color"
+msgstr "Footer Textfarbe"
+
+#: inc/customizer/customizer.php:874
+msgid "Gutenberg Accent"
+msgstr "Hervorhebungsfarbe (Gutenberg)"
+
+#: inc/customizer/customizer.php:875
+msgid ""
+"Add an accent color to use within the Gutenberg editor block color palettes."
+msgstr ""
+"Füge eine Akzentfarbe hinzu, die innerhalb der Gutenberg-Editor-Block-"
+"Farbpaletten verwendet werden soll."
+
+#: inc/customizer/customizer.php:891
+msgid "Home"
+msgstr "Start"
+
+#: inc/customizer/customizer.php:909
+msgid "Disable Home Styles"
+msgstr "Startseiten-Stil deaktivieren"
+
+#: inc/customizer/customizer.php:910
+msgid ""
+"Custom styling to create the default landing page. Home will display as a "
+"standard page."
+msgstr ""
+"Benutzerdefinierter-Stil, um die Standard Startseite zu erstellen. Home wird "
+"als Standardseite angezeigt."
+
+#: inc/gutenberg.php:25
+msgid "Tabor Blocks"
+msgstr "Tabor Blocks"
+
+#: inc/gutenberg.php:62
+msgid "Black"
+msgstr "Schwarz"
+
+#: inc/gutenberg.php:67
+msgid "Gray"
+msgstr "Grau"
+
+#: inc/gutenberg.php:72
+msgid "Light Gray"
+msgstr "Hellgrau"
+
+#: inc/gutenberg.php:77
+msgid "Accent"
+msgstr "Akzent"
+
+#: inc/icons.php:42
+msgid "Please define default parameters in the form of an array."
+msgstr "Bitte definiere Standardparameter in Form eines Arrays."
+
+#: inc/icons.php:47
+msgid "Please define an SVG icon filename."
+msgstr "Bitte definiere einen SVG-Icon Dateinamen."
+
+#: inc/jetpack.php:52
+msgid "Load More..."
+msgstr "Mehr laden…."
+
+#: inc/metaboxes.php:29
+msgid "Page Settings"
+msgstr "Seiteneinstellungen"
+
+#: inc/metaboxes.php:38
+msgid "Remove Header"
+msgstr "Kopfzeile entfernen"
+
+#: inc/metaboxes.php:52
+msgid "OptinMonster Settings"
+msgstr "OptinMonster Einstellungen"
+
+#: inc/metaboxes.php:61
+msgid "Accent Color"
+msgstr "Akzent-Farbe"
+
+#: inc/metaboxes.php:62
+msgid "Choose an accent color to apply to your inline opt-in."
+msgstr "Wähle eine Akzentfarbe für das integrierte Opt-In."
+
+#: inc/metaboxes.php:70
+msgid "Background Color"
+msgstr "Footer Hintergrundfarbe"
+
+#: inc/metaboxes.php:72
+msgid "Choose an background color to apply to your inline opt-in."
+msgstr "Wähle eine Hintergrundfarbe für das integrierte Opt-In."
+
+#: inc/metaboxes.php:84
+msgid "Video Post Format"
+msgstr "Video-Beitrags Format"
+
+#: inc/metaboxes.php:93
+msgid "Embed"
+msgstr "Einbetten"
+
+#: inc/metaboxes.php:94
+msgid ""
+"Enter a Youtube or Vimeo URL. Supports services listed <a target=\"_blank\" "
+"href=\"http://codex.wordpress.org/Embeds\">here</a>."
+msgstr ""
+"Gebe eine YouTube oder Vimeo URL ein. Unterstützte Dienste findest du auf <a "
+"href=„http://codex.wordpress.org/Embeds“>http://codex.wordpress.org/Embeds</"
+"a>."
+
+#: inc/metaboxes.php:106
+msgid "Link Post Format"
+msgstr "Link-Post-Format"
+
+#: inc/metaboxes.php:115
+msgid "Link"
+msgstr "Link"
+
+#: inc/metaboxes.php:116
+msgid "Add a link to direct your single link post to."
+msgstr "Füge einen Link hinzu, um zu einem einzelnen Link-Beitrag zu leiten."
+
+#: inc/metaboxes.php:124
+msgid "Target"
+msgstr "Ziel"
+
+#: inc/metaboxes.php:125
+msgid "Open the link within the same view or a new tab."
+msgstr "Öffne den Link in der gleichen Ansicht oder in einem neuen Tab."
+
+#: inc/metaboxes.php:129
+msgid "Same View"
+msgstr "Gleiche Ansicht"
+
+#: inc/metaboxes.php:130
+msgid "New Tab"
+msgstr "Neuer Tab"
+
+#: inc/plugins.php:26
+msgid "Schema"
+msgstr "Schema"
+
+#: inc/starter-content.php:19
+msgid ""
+"\n"
+"\t\t<h5>Hi, I'm</h5>\n"
+"\t\t<h1>Rich</h1>\n"
+"\t\t<h1>Tabor</h1>\n"
+"\t\t[typed text=\"ThemeBeans Founder, Designer\"]"
+msgstr ""
+"\n"
+"\t\t<h5>Hi, ich bin</h5>\n"
+"\t\t<h1>Rich</h1>\n"
+"\t\t<h1>Tabor</h1>\n"
+"\t\t[typed Text=\"ThemeBeans Gründer, Designer\"]"
+
+#: inc/starter-content.php:40
+msgid ""
+"\n"
+"\n"
+"\t\tI'm Rich Tabor, and I’ve always had a knack for creating stuff:  has "
+"websites, themes, psd freebies, and the like. I started my career as a web "
+"designer for a small town marketing firm in North Georgia and soon found "
+"myself smack dab in the middle of New York City working on iOS, Android and "
+"web creations.\n"
+"\n"
+"\t\tThese days I’m back in the mountains, enjoying life and running a few "
+"ventures and taking on the occasional client with the agency I recently "
+"founded in early 2016, <a href=\"http://layup.media/\">Layup Media</a>.\n"
+"\n"
+"\t\tIn between all of this I drafted up <a title=\"Free PSD and Design "
+"Resources by Rich Tabor\" href=\"http://purtypixels.com/\" target=\"_blank\" "
+"rel=\"noopener\">PurtyPixels</a> with the goal of practicing photoshop and "
+"the essence of delivery (in the form of photoshop goods). It has been a fun "
+"and successful venture with 1.6 million downloaded files.\n"
+"\n"
+"\t\tThen I started designing, creating, delivering, marketing (and "
+"everything tabor_about_starter_contentin between) WordPress themes under at "
+"<a title=\"ThemeBeans - Professional WordPress Themes by Rich Tabor\" href="
+"\"http://themebeans.com/\" target=\"_blank\" rel=\"noopener\">ThemeBeans</"
+"a>.\n"
+"\n"
+"\t\tAside from crafting &amp; publishing digital goods, I enjoying "
+"traveling, photography, music, reading &amp; hitting the gym.  All in all, I "
+"love what I do &amp; I couldn’t ask for more.\n"
+"\n"
+"\t\tWant to <a title=\"Contact Rich Tabor\" href=\"http://richtabor.dev/"
+"contact/\">get in touch</a>?\n"
+"\n"
+"\t\t"
+msgstr ""
+"\n"
+"\n"
+"\t\tIch bin Rich Tabor, und ich hatte schon immer ein Händchen für das "
+"Erstellen von Sachen: hat Websites, Themen, PSD-Freebies und dergleichen. "
+"Ich begann meine Karriere als Webdesigner für eine kleine "
+"Stadtmarketingfirma in Nordgeorgien und fand mich bald mitten in New York "
+"City, wo ich an iOS, Android und Webkreationen arbeitete.\n"
+"\n"
+"\t\tIn diesen Tagen bin ich zurück in den Bergen, genieße das Leben und "
+"führe ein paar Unternehmungen durch und nehme gelegentlich Kunden mit der "
+"Agentur, die ich Anfang 2016 gegründet habe, <a href=„http://layup.media/"
+"„>Layup Media</a>.\n"
+"\n"
+"\t\tDazwischen entwarf ich <a title=„Free PSD and Design Resources by Rich "
+"Tabor“ href=„http://purtypixels.com/„ target=„_blank“ "
+"rel=„noopener“>PurtyPixels</a> mit dem Ziel, Photoshop und das Wesen der "
+"Lieferung (in Form von Photoshop-Ware) zu üben. Es war ein unterhaltsames "
+"und erfolgreiches Unterfangen mit 1,6 Millionen heruntergeladenen Dateien.\n"
+"\n"
+"\t\tDann fing ich an, WordPress-Themen zu entwerfen, zu erstellen, zu "
+"liefern, zu vermarkten (und alles, was dazwischen liegt) unter <a "
+"title=„ThemeBeans - Professional WordPress Themes by Rich Tabor“ "
+"href=„http://themebeans.com/„ target=„_blank“ rel=„noopener“>ThemeBeans</"
+"a>.\n"
+"\n"
+"\t\tAbgesehen vom Basteln und Veröffentlichen von digitalen Gütern, genieße "
+"ich Reisen, Fotografieren, Musik, Lesen und Turnen.  Alles in allem liebe "
+"ich, was ich tue &amp; ich könnte nicht mehr verlangen.\n"
+"\n"
+"\t\tMöchtest du mit <a title=„Kontakt Rich Tabor“ href=„http://richtabor.dev/"
+"contact/„>in Kontakt treten</a>?\n"
+"\n"
+"\t\t"
+
+#: inc/starter-content.php:74
+msgid ""
+"\n"
+"\n"
+"\t\tLooks like you’d like to get in touch. We’re all busy people, so I want "
+"to respect your valuable time and hope you grant me the same in return. Just "
+"to manage your expectations, here are a couple things to know:\n"
+"\t\t<h2>Contact me if</h2>\n"
+"\t\t<ul>\n"
+"\t\t \t<li>You need a custom <a href=\"https://themebeans.com\">WordPress "
+"theme</a> or plugin</li>\n"
+"\t\t \t<li>You need <a href=\"https://richtabor.com/work\">design or "
+"development help</a> on your project</li>\n"
+"\t\t \t<li>You would like me to consult on a project with you</li>\n"
+"\t\t \t<li>You would like to interview me on your podcast</li>\n"
+"\t\t \t<li>You simply want to connect with me</li>\n"
+"\t\t</ul>\n"
+"\t\tWith that said, I’m so thankful that you stopped by and I’d love to hear "
+"from you —  feel free to email me at <em>hi</em><em> at richtabor dot com</"
+"em>. And if you want to find me elsewhere on the web, I ramble on <a href="
+"\"https://twitter.com/richard_tabor\">Twitter</a> and post work to <a href="
+"\"https://dribbble.com/richtabor\">Dribbble</a>.\n"
+"\n"
+"\t\t"
+msgstr ""
+"\n"
+"\n"
+"\t\tSieht so aus, als würdest du gerne Kontakt aufnehmen. Wir sind alle sehr "
+"beschäftigt, deshalb möchte ich deine wertvolle Zeit respektieren und hoffe, "
+"dass du mir im Gegenzug dasselbe gewährst. Um deine Erwartungen zu erfüllen, "
+"hier ein paar Dinge, die du wissen sollten:\n"
+"\t\t<h2>Kontakt mit mir aufnehmen wenn</h2>\n"
+"\t\t<ul>\n"
+"\t\t \t<li>Du benötigst ein benutzerdefiniertes <a href=\"https://themebeans."
+"com\">WordPress Thema</a> oder Plugin</li>.\n"
+"\t\t \t<li>Du benötigst <a href=\"https://richtabor.com/work\">Design- oder "
+"Entwicklungshilfe</a> für dein Projekt</li>.\n"
+"\t\t \t<li>Du möchtest, dass ich ein Projekt mit dir durchführe.\n"
+"\t\t \tDu möchtest mich in deinem Podcast interviewen.\n"
+"\t\t \t<li>Du willst dich einfach mit mir verbinden </li>\n"
+"\t\t</ul>\n"
+"\t\tDamit bin ich so dankbar, dass du vorbei gekommen bist und ich würde "
+"gerne von dir hören - zögere nicht, mir eine E-Mail zu schreiben unter "
+"<em>hi</em><em> an richtabor Punkt com</em> zu mailen. Und wenn du mich "
+"anderswo im Web finden möchtest, dann schreibe ich auf <a href=\"https://"
+"twitter.com/richard_tabor\">Twitter</a> und veröffentliche Beiträge auf <a "
+"href=\"https://dribbble.com/richtabor\">Dribbble</a>.\n"
+"\n"
+"\t\t"
+
+#: inc/template-tags.php:30
+msgid "Show/hide accessibility settings"
+msgstr "Anzeigen/Ausblenden Einstellungen zur Barrierefreiheit"
+
+#: inc/template-tags.php:32
+msgctxt "settings button"
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/template-tags.php:55
+msgid "Night Mode"
+msgstr "Nachtmodus"
+
+#: inc/template-tags.php:56
+msgid "Toggle Night Mode"
+msgstr "Umschalten in Nachtmodus"
+
+#: inc/template-tags.php:61
+msgid "Text Size"
+msgstr "Schriftgröße"
+
+#: inc/template-tags.php:62
+msgid "Change Text Size"
+msgstr "Textgröße ändern"
+
+#: inc/template-tags.php:161, searchform.php:24
+msgctxt "submit button"
+msgid "Search"
+msgstr "Suche"
+
+#: inc/template-tags.php:266
+msgid ""
+"<span class=\"%1$1s%2$2s\"><a href=\"%3$3s\">Powered by %4$4s WordPress "
+"Theme</a></span>"
+msgstr ""
+"<span class=„%1$1s%2$2s“><a href=„%3$3s“>Präsentiert von %4$4s WordPress "
+"Theme"
+
+#: inc/template-tags.php:430
+msgid "by %s"
+msgstr "von %s"
+
+#: inc/template-tags.php:488
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr "<span class=\"screen-reader-text\">Veröffentlicht am</span> %s"
+
+#: inc/template-tags.php:559
+msgid "Close Comments"
+msgstr "Kommentare schliessen"
+
+#: inc/template-tags.php:566
+msgid "Show "
+msgstr "Zeige "
+
+#: inc/template-tags.php:570
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: inc/template-tags.php:575
+msgctxt "number of comments"
+msgid "%s Comment"
+msgid_plural "all %s Comments"
+msgstr[0] "%s Kommentar"
+msgstr[1] "alle %s Kommentare"
+
+#: inc/template-tags.php:587
+msgid "Leave a Comment"
+msgstr "Hinterlasse einen Kommentar"
+
+#: inc/template-tags.php:704
+msgid "Related topics:"
+msgstr "Verwandte Themen:"
+
+#: search.php:24
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#: search.php:27
+msgid "There are %1$s search results for \"%2$s\""
+msgstr "Es gibt %1$s Suchergebnisse für \"%2$s\""
+
+#: search.php:63
+msgid ""
+"Sorry, but nothing matched your search terms. Please try searching again."
+msgstr ""
+"Entschuldige, aber nichts entsprechend deiner Suchkriterien gefunden. Bitte "
+"versuchen es erneut."
+
+#: searchform.php:16
+msgid "Search %s ..."
+msgstr "Durchsuche %s ....."
+
+#: searchform.php:21
+msgctxt "label"
+msgid "Search for:"
+msgstr "Suchen nach :"
+

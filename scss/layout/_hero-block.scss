@@ -1,0 +1,98 @@
+.tabor-hero {
+	padding-top: 3.25em;
+	padding-bottom: 2.5em;
+
+	@media only screen and (min-width: 700px) {
+		padding-top: 4.5em;
+		padding-bottom: 0;
+	}
+
+	&.has-center-content {
+		text-align: center;
+	}
+
+	&.has-right-content {
+		text-align: right;
+	}
+
+	+ p,
+	+ [class*="wp-block"] {
+		margin-top: 2.75em;
+
+		@media only screen and (min-width: 700px) {
+			margin-top: 7.5em;
+		}
+	}
+
+	.subHeading {
+		padding-top: 0;
+		margin-bottom: 2em;
+
+		&:not(.has-text-color) {
+			color: $gray;
+		}
+	}
+
+	.lastName,
+	.firstName {
+		@include fluid-type(600px, 1200px, 90px, 150px);
+		margin-bottom: 0;
+		padding: 0;
+		white-space: nowrap;
+
+		@media only screen and (max-width: 599px) {
+			@include font-size(70px);
+		}
+
+		@media only screen and (max-width: 399px) {
+			@include font-size(52px);
+		}
+	}
+
+	&.has-left-content {
+
+		.lastName {
+			margin-left: 3vw;
+
+			@media only screen and (min-width: 400px) {
+				margin-left: 5.5vw;
+			}
+		}
+
+		.typed-content {
+			margin-left: 3.2vw;
+
+			@media only screen and (min-width: 400px) {
+				margin-left: 5.7vw;
+			}
+		}
+	}
+
+	.lastName {
+		display: block;
+		margin-bottom: 0;
+		line-height: 1.2;
+	}
+
+	.typed-content {
+		margin-top: 10px;
+
+		h2 {
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+	}
+}
+
+.wp-block-tabor-hero {
+
+	margin-top: 20px;
+
+	.animated-headline--strings {
+		display: none;
+
+		p {
+			color: inherit;
+		}
+	}
+}

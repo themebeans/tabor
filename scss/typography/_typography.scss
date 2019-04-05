@@ -1,0 +1,29 @@
+body {
+	@include fluid-type(600px, 1200px, 17px, 19px);
+	color: $color__text-main;
+	font-family: $font__body;
+	line-height: $font__line-height-body;
+
+	.font-size--large & {
+		@include fluid-type(600px, 1200px, 18px, 20px);
+	}
+
+	.font-size--larger & {
+		@include fluid-type(600px, 1200px, 19px, 21px);
+	}
+
+	.font-size--largest & {
+		@include fluid-type(600px, 1200px, 20px, 22px);
+	}
+}
+
+body {
+	-webkit-overflow-scrolling: touch;
+	-webkit-text-size-adjust: none;
+	text-rendering: optimizeLegibility;
+	word-wrap: break-word;
+}
+
+@import "headings";
+
+@import "copy";

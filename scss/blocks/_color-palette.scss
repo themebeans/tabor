@@ -1,0 +1,28 @@
+$color_1: #242424;
+$color_2: #535353;
+$color_3: #f5f5f5;
+$color_4: #fff;
+$color_5: #e0d8e2;
+$color_6: #c5dcf3;
+$color_7: #d0eac4;
+$color_8: #fbf3d6;
+$color_9: #fbe7dd;
+$color_10: #d6efee;
+
+$colors: (black, $color_1), (gray, $color_2), (light-gray, $color_3), (white, $color_4), (titan-white, $color_5), (tropical-blue, $color_6),
+	(peppermint, $color_7), (pipi, $color_8), (bridesmaid, $color_9), (iceberg, $color_10);
+
+@each $name, $color in $colors {
+	.has-#{$name}-color {
+		color: $color;
+	}
+
+	.has-#{$name}-background-color {
+		background-color: $color;
+	}
+}
+
+// Fallback color for .has-background-color.
+.has-background:not([class*="background-color"]) {
+	background-color: $color--has-background-color-fallback;
+}
