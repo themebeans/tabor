@@ -6,13 +6,8 @@
 *.log
 *.zip
 *.map
-*.pot
-*.css
-*.min.css
-*.min.js
 _demo/
 _dist/
 node_modules
-changelog.txt
 inc/admin/gulp/sftp.json
 environment.json

@@ -1,0 +1,8 @@
+.customize-control-themebeans-title {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.accordion-section-content li.customize-control:nth-child(2) {
+  margin-top: 0;
+}

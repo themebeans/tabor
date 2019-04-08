@@ -1,0 +1,844 @@
+# Copyright (C) 2019 Tabor
+# This file is distributed under the same license as the Tabor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tabor\n"
+"Report-Msgid-Bugs-To: https://themebeans.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Rich Tabor of ThemeBeans\n"
+"Language-Team: ThemeBeans\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:13
+msgid "404"
+msgstr ""
+
+#: 404.php:14
+msgid "This isn’t what you’re looking for."
+msgstr ""
+
+#: archive.php:48, index.php:48, search.php:50
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:49, index.php:49, search.php:51
+msgid "Next page"
+msgstr ""
+
+#: archive.php:50, index.php:50, search.php:52
+msgid "Page"
+msgstr ""
+
+#: comments.php:48
+msgid "Previous"
+msgstr ""
+
+#: comments.php:49
+msgid "Next"
+msgstr ""
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: components/page/content-page.php:49, components/post/content-link.php:46, components/post/content.php:54
+msgid "Pages:"
+msgstr ""
+
+#: components/post/bar.php:62
+msgid "Tweet"
+msgstr ""
+
+#: components/post/bar.php:71, inc/customizer/customizer.php:659
+msgid "Facebook"
+msgstr ""
+
+#: components/post/bar.php:80, inc/customizer/customizer.php:679
+msgid "LinkedIn"
+msgstr ""
+
+#: components/post/bar.php:101
+msgid "Up Next:"
+msgstr ""
+
+#: components/post/content-none.php:18, search.php:27
+msgid "Nothing Found"
+msgstr ""
+
+#: components/post/content-none.php:28
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: components/post/content-none.php:32
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: components/post/content.php:41
+msgid "Read more<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: footer.php:31, functions.php:111
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:110, functions.php:332, header.php:69
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:112, functions.php:346, header.php:46
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:173
+msgid "Black"
+msgstr ""
+
+#: functions.php:178
+msgid "Gray"
+msgstr ""
+
+#: functions.php:183
+msgid "Light Gray"
+msgstr ""
+
+#: functions.php:188
+msgid "White"
+msgstr ""
+
+#: functions.php:193
+msgid "Titan White"
+msgstr ""
+
+#: functions.php:198
+msgid "Tropical Blue"
+msgstr ""
+
+#: functions.php:203
+msgid "Peppermint"
+msgstr ""
+
+#: functions.php:208
+msgid "Iceberg"
+msgstr ""
+
+#: functions.php:213
+msgid "Bridesmaid"
+msgstr ""
+
+#: functions.php:218
+msgid "Pipi"
+msgstr ""
+
+#: functions.php:223
+msgid "Accent"
+msgstr ""
+
+#: functions.php:238
+msgid "Small"
+msgstr ""
+
+#: functions.php:239
+msgid "S"
+msgstr ""
+
+#: functions.php:244
+msgid "Medium"
+msgstr ""
+
+#: functions.php:245
+msgid "M"
+msgstr ""
+
+#: functions.php:250
+msgid "Large"
+msgstr ""
+
+#: functions.php:251
+msgid "L"
+msgstr ""
+
+#: functions.php:256
+msgid "Huge"
+msgstr ""
+
+#: functions.php:257
+msgid "XL"
+msgstr ""
+
+#: functions.php:293
+msgctxt "Theme starter content"
+msgid "Logo"
+msgstr ""
+
+#: functions.php:301
+msgctxt "Theme starter content"
+msgid "Tabor, A WordPress theme by ThemeBeans"
+msgstr ""
+
+#: functions.php:316
+msgctxt "Theme starter content"
+msgid "Home"
+msgstr ""
+
+#: functions.php:320
+msgctxt "Theme starter content"
+msgid "Hi, I’m Rich Tabor"
+msgstr ""
+
+#: functions.php:324
+msgctxt "Theme starter content"
+msgid "Why, hello there"
+msgstr ""
+
+#: functions.php:335
+msgctxt "Theme starter content"
+msgid "Articles"
+msgstr ""
+
+#: functions.php:338
+msgctxt "Theme starter content"
+msgid "About"
+msgstr ""
+
+#: functions.php:341
+msgctxt "Theme starter content"
+msgid "Contact"
+msgstr ""
+
+#: functions.php:388
+msgid "Footer"
+msgstr ""
+
+#: functions.php:390
+msgid "Appears in the site footer."
+msgstr ""
+
+#: functions.php:401
+msgid "Front Page"
+msgstr ""
+
+#: functions.php:403
+msgid "Appears on the front page only."
+msgstr ""
+
+#: functions.php:414
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:416
+msgid "Appears on the single pages and posts, if widgets are placed here."
+msgstr ""
+
+#: functions.php:473
+msgid "Expand child menu"
+msgstr ""
+
+#: functions.php:474
+msgid "Collapse child menu"
+msgstr ""
+
+#: functions.php:547
+msgctxt "Heebo font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:554
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:717
+msgid "Please enter the password below to access"
+msgstr ""
+
+#: functions.php:733
+msgid "Password"
+msgstr ""
+
+#: functions.php:734
+msgid "Submit"
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:73
+msgid "Menu"
+msgstr ""
+
+#: inc/amazon-polly.php:29
+msgid "Listen to this article:"
+msgstr ""
+
+#: inc/auto-load-next-post.php:35
+msgid "Read my next article"
+msgstr ""
+
+#: inc/customizer/customizer.php:54
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:61
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/customizer.php:79
+msgid "Heading Font"
+msgstr ""
+
+#: inc/customizer/customizer.php:96
+msgid "Body Font"
+msgstr ""
+
+#: inc/customizer/customizer.php:116
+msgid "Typekit Kit ID"
+msgstr ""
+
+#: inc/customizer/customizer.php:117
+msgid "Located within your kit embed code. Font changes can be added to the CSS module or child theme."
+msgstr ""
+
+#: inc/customizer/customizer.php:132
+msgid "Font Family #1"
+msgstr ""
+
+#: inc/customizer/customizer.php:147
+msgid "Font Family #2"
+msgstr ""
+
+#: inc/customizer/customizer.php:168
+msgid "Max Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:194
+msgid "Mobile Max Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:219
+msgid "Border Radius"
+msgstr ""
+
+#: inc/customizer/customizer.php:238
+msgid "Hover Animation"
+msgstr ""
+
+#: inc/customizer/customizer.php:257
+msgid "Invert for Night Mode"
+msgstr ""
+
+#: inc/customizer/customizer.php:275
+msgid "Display Site Title and Logo"
+msgstr ""
+
+#: inc/customizer/customizer.php:289
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/customizer.php:307
+msgid "Header Search"
+msgstr ""
+
+#: inc/customizer/customizer.php:308
+msgid "Toggle a site-wide search toggle next to the header navigation."
+msgstr ""
+
+#: inc/customizer/customizer.php:309
+msgid "Showing the site-wide search toggle and search form."
+msgstr ""
+
+#: inc/customizer/customizer.php:330
+msgid "Accessibility Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:331
+msgid "Toggle night mode and text size modifiers for your readers."
+msgstr ""
+
+#: inc/customizer/customizer.php:332
+msgid "Showing the night mode and text size accessibility settings."
+msgstr ""
+
+#: inc/customizer/customizer.php:351
+msgid "Cog Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:352
+msgid "Mix Panel Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:353
+msgid "Mix Panel Filled"
+msgstr ""
+
+#: inc/customizer/customizer.php:367
+msgid "Blogroll"
+msgstr ""
+
+#: inc/customizer/customizer.php:386, inc/customizer/customizer.php:463
+msgid "Featured Media"
+msgstr ""
+
+#: inc/customizer/customizer.php:387
+msgid "Toggle to display featured images and videos on the blogroll."
+msgstr ""
+
+#: inc/customizer/customizer.php:388
+msgid "Showing featured images and videos on the blogroll."
+msgstr ""
+
+#: inc/customizer/customizer.php:406
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer/customizer.php:407
+msgid "Toggle to use to the post excerpt on the blogroll, instead of the More block, to truncate content."
+msgstr ""
+
+#: inc/customizer/customizer.php:408
+msgid "Using the post excerpt on the blogroll to truncate content."
+msgstr ""
+
+#: inc/customizer/customizer.php:427
+msgid "More Button"
+msgstr ""
+
+#: inc/customizer/customizer.php:428
+msgid "Toggle to display the More block button on the blogroll if you are not using post excerpts."
+msgstr ""
+
+#: inc/customizer/customizer.php:429
+msgid "Showing the More block button on the blogroll."
+msgstr ""
+
+#: inc/customizer/customizer.php:445
+msgid "Post"
+msgstr ""
+
+#: inc/customizer/customizer.php:464
+msgid "Toggle to display featured media on singlular pages and posts."
+msgstr ""
+
+#: inc/customizer/customizer.php:465
+msgid "Showing featured media on singlular pages and posts."
+msgstr ""
+
+#: inc/customizer/customizer.php:483
+msgid "Selective Sharing"
+msgstr ""
+
+#: inc/customizer/customizer.php:484
+msgid "Toggle to enable select-to-share on singular pages and posts."
+msgstr ""
+
+#: inc/customizer/customizer.php:485
+msgid "Select sharing is enabled on singlular pages and posts."
+msgstr ""
+
+#: inc/customizer/customizer.php:503
+msgid "Author"
+msgstr ""
+
+#: inc/customizer/customizer.php:504
+msgid "Toggle to display the author below the title in the metadata section."
+msgstr ""
+
+#: inc/customizer/customizer.php:505
+msgid "Showing the author below the title in the metadata section."
+msgstr ""
+
+#: inc/customizer/customizer.php:523
+msgid "Categories"
+msgstr ""
+
+#: inc/customizer/customizer.php:524
+msgid "Toggle to show post categories below the singular post content."
+msgstr ""
+
+#: inc/customizer/customizer.php:525
+msgid "Showing post categories below the singular post content."
+msgstr ""
+
+#: inc/customizer/customizer.php:543
+msgid "Tags"
+msgstr ""
+
+#: inc/customizer/customizer.php:544
+msgid "Toggle to show post tags below the singular post content."
+msgstr ""
+
+#: inc/customizer/customizer.php:545
+msgid "Showing post tags below the singular post content."
+msgstr ""
+
+#: inc/customizer/customizer.php:563
+msgid "Comments Trigger"
+msgstr ""
+
+#: inc/customizer/customizer.php:564
+msgid "Toggle to show the comments button and enable the show effect."
+msgstr ""
+
+#: inc/customizer/customizer.php:565
+msgid "Comments are now visible when the comments button is triggered."
+msgstr ""
+
+#: inc/customizer/customizer.php:582
+msgid "Date"
+msgstr ""
+
+#: inc/customizer/customizer.php:583
+msgid "Choose to display either the updated or published date on all posts."
+msgstr ""
+
+#: inc/customizer/customizer.php:586
+msgid "None"
+msgstr ""
+
+#: inc/customizer/customizer.php:587, inc/template-tags.php:472
+msgid "Updated"
+msgstr ""
+
+#: inc/customizer/customizer.php:588, inc/template-tags.php:472
+msgid "Published"
+msgstr ""
+
+#: inc/customizer/customizer.php:602
+msgid "Social"
+msgstr ""
+
+#: inc/customizer/customizer.php:620
+msgid "Engagement Bar"
+msgstr ""
+
+#: inc/customizer/customizer.php:621
+msgid "Toggle the engagement bar that appears on singular posts."
+msgstr ""
+
+#: inc/customizer/customizer.php:622
+msgid "Showing the social engagement bar on singular posts."
+msgstr ""
+
+#: inc/customizer/customizer.php:641
+msgid "Shadow Style"
+msgstr ""
+
+#: inc/customizer/customizer.php:642
+msgid "Stroke Style"
+msgstr ""
+
+#: inc/customizer/customizer.php:660
+msgid "Toggle the Facebook sharing button in the engagement bar."
+msgstr ""
+
+#: inc/customizer/customizer.php:661
+msgid "Showing the Facebook sharing button in the engagement bar."
+msgstr ""
+
+#: inc/customizer/customizer.php:680
+msgid "Toggle the LinkedIn sharing button in the engagement bar."
+msgstr ""
+
+#: inc/customizer/customizer.php:681
+msgid "Showing the LinkedIn sharing button in the engagement bar."
+msgstr ""
+
+#: inc/customizer/customizer.php:699
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer/customizer.php:700
+msgid "Toggle the Twitter sharing button in the engagement bar."
+msgstr ""
+
+#: inc/customizer/customizer.php:701
+msgid "Showing the Twitter sharing button in the engagement bar."
+msgstr ""
+
+#: inc/customizer/customizer.php:718
+msgid "@username:"
+msgstr ""
+
+#: inc/customizer/customizer.php:732
+msgid "Colophon"
+msgstr ""
+
+#: inc/customizer/customizer.php:750
+msgid "Theme Info"
+msgstr ""
+
+#: inc/customizer/customizer.php:751
+msgid "Toggle the add the Tabor theme information to the site footer."
+msgstr ""
+
+#: inc/customizer/customizer.php:752
+msgid "Showing the Tabor theme information in the site footer."
+msgstr ""
+
+#: inc/customizer/customizer.php:770
+msgid "Copyright Year"
+msgstr ""
+
+#: inc/customizer/customizer.php:771
+msgid "Toggle to show a copyright badge and the current year in the footer."
+msgstr ""
+
+#: inc/customizer/customizer.php:772
+msgid "Showing a copyright badge and the current year in the footer."
+msgstr ""
+
+#: inc/customizer/customizer.php:789
+msgid "Custom Copyright"
+msgstr ""
+
+#: inc/customizer/customizer.php:790
+msgid "Add custom text to display beside the copyright date in the site footer."
+msgstr ""
+
+#: inc/customizer/customizer.php:809
+msgid "Heading Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:826
+msgid "Alt Heading Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:843
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:860
+msgid "Header Icon Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:877
+msgid "Navigation Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:894
+msgid "Mobile Navigation Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:911
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:928
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:947, inc/metaboxes.php:61
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:948
+msgid "Add an accent color to use within the editor color palette."
+msgstr ""
+
+#: inc/icons.php:39
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icons.php:44
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/jetpack.php:49
+msgid "Load More..."
+msgstr ""
+
+#: inc/metaboxes.php:29
+msgid "Page Settings"
+msgstr ""
+
+#: inc/metaboxes.php:38
+msgid "Remove Header"
+msgstr ""
+
+#: inc/metaboxes.php:52
+msgid "OptinMonster"
+msgstr ""
+
+#: inc/metaboxes.php:69
+msgid "Background Color"
+msgstr ""
+
+#: inc/metaboxes.php:84
+msgid "Video Post Format"
+msgstr ""
+
+#: inc/metaboxes.php:93
+msgid "Embed"
+msgstr ""
+
+#: inc/metaboxes.php:94
+msgid "Enter a YouTube or Vimeo URL. Supports services listed <a target=\"_blank\" href=\"http://codex.wordpress.org/Embeds\">here</a>."
+msgstr ""
+
+#: inc/metaboxes.php:109
+msgid "Link Post Format"
+msgstr ""
+
+#: inc/metaboxes.php:118
+msgid "Link"
+msgstr ""
+
+#: inc/metaboxes.php:126
+msgid "Link Target"
+msgstr ""
+
+#: inc/metaboxes.php:130
+msgid "Same View"
+msgstr ""
+
+#: inc/metaboxes.php:131
+msgid "New Tab"
+msgstr ""
+
+#: inc/plugins.php:23
+msgid "Tabor Hero Block"
+msgstr ""
+
+#: inc/starter-content.php:16
+msgid ""
+"\n"
+"		<h5>Hi, I'm</h5>\n"
+"		<h1>Rich</h1>\n"
+"		<h1>Tabor</h1>\n"
+"		[typed text=\"ThemeBeans Founder, Designer\"]"
+msgstr ""
+
+#: inc/starter-content.php:37
+msgid ""
+"\n"
+"\n"
+"		I'm Rich Tabor, and I’ve always had a knack for creating stuff:  has websites, themes, psd freebies, and the like. I started my career as a web designer for a small town marketing firm in North Georgia and soon found myself smack dab in the middle of New York City working on iOS, Android and web creations.\n"
+"\n"
+"		These days I’m back in the mountains, enjoying life and running a few ventures and taking on the occasional client with the agency I recently founded in early 2016, <a href=\"http://layup.media/\">Layup Media</a>.\n"
+"\n"
+"		In between all of this I drafted up <a title=\"Free PSD and Design Resources by Rich Tabor\" href=\"http://purtypixels.com/\" target=\"_blank\" rel=\"noopener\">PurtyPixels</a> with the goal of practicing photoshop and the essence of delivery (in the form of photoshop goods). It has been a fun and successful venture with 1.6 million downloaded files.\n"
+"\n"
+"		Then I started designing, creating, delivering, marketing (and everything tabor_about_starter_contentin between) WordPress themes under at <a title=\"ThemeBeans - Professional WordPress Themes by Rich Tabor\" href=\"http://themebeans.com/\" target=\"_blank\" rel=\"noopener\">ThemeBeans</a>.\n"
+"\n"
+"		Aside from crafting &amp; publishing digital goods, I enjoying traveling, photography, music, reading &amp; hitting the gym.  All in all, I love what I do &amp; I couldn’t ask for more.\n"
+"\n"
+"		Want to <a title=\"Contact Rich Tabor\" href=\"http://richtabor.dev/contact/\">get in touch</a>?\n"
+"\n"
+"		"
+msgstr ""
+
+#: inc/starter-content.php:71
+msgid ""
+"\n"
+"\n"
+"		Looks like you’d like to get in touch. We’re all busy people, so I want to respect your valuable time and hope you grant me the same in return. Just to manage your expectations, here are a couple things to know:\n"
+"		<h2>Contact me if</h2>\n"
+"		<ul>\n"
+"		 	<li>You need a custom <a href=\"https://themebeans.com\">WordPress theme</a> or plugin</li>\n"
+"		 	<li>You need <a href=\"https://richtabor.com/work\">design or development help</a> on your project</li>\n"
+"		 	<li>You would like me to consult on a project with you</li>\n"
+"		 	<li>You would like to interview me on your podcast</li>\n"
+"		 	<li>You simply want to connect with me</li>\n"
+"		</ul>\n"
+"		With that said, I’m so thankful that you stopped by and I’d love to hear from you —  feel free to email me at <em>hi</em><em> at richtabor dot com</em>. And if you want to find me elsewhere on the web, I ramble on <a href=\"https://twitter.com/richard_tabor\">Twitter</a> and post work to <a href=\"https://dribbble.com/richtabor\">Dribbble</a>.\n"
+"\n"
+"		"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "Show/hide accessibility settings"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgctxt "settings button"
+msgid "Settings"
+msgstr ""
+
+#: inc/template-tags.php:52
+msgid "Night Mode"
+msgstr ""
+
+#: inc/template-tags.php:53
+msgid "Toggle Night Mode"
+msgstr ""
+
+#: inc/template-tags.php:58
+msgid "Text Size"
+msgstr ""
+
+#: inc/template-tags.php:59
+msgid "Change Text Size"
+msgstr ""
+
+#: inc/template-tags.php:135, searchform.php:21
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/template-tags.php:240
+msgid "<span class=\"%1$1s%2$2s\"><a href=\"%3$3s\">Powered by %4$4s WordPress Theme</a></span>"
+msgstr ""
+
+#: inc/template-tags.php:439
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:497
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr ""
+
+#: inc/template-tags.php:573
+msgid "Close Comments"
+msgstr ""
+
+#: inc/template-tags.php:580
+msgid "Show "
+msgstr ""
+
+#: inc/template-tags.php:584
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:589
+msgctxt "number of comments"
+msgid "%s Comment"
+msgid_plural "all %s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:601
+msgid "Leave a Comment"
+msgstr ""
+
+#: inc/template-tags.php:718
+msgid "Related topics:"
+msgstr ""
+
+#: search.php:21
+msgid "Search Results"
+msgstr ""
+
+#: search.php:24
+msgid "There are %1$s search results for \"%2$s\""
+msgstr ""
+
+#: search.php:60
+msgid "Sorry, but nothing matched your search terms. Please try searching again."
+msgstr ""
+
+#: searchform.php:13
+msgid "Search %s ..."
+msgstr ""
+
+#: searchform.php:18
+msgctxt "label"
+msgid "Search for:"
+msgstr ""

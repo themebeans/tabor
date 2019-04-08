@@ -1,0 +1,522 @@
+** Tabor Changelog **
+
+05 April 2019, Version 1.6.15
+	* Tweak: Admin 1.6.1
+
+29 March 2019, Version 1.6.14
+	* New: Add a new Fullwidth template
+	* New: Add a Customizer option to display site title and site logo together
+	* New: Add Nunito and Source Sans Pro to the Customizer typography control
+	* New: Add support for Gravity Forms blocks for Gutenberg
+	* New: Add support for the new `wp_body_open` hook in WordPress 5.2+
+	* Tweak: Adjust Alert block display
+	* Tweak: Add proper styling for the new <code> format within the block editor
+	* Tweak: Admin 1.6.0
+
+26 February 2019, Version 1.6.13
+	* New: Add support for the upcoming CoBlocks rounded and 3D button styles
+	* Fix: Multiple paragraphs within a Quote block are now properly spaced
+	* Fix: Adjust Alert block typography control functionality
+	* Tweak: Adjust dark mode styling for the CoBlocks Media Card and Shape Divider blocks
+	* Tweak: Adjust core Button block styling
+
+31 January 2019, Version 1.6.12
+	* Fix: Code block now displays properly within the new block editor
+
+28 January 2019, Version 1.6.11
+	* New: Add support for featured image captions
+	* Tweak: Custom fonts applied with CoBlocks now render properly on blockquotes
+	* Fix: Improve how the video post format metabox renders previews
+
+09 January 2019, Version 1.6.10
+	* New: Add new More Button option for toggling the display of the More block's read more button
+	* New: Use the More block's text for read more button text
+
+06 January 2019, Version 1.6.9
+	* Tweak: Adjust build-in CMB2 loading within Gutenberg
+	* Tweak: Adjust language within the Customizer
+	* Tweak: Add minor style tweak for the Blubrry podcast player
+	* Fix: Add appropriate blockquote fallback
+
+21 December 2018, Version 1.6.8
+	* Tweak: Night mode toggle now uses the accent color selected in the Customizer
+	* Tweak: Improve display of selected text with dark mode activated (Thanks @TheMainframeCH!)
+
+14 December 2018, Version 1.6.7
+	* Tweak: Contact Form 7 style touch-up
+	* Fix: Resolve Playfair Display font display issue (if a custom font was selected)
+
+12 December 2018, Version 1.6.6
+	* Fix: Hero block fonts style appropriately if modified from the Customizer
+	* Tweak: Remove legacy Gutenberg functions
+
+05 December 2018, Version 1.6.5
+	* New: Supports WordPress 5.0 🔥
+	* New: Add new Customizer option for turning off the blogroll featured image
+	* New: Add new Customizer option for using the exerpt on the blogroll instead of full content
+	* New: Add editor template to the post post type if featured images are disabled on singular posts
+	* Tweak: Adjust Customizer toggles to reflect WordPress 5.0 toggles
+	* Tweak: Add contextual help descriptions to Customizer controls
+	* Tweak: Adjust button block front-end style
+	* Tweak: Remove Gutenberg language
+	* Tweak: Remove the Gutenberg plugin from the list of suggested plugins
+	* Tweak: Adjust search results view with better spacing between articles
+	* Tweak: Add background color fallback for editor color pallete selections
+
+30 November 2018, Version 1.6.4
+	* Tweak: Update CoBlocks Social block styles
+	* Tweak: Adjust left/right aligned gallery block styling
+	* Tweak: Adjust button styles to prevent conflicts with third-party blocks
+	* Fix: Adjust Typekit slug converter to properly convert fonts that have names with numbers
+
+27 November 2018, Version 1.6.3
+	* Tweak: Update CoBlocks Click to Tweet block styles
+	* Tweak: Set display_header_text to false for starter content
+
+27 November 2018, Version 1.6.2
+	* Tweak: Update quote block styles
+	* Tweak: Don't show license notices on page or post edit screens
+	* Update: Tabor Blocks bundled plugin updated to v1.0.4
+
+26 November 2018, Version 1.6.1
+	* Update: Tabor Blocks bundled plugin updated to v1.0.3
+	* Tweak: Minor adjustment to heading + { p, ul, ol, image } spacing
+	* Tweak: Add more style adjustments for the block editor
+	* Tweak: Improve caption display for right/left aligned images on mobile
+	* Fix: Block Gallery Stacked block captions now style appropriately with a custom color applied
+
+20 November 2018, Version 1.6.0
+	* New: Update styles for the Gutenberg block editor
+	* New: Add compatibility for WordPress 5.0
+	* New: Add support for MacOS Mojave Safari dark mode by using prefers-color-scheme: dark
+	* New: Add Single Featured Media option to turn off featured media on singular posts to use the block editor exclusively instead
+	* New: Add support for responsive embeds
+	* New: Add support for styling heading targets
+	* New: Add additional support for CoBlocks - https://coblocks.com
+	* New: Add filter for post format support
+	* New: Add support for loading custom TypeKit fonts in the editor
+	* New: Add support for loading Customizer font selections in the editor
+	* New: Inline Customizer styles are now minified for enhanced performance
+	* Update: Tabor Blocks bundled plugin updated to v1.0.2
+	* Tweak: Adjust custom editor font sizes
+	* Tweak: Add support for full and wide alignment, if the sidebar is not in use
+	* Tweak: Adjust how custom background colors display on Night Mode
+	* Tweak: Update included default starter-content logo file
+	* Tweak: Adjust default light-gray color for better contrast
+	* Tweak: Adjust the cog icon in the asset sprite
+	* Remove: Fitvids.js, as Tabor now supports responsive embeds by default
+	* Remove: tabor_modify_read_more_link function has been removed
+	* Remove: More Link Customizer text and display options
+
+01 November 2018, Version 1.5.1
+	* Tweak: Adjust styling for Block Gallery
+
+30 October 2018, Version 1.5.0
+	* New: Add support for Block Gallery, gallery Gutenberg Blocks - https://wpblockgallery.com
+	* New: Add support for the Merlin WP theme setup wizard 🧙‍♂️
+	* New: Add custom Gutenberg editor color palette
+	* New: Add custom editor font sizes
+	* New: Add social icon support for Slack
+	* Fix: Firefox display issue with the WordPress social icon
+	* New: Add German translation files — thanks Christopher Kurth!
+	* Tweak: Admin v1.4.9
+
+21 September 2018, Version 1.4.10
+	* Fix: Password protected pages now display properly
+
+20 September 2018, Version 1.4.9
+	* New: Update the Tabor Blocks plugin to v1.0.1
+		- New: Support for the upcoming Gutenberg 3.9 release
+		- Tweak: Update the Hero block icon
+		- Tweak: Improve isSelected display within the editor
+	* Fix: Resolve .editor-post-permalink__link display issue within Gutenberg
+	* Tweak: Image block alignments with the new Gutenberg 3.8+ block markup
+	* Tweak: Hide site description text on mobile
+	* Tweak: Hide the social navigation a bit sooner on mobile (to prevent display mobile errors)
+
+12 September 2018, Version 1.4.8
+	* New: Gutenberg 3.8 support
+
+10 September 2018, Version 1.4.7
+	* Fix: Add proper translatable text for the search form text
+
+06 September 2018, Version 1.4.6
+	* Fix: Add support for the latest OptinMonster updates in the footer optin
+
+23 August 2018, Version 1.4.5
+	* Fix: Google Fonts wp_enqueue_script version issue
+
+22 August 2018, Version 1.4.4
+	* New: Add the Tabor Blocks for Gutenberg plugin to TMPGA
+	* New: Add support for the Tabor Blocks for Gutenberg plugin
+	* New: Add meta option to disable the single page header
+	* Tweak: Disable support for the Front Page widget area if Gutenberg is enabled
+
+16 August 2018, Version 1.4.3
+	* New: Add support for displaying the site tagline below the site logo
+	* New: Add a Customizer option for disabling the new site tagline display settings (within the Site Identity section)
+	* New: Add a social icon for AngelList
+
+01 August 2018, Version 1.4.2
+	* Fix: TinyMCE Classic Editor fix
+	* Gutenberg 3.4 color palette support
+
+26 July 2018, Version 1.4.1
+	* Fix: Add proper translation unit for the search form
+
+18 July 2018, Version 1.4.0
+	* New: Add TypeKit support (via Customize > Typography)
+	* New: Add Google font support (via Customize > Typography)
+	* New: Add new related child categories functionality to archive category headers
+	* New: Add new Customizer option to append Twitter usernames to the tweet text from the post engagement bar
+	* New: Add Spanish translation files — thanks Luis Rull!
+	* Tweak: Improve archive category header styles
+	* Tweak: Improve rendering of sticky/link/protected entry meta icons
+	* Tweak: Improve search header styles
+	* Tweak: Add the site name to the default searchform
+	* Tweak: Improve default Gutenberg block styling
+	* Tweak: Load selected Google fonts from the Customizer within Gutenberg
+	* Fix: Disqus comments now properly display when the Comments Trigger is disabled
+	* Fix: Huh launcher fix for the Schema Quick Setup wizard
+
+29 June 2018, Version 1.3.9
+	* New: Add the post featured image to the archive views
+	* Tweak: Improve sharing URLs for special characters
+
+25 June 2018, Version 1.3.8
+	* New: Add a Customizer option to enable comments visibility without an show/hide button
+	* Tweak: Add basic show/hide comments support for Thrive Comments
+
+18 June 2018, Version 1.3.7
+	* Tweak: Improve live previewing for the Customizer site logo uploader
+	* Tweak: Add support for custom text within the Gutenberg "More" block, now controlable via the block itself
+	* Tweak: Add proper styling for the core audio block
+	* Tweak: Add proper checks before loading Gutenberg-specific functionality
+	* Tweak: Use the CMB2 WordPress.org plugin first, if it is activated
+	* Tweak: Display metaboxes on the sidebar region, if Gutenberg is activated
+	* Tweak: Add proper styling for metaboxes within Gutenberg
+	* Tweak: Add night-mode styling for the CoBlocks Gist Block
+	* Tweak: Add night-mode styling for the CoBlocks Dynamic Separator Block
+	* Tweak: Add night-mode styling for the CoBlocks Highlight Block
+	* Tweak: Admin v1.4.3
+
+04 June 2018, Version 1.3.6
+	* New: Gutenberg 3.0 support
+	* New: Add content-none.php file to display when no posts are found
+
+31 May 2018, Version 1.3.5
+	* New: Add support for system font typography via the Customizer > Typography panel which disables Google fonts (GDPR)
+	* New: Add selected colors from the Customizer within Gutenberg
+	* New: Add support for taxonomy title and description on archive views
+	* New: Add support for Revue newsletters in the footer widget area
+	* Tweak: Proper styles for custom color links within Gutenberg
+
+24 May 2018, Version 1.3.4
+	* Fix: Resolve Firefox WordPress social icon rendering issue
+
+22 May 2018, Version 1.3.3
+	* Tweak: CoBlocks Dynamic Separator block styling
+	* Fix: Proper contexts for custom Gutenberg color palette classes
+
+22 May 2018, Version 1.3.2
+	* New: Add a Gutenberg Accent Color Customizer color option to use throughout block color palettes
+	* Tweak: Minor Gutenberg editor base styling adjustments for the recent 2.9 update
+	* Tweak: Improve Gutenberg 2.9 gallery caption styles
+
+21 May 2018, Version 1.3.1
+	* New: Add support for the CoBlocks Author block
+	* Tweak: Improve display of WordPress 4.9.6 cookie consent
+	* Tweak: Improve CoBlocks Gist block spacing
+	* Fix: Add proper styling for the Gutenberg Cover Image block
+	* Fix: WordPress social icon rendering
+
+14 May 2018, Version 1.3.0
+	* Tweak: Additional Gutenberg gallery display tweaks
+
+10 May 2018, Version 1.2.9
+	* New: Add support for the CoBlocks Click to Tweet block
+	* New: Recommend CoBlocks via TGMPA if Gutenberg is activated
+	* Fix: Gutenberg full alignment now properly renders
+	* Tweak: Ad support for Gutenberg 2.8 color palette classes
+
+04 May 2018, Version 1.2.8
+	* New: Add support for Ninja Forms in the footer widget area
+
+30 April 2018, Version 1.2.7
+	* Fix: Homepage title was not displaying if home styles were also disabled
+
+27 April 2018, Version 1.2.6
+	Fixes & Updates
+		* Add customizer option for to invert the site logo when Night Mode is active
+		* Add support for CoBlocks — Gutenberg Content Blocks for Content Marketers, Writers & Publishers
+			- Download at: https://wordpress.org/plugins/coblocks/
+
+	Fixes & Updates
+		* Turn off selective sharing for mobile devices
+		* Fix center-aligned Gutenberg block display
+
+26 April 2018, Version 1.2.5
+	New:
+		* Add new social selective sharing feature to let folks select text to share it via Facebook and Twitter
+			- Enabled via the new Selective Sharing option within the Customizer Theme Options
+		* Add support for footer color options to style call to actions
+
+	Fixes & Updates
+		* Improve Gutenberg block editor support
+		* Update Facebook social icon
+
+19 April 2018, Version 1.2.4
+	New:
+		* Add customizer color pickers for the footer text and background colors
+		* Add new widget inserter that appears in the footer when using the Customizer
+		* Add ability to display an optional footer navigation component
+		* All Customizer controls are now rendered faster via JS Underscore templates
+		* Add ability to override the tabor_fonts_url() easily
+
+	Fixes & Updates
+		* Improve Gutenberg block editor support
+		* Improve default starter content
+		* Fix pagination style with night mode enabled
+		* Inline Dashboard Doc is now even faster
+		* Update /admin/ to v1.4.1
+
+22 March 2018, Version 1.2.3
+	New:
+		* Add new JS rendered toggle and title controls
+
+	Fixes & Updates:
+		* Fix site header night mode background color
+		* Prep for an upcoming release with Merlin WP support
+		* Update /admin/ to v1.3.4-b
+
+21 February 2018, Version 1.2.2
+	Fixes & Updates:
+		* Resolves an issue where some servers were not able to properly validate licenses
+
+16 February 2018, Version 1.2.1
+	New:
+		* Add support for the new Amazon Polly for WordPress plugin - https://wordpress.org/plugins/amazon-polly/
+		* Add new tabor_before_comments and tabor_after_comments filters
+		* Add a new "play" sprite.svg icon for the Amazon Polly audio player
+
+	Fixes & Updates:
+		* Remove the 404 glitch effect for improved accessibility
+		* Touch up Gutenberg galleries
+
+09 February 2018, Version 1.2.0
+	New:
+		* Added the drop-in header to the blogroll and archive views
+		* Added new tabor_before_site_logo and tabor_after_site_logo filters
+		* Added new tabor_before_post_entry_content and tabor_after_post_entry_content filters
+
+	Fixes & Updates:
+		* Fixed a minor styling issue for Social Warfare
+		* Fixed an issue where the menu icon's color did not properly reflect the saved Customizer value
+		* Fixed an issue where the hover animated logo scaled too large within the sticky header
+		* Tweaked mobile menu styling
+		* Tweaked comments mobile styling
+		* Tweaked OptinMonster styling
+		* Tweaked styles for ghost buttons and small buttons
+		* Updated /admin/ to v1.3.2
+
+01 February 2018, Version 1.1.9
+	New:
+		* Added new tabor_404 and tabor_404_text filters to easily modify the 404 page text
+
+	Fixes & Updates:
+		* Improved sidebar post layout styling
+		* Tweaked 404 page styling
+		* Tweaked the Dashboard Doc module for improved UI/X
+		* Tweaked the Dashboard Doc module to better support alternate WordPress admin color schemes
+		* Updated the Dashboard Doc module to enable you to search for queries in our Help Center
+		* Updated /admin/ to v1.3.1 with improved filtering, CMB2 updates, the new Dashboard Doc module and improved white-labeling options
+
+26 January 2018, Version 1.1.8
+	New:
+		* Major Gutenberg styling update to match the latest release
+		* Added an option to disable the post date entirely
+		* Added an option to disable post categories
+		* Added an option to disable post tags
+		* Added proper indicators for sticky posts
+		* Added better password protected formats
+		* Added support for the GutenKit Click to Tweet plugin (for use with the upcoming Gutenberg editor)
+
+	Fixes & Updates:
+		* Minor style tweaks
+		* Minor Customizer tweaks to better suite the additional options
+		* Added a new filter for the theme's content_width setting
+
+19 January 2018, Version 1.1.7
+	New:
+		* Added support for link post formats, per popular request
+		* Added a new option to disable the default site logo border radius
+		* Added a new option to disable the default site logo hover animation
+		* Added new do_action hooks for improved extensibility
+		* Added additional fallback styling for the footer OptinMonster opt-in
+
+	Fixes & Updates:
+		* Tweaked the Site Identify Customizer panel so that options display contextually
+		* Tweaked the published display date Customizer option to display properly on an intial publish
+		* Tweaked the display of the mobile header button on smaller screens
+		* Tweaked engagement bar social link display on iPhone X
+		* Tweaked 404 page styling
+
+11 January 2018, Version 1.1.6
+	Fixes & Updates:
+		* Improved the Custom Copyright text field to accept HTML properly
+
+09 January 2018, Version 1.1.5
+	New:
+		* Added a new style option for the drop-in single post bar and sticky header
+		* Added a new option to disable the Engagement Bar entirely
+		* Added a new option to display the post author
+		* Added a new option to display either the published or updated post date
+		* Added a new user interface design for the theme's Customizer settings
+		* Added support for Lightweight Subscribe To Comments - https://wordpress.org/plugins/comment-notifier-no-spammers/
+		* Added minified Customizer, Visual Editor and Gutenberg assets with SCSS/auto-prefixing support
+
+	Fixes & Updates:
+		* Improved Gutenberg editor support
+		* Improved debug mode that now works with minified asset delivery throughout the entire theme
+		* Improved output for JetPack's social sharing module
+		* Improved H2 and H3 output on single post views
+		* Improved comment styling
+		* Fixed social sharing Night Mode styling
+		* Fixed Chrome emoji image replacement issue
+
+14 December 2017, Version 1.1.4
+	New
+		* Added new Customizer options to modify your site logo size on both mobile and desktop viewports, located within the Site Identity panel
+		* Added new Customizer option to customize the color of the mobile navigation text
+
+	Fixes & Updates
+		* Fixed WordPress PHPCS issues
+		* Improved mobile toggle
+		* Improved mobile menu speed and transitions
+		* Improved mobile navigation toggle rendering
+		* Improved styling on the core WordPress new user page
+		* Improved Customizer editing shortcut display
+		* Fixed child theme stylesheet loading issue, that occured with debug mode turned off
+		* Fixed the body background image display issue that occurred when the mobile navigation was open
+		* Updated the child theme with the removal of the included stylesheet enqueue functions. Once you update to 1.1.4, you may remove the tabor_child_scripts() function from your child theme.
+
+12 December 2017, Version 1.1.3
+	New
+		* Added a new Accessibility Settings module via the Customizer > Theme Options panel
+		* Added a new "Night Mode" visitor option via the new Accessibility Settings module
+		* Added a new "Text Size" visitor option via the new Accessibility Settings module
+		* Added official beta support for Gutenberg — install the Gutenberg plugin and test it out!
+		* Added a new option to disable the landing page styling on the homepage
+		* Added support for Beaver Builder on pages and posts
+		* Added support for the Customize Inline Editing feature plugin
+
+	Fixes & Updates
+		* Improved child theming with auto-load styles
+		* Improved screen-reader-text loading
+		* Improved editor styles for the homepage
+		* Fixed video post format error when returning the post format back to standard
+		* Fixed pagination issue when JetPack is disabled
+
+30 November 2017, Version 1.1.2
+	New
+		* Added support for Disqus comments
+		* Added custom more tag functionality via the Customizer > Theme Options panel
+		* Added an optional LinkedIn sharing button to the post sharing bar
+		* Added recommended plugins that I use on richtabor.com
+
+	Fixes & Updates
+		* Improved styling for multi-file oEmbed GitHub Gists
+		* Improved styling for embedded videos
+
+12 November 2017, Version 1.1.1
+	New
+		* Added site-wide header search bar functionality
+		* Added Facebook sharing option to the post sharing bar
+
+	Fixes & Updates
+		* Minor optimizations
+
+10 November 2017, Version 1.1.0
+	New
+		* Added SCSS files
+		* Introduced a new license Customizer control for managing your theme license
+		* Removed the dashboard license widget
+
+06 November 2017, Version 1.0.9
+	New
+		* Notch support for iPhone X
+		* Added support for the Bean Pricing Tables plugin
+
+1 November 2017, Version 1.0.8
+	Fixes & Updates
+		* Improved pingback display
+		* Improved default home starter content
+		* Improved the password protected post styling
+		* Updated languages
+
+30 October 2017, Version 1.0.7
+	Fixes & Updates
+		* Minor home page header text adjustment
+		* Fixed comments/tags inline display
+
+29 October 2017, Version 1.0.6
+	New
+		* Added support for JetPack's button-click infinite scrolling
+		* Added social icon for RSS feeds
+
+	Fixes & Updates
+		* Improved Gravity Forms styles
+		* Improved styling for posts with a lot of categories
+		* Improved home page styling
+		* Improved social icon fallback
+		* Updated languages
+
+24 October 2017, Version 1.0.5
+	New
+		* Added support for JetPack infinite scrolling — thanks Justin Kopepasah!
+		* Added support for the Better Click to Tweet WordPress plugin
+
+	Fixes & Updates
+		* Fixed the single post sidebar display error on the blogroll
+		* Resolved the fixed table layout issue
+		* Updated languages
+
+23 October 2017, Version 1.0.4
+	Fixes & Updates
+		* Video post type metaboxes now work when the OptinMonster plugin is not installed
+		* Improved sourcemapping for extended theme development
+		* Updated languages
+
+19 October 2017, Version 1.0.3
+	New
+		* Added a page and post sidebar! Add a widget to the new "Sidebar" widget area and it'll automagically show up
+		* Added video post type support to feature oEmbeds
+		* Added responsive video embed support via Fitvids.js
+
+	Fixes & Updates
+		* Improved the mobile header display when you're viewing from your phone
+		* Updated mobile breakpoints from 500px to 600px for smoother transitions
+		* Minor performance optimizations
+		* Updated languages
+
+13 October 2017, Version 1.0.2
+	New
+		* Support for OptinMonster Inline Opt-ins
+			- Example: https://richtabor.com/designing-wordpress-themes/
+		* Added metaboxes for post specific custom styling of the optins
+	Fixes & Updates
+		* Improved home page mobile styling for names with many characters.
+		* Updated /admin/ to v1.2.0
+
+12 October 2017, Version 1.0.1
+	Fixes & Updates
+		* Fixed typing animation using multiple strings
+		* Improved empty content pages/posts
+		* Laid the foundation for Gutenberg support
+		* Applied minor bug fixes
+		* Updated documentation
+		* Updated languages
+
+11 October 2017, Version 1.0.0
+	New:
+		* Initial release

@@ -1,0 +1,214 @@
+#sub-accordion-section-tabor_theme_options #customize-control-twitter_via {
+  margin-top: -8px;
+}
+
+#sub-accordion-section-tabor_theme_options #customize-control-twitter_via .customize-control-title {
+  float: left;
+  margin-bottom: 0;
+  position: relative;
+  position: relative;
+  text-indent: -9999em;
+  width: 10%;
+}
+
+#sub-accordion-section-tabor_theme_options #customize-control-twitter_via .customize-control-title::before {
+  color: currentColor;
+  content: "\f301";
+  font: 400 19px/30px dashicons, sans-serif;
+  left: 1px;
+  position: absolute;
+  text-indent: 0;
+  top: 1px;
+}
+
+#sub-accordion-section-tabor_theme_options #customize-control-twitter_via input {
+  width: 90%;
+}
+
+#sub-accordion-section-tabor_theme_options #customize-control-accessibility_settings {
+  margin-bottom: 6px;
+}
+
+#sub-accordion-section-tabor_theme_options #customize-control-post_bar_style {
+  margin-bottom: 20px;
+  margin-top: -9px;
+}
+
+#sub-accordion-section-tabor_theme_options .customize-control-themebeans-title {
+  margin-bottom: 14px;
+  border-top: 1px solid #dcdcdc;
+  padding-top: 20px;
+}
+
+#sub-accordion-section-tabor_theme_options .customize-control-themebeans-title .customize-control-title {
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #656a6f;
+}
+
+#sub-accordion-section-tabor_theme_options #customize-control-header_title {
+  padding-top: 4px;
+  border-top: 0;
+}
+
+#sub-accordion-section-tabor_theme_options #customize-control-colophon_title {
+  margin-top: 16px;
+}
+
+#sub-accordion-section-tabor_theme_options #customize-control-social_title {
+  margin-top: 16px;
+}
+
+#sub-accordion-section-tabor_theme_options #customize-control-post_title {
+  margin-top: 9px;
+}
+
+#sub-accordion-section-tabor_theme_options #customize-control-blogroll_title {
+  margin-top: 16px;
+}
+
+#sub-accordion-section-tabor_theme_options #customize-control-home_title {
+  margin-top: 18px;
+}
+
+#sub-accordion-section-tabor_theme_options #customize-control-copyright_text .customize-control-description {
+  margin-bottom: 12px;
+}
+
+#sub-accordion-section-tabor_theme_options .customize-control-title {
+  font-weight: 500;
+}
+
+#sub-accordion-section-tabor_theme_options .customize-control-description {
+  color: #656a6f;
+  font-style: normal;
+}
+
+#sub-accordion-section-tabor_theme_options input[type=text] {
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+}
+
+#sub-accordion-section-tabor_theme_options input[type=text]:focus {
+  -webkit-box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+          box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+}
+
+#sub-accordion-section-tabor_theme_options textarea {
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#sub-accordion-section-tabor_theme_options textarea:focus {
+  -webkit-box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+          box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+}
+
+#sub-accordion-section-tabor_theme_options .customize-control-select {
+  position: relative;
+}
+
+#sub-accordion-section-tabor_theme_options .customize-control-select .customize-control-description {
+  margin-top: -4px;
+  margin-bottom: 12px;
+}
+
+#sub-accordion-section-tabor_theme_options .customize-control-select::after {
+  font: 400 11px/11px dashicons;
+  content: "\f341";
+  position: absolute;
+  right: 8px;
+  bottom: 9px;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#sub-accordion-section-tabor_theme_options .customize-control-select select {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin: 0;
+  background: #fff;
+  padding: 0;
+  line-height: 22px;
+  height: 30px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding-left: 8px;
+  color: #555d66;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 13px;
+  border-radius: 3px;
+  width: calc(100% - 46px);
+  width: 100%;
+}
+
+#sub-accordion-section-tabor_theme_options .customize-control-select select:hover {
+  border-color: #5b9dd9;
+  -webkit-box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+          box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+}
+
+#sub-accordion-section-tabor_theme_options .customize-control-select select::-ms-expand {
+  display: none;
+}
+
+#sub-accordion-section-tabor_fonts .customize-control-title {
+  font-weight: 500;
+}
+
+#sub-accordion-section-tabor_fonts .customize-control-description {
+  color: #656a6f;
+  font-style: normal;
+}
+
+#sub-accordion-section-tabor_fonts #customize-control-typekit_id {
+  margin-top: 15px;
+}
+
+#customize-control-accent_color {
+  margin-top: 15px;
+  border-top: 1px solid #dcdcdc;
+  padding-top: 20px;
+}
+
+#customize-control-accent_color .customize-control-description {
+  margin-bottom: 8px;
+}
+
+#customize-control-blogname {
+  margin-top: 5px;
+}
+
+#customize-control-custom_logo_border_radius,
+#customize-control-custom_logo_hover_animation,
+#customize-control-invert_night_mode_logo {
+  margin-top: -5px;
+}
+
+#customize-control-custom_logo_border_radius .customize-control-title,
+#customize-control-custom_logo_hover_animation .customize-control-title,
+#customize-control-invert_night_mode_logo .customize-control-title {
+  font-weight: 600;
+}
+
+#customize-control-invert_night_mode_logo {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 20px;
+}
+
+#customize-control-invert_night_mode_logo .customize-control-title {
+  font-weight: 600;
+}
+
+#customize-control-site_title_and_logo {
+  margin-bottom: 0;
+}
