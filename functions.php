@@ -863,3 +863,8 @@ if ( class_exists( 'Amazonpolly' ) ) {
  * Admin specific functions.
  */
 require get_parent_theme_file_path( '/inc/admin/init.php' );
+
+/**
+ * Disable Merlin WP.
+ */
+function themebeans_merlin() {}
